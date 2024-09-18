@@ -18,27 +18,29 @@ export default function ExportTrend({
 }: any) {
   return (
     <section className="space-y-4 xl:mt-0">
-      <Card className="__card">
-        <LegendAreaChart
-          title="Exports Trend"
-          description="Annual Quantity of Exported Products (tonnes)."
-          config={exportTrendChartConfig}
-          chartData={exportQuantityData}
-          xAxisDataKey="date"
-          firstDataKey="Cobalt"
-          secondDataKey="Copper"
-        />
+      <div>
+        <div className="grid grid-cols-1 gap-4 lg:grid-cols-2">
+          <LegendAreaChart
+            title="Exports Trend"
+            description="Annual Quantity of Exported Products (tonnes)."
+            config={exportTrendChartConfig}
+            chartData={exportQuantityData}
+            xAxisDataKey="date"
+            firstDataKey="Cobalt"
+            secondDataKey="Copper"
+          />
 
-        <LegendAreaChart
-          title="  "
-          description="Annual Transaction of Exported Products (USD)."
-          config={exportTrendChartConfig}
-          chartData={exportTransactionData}
-          xAxisDataKey="date"
-          firstDataKey="Cobalt"
-          secondDataKey="Copper"
-        />
-      </Card>
+          <LegendAreaChart
+            title="  "
+            description="Annual Transaction of Exported Products (USD)."
+            config={exportTrendChartConfig}
+            chartData={exportTransactionData}
+            xAxisDataKey="date"
+            firstDataKey="Cobalt"
+            secondDataKey="Copper"
+          />
+        </div>
+      </div>
     </section>
   );
 }

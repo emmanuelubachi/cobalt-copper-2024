@@ -28,6 +28,9 @@ import {
   xShareDataProps,
 } from "@/types/overview";
 import { Skeleton } from "@/components/ui/skeleton";
+import DonutChart, {
+  DoubleDonutChart,
+} from "@/components/charts/shadcn/pie-chart/donut";
 
 export default function Dashboard() {
   const [selectedYear, setSelectedYear] = useState<string>("2023");
@@ -238,7 +241,7 @@ export default function Dashboard() {
           {/* KPI Cards */}
           <KPI kpi={kpi} kpiTrend={processedKpiTrendData} />
 
-          <div className="grid items-start gap-4 md:gap-6 xl:grid-cols-3">
+          <div className="grid items-start gap-4 md:gap-4 xl:grid-cols-3">
             <div className="space-y-4 xl:col-span-2">
               {/* Exports of Product by Projects Chart */}
               <ProductionExports
@@ -255,12 +258,17 @@ export default function Dashboard() {
               />
             </div>
 
-            {/* Eport Trend Cards */}
-            <ExportTrend
-              exportQuantityData={quantityTrendData}
-              exportTransactionData={transactionTrendData}
-            />
+            <div className="space-y-4 xl:col-span-1">
+              <DonutChart />
+              <DoubleDonutChart />
+            </div>
           </div>
+
+          {/* Eport Trend Cards */}
+          <ExportTrend
+            exportQuantityData={quantityTrendData}
+            exportTransactionData={transactionTrendData}
+          />
 
           <ExportTable data={xshareData} />
         </div>

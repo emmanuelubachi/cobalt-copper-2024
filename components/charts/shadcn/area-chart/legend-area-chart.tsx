@@ -10,9 +10,9 @@ import {
 } from "recharts";
 
 import {
+  Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -42,7 +42,7 @@ export function LegendAreaChart({ ...props }: LegendAreaChartProps) {
   const chartData = props.chartData;
 
   return (
-    <>
+    <Card className="__card">
       <CardHeader className="px-4">
         <CardTitle>{props.title}</CardTitle>
         <CardDescription>{props.description}</CardDescription>
@@ -129,18 +129,6 @@ export function LegendAreaChart({ ...props }: LegendAreaChartProps) {
           </AreaChart>
         </ChartContainer>
       </CardContent>
-      {/* <CardFooter>
-        <div className="flex w-full items-start gap-2 text-sm">
-          <div className="grid gap-2">
-            <div className="flex items-center gap-2 font-medium leading-none">
-              Trending up by 5.2% this month <TrendingUp className="h-4 w-4" />
-            </div>
-            <div className="flex items-center gap-2 leading-none text-muted-foreground">
-              January - June 2024
-            </div>
-          </div>
-        </div>
-      </CardFooter> */}
-    </>
+    </Card>
   );
 }
