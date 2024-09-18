@@ -1,13 +1,13 @@
 [
-    {
-        "_project_id": "tfm",
-        "project _name": "Tenke Fungurume Mining",
-        "environmental_issues": "Pollution in Kabombwa Village",
-        "geographical_coordinates": "10\u00b0 33' 59\" S, 26\u00b0 11' 46\" E",
-        "latitude_longitude": "-10.566389, 26.196111",
-        "longitude": "26.196111",
-        "latitude": "-10.566389",
-        "province": "Lualaba",
-        "sources": "https://mines.cd/lualaba-kabombwa-un-nouveau-rapport-accuse-tfm-de-pollution-causant-notamment-le-gonflement-de-ventre-et-le-saignement-du-nez/"
-    }
+  {
+    "_project_id": "tfm",
+    "project_name": "Tenke Fungurume Mining",
+    "environmental_issues": "Pollution in Kabombwa Village",
+    "geographical_coordinates": "10\u00b0 33' 59\" S, 26\u00b0 11' 46\" E",
+    "latitude_longitude": "-10.566389, 26.196111",
+    "longitude": "26.196111",
+    "latitude": "-10.566389",
+    "province": "Lualaba",
+    "sources": "https://mines.cd/lualaba-kabombwa-un-nouveau-rapport-accuse-tfm-de-pollution-causant-notamment-le-gonflement-de-ventre-et-le-saignement-du-nez/"
+  }
 ]
