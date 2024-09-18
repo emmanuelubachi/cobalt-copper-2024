@@ -3,18 +3,19 @@ import { ProcessingEntities } from "@/types";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
+/**
+ * React component to display a popup with information about a processing entity.
+ *
+ * @param {{ project_name: string, geographic_coordinates: string, characteristics: string, annual_production: string, owners_shareholders: string, nationality: string, sources: string }} props
+ * @returns {JSX.Element}
+ */
 export const PopupContent: React.FC<ProcessingEntities> = ({
   project_name,
   geographic_coordinates,
-  latitude_longitude,
-  longitude,
-  latitude,
   characteristics,
   annual_production,
   owners_shareholders,
   nationality,
-  iso3,
-  affiliation,
   sources,
 }) => {
   return (
