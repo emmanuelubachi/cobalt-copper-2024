@@ -32,6 +32,7 @@ import socioEconomicData from "@/data/map/additional_info/socio_economic_impact.
 import environmantalImpactData from "@/data/map/additional_info/environmental_impact.json";
 import { countriesWithColors } from "@/constants/application";
 import { ArrowUpRight } from "lucide-react";
+import { ScrollArea } from "@/components/ui/scroll-area";
 
 type MapProps = {
   geojsonData: GeoJSONFeatureCollection;
@@ -50,6 +51,11 @@ interface SocioEconomicDataProps {
   latitude: string;
   province: string;
   sources: string;
+}
+
+interface PopupCoords {
+  longitude: number;
+  latitude: number;
 }
 
 const TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
@@ -79,6 +85,13 @@ export default function MainMap({
   const [clusters, setClusters] = useState<any[]>([]);
   const [supercluster, setSupercluster] = useState<Supercluster | null>(null);
   const [selectedMarker, setSelectedMarker] = useState<any>(null);
+  const [borderPortPopupInfo, setBorderPortPopupInfo] = useState<any>(null);
+  const [exportPortPopupInfo, setExportPortPopupInfo] = useState<any>(null);
+  const [environmantalImpactInfo, setEnvironmantalImpactInfo] =
+    useState<any>(null);
+  const [intRoutePopupInfo, setIntRoutePopupInfo] = useState<any>(null);
+  const [intRoutePopupCoords, setIntRoutePopupCoords] =
+    useState<PopupCoords | null>(null);
 
   const [viewState, setViewState] = useState(
     isMobile
@@ -178,10 +191,14 @@ export default function MainMap({
       point: { x, y },
     } = event;
     const hovered = features && features[0];
-    setHoveredFeature(hovered ? { feature: hovered, x, y } : null);
+
     if (mapRef.current) {
+      console.log(hovered);
       if (hovered) {
         mapRef.current.getCanvas().style.cursor = "pointer";
+        if (hovered.layer.id === "data-layer") {
+          setHoveredFeature(hovered ? { feature: hovered, x, y } : null);
+        }
       } else {
         mapRef.current.getCanvas().style.cursor = "";
       }
@@ -237,6 +254,14 @@ export default function MainMap({
                 });
           }
         }
+      }
+
+      if (clickedFeature && clickedFeature.layer.id === "intRoute") {
+        setIntRoutePopupInfo(clickedFeature.properties);
+        setIntRoutePopupCoords({
+          longitude: event.lngLat.lng,
+          latitude: event.lngLat.lat,
+        }); // Store the popup coordinates
       }
     },
     [
@@ -304,7 +329,7 @@ export default function MainMap({
       maxZoom={15}
       minZoom={3}
       attributionControl={false}
-      interactiveLayerIds={["data-layer"]}
+      interactiveLayerIds={["data-layer", "intRoute"]}
       onMouseMove={onHover}
       onMouseLeave={onLeave}
       onClick={onClick}
@@ -346,6 +371,7 @@ export default function MainMap({
         </>
       )}
 
+      {/* Projects GeoJSON */}
       {geojsonData && (
         <Source id="geojson-data" type="geojson" data={filteredGeojsonData}>
           <Layer
@@ -383,6 +409,37 @@ export default function MainMap({
         </Source>
       )}
 
+      {/* Projects Hovered Feature */}
+      {hoveredFeature && (
+        <div
+          style={{
+            position: "absolute",
+            left: hoveredFeature.x + 10,
+            top: hoveredFeature.y + 10,
+            backgroundColor: "white",
+            padding: "5px",
+            borderRadius: "3px",
+            fontFamily: "var(--font-sans)",
+            fontSize: "0.875rem" /* 14px */,
+            lineHeight: "1.25rem" /* 20px */,
+            color: "black",
+          }}
+        >
+          <div className="space-y-1">
+            <p className="xs font-bold">
+              {hoveredFeature.feature.properties.Project_name}
+            </p>
+            <p className="xs font-medium text-black/60">
+              Nationality:{" "}
+              <span className="text-black">
+                {hoveredFeature.feature.properties.Nationality}
+              </span>
+            </p>
+          </div>
+        </div>
+      )}
+
+      {/* International Routes Lines */}
       {isInternationalRouteVisible && (
         <Source id="intRoute" type="geojson" data={intRoute}>
           <Layer
@@ -398,10 +455,60 @@ export default function MainMap({
               ],
               "line-width": ["interpolate", ["linear"], ["zoom"], 0, 2, 22, 9],
             }}
+            interactive={true}
           />
         </Source>
       )}
 
+      {/* International Routes Popup */}
+      {intRoutePopupInfo && intRoutePopupCoords && (
+        <Popup
+          longitude={intRoutePopupCoords?.longitude}
+          latitude={intRoutePopupCoords?.latitude}
+          anchor="top"
+          closeOnClick={false}
+          onClose={() => {
+            setIntRoutePopupInfo(null);
+          }}
+          style={{
+            fontFamily: "var(--font-sans)",
+            minWidth: "20rem",
+            maxWidth: "24rem",
+            borderRadius: 50,
+          }}
+        >
+          <div className="space-y-2 p-2 text-sm font-medium text-black">
+            <h4 className="mb-2 text-p font-bold text-black">
+              {intRoutePopupInfo.project_name}
+            </h4>
+            <div>
+              <p className="text-black/70">Corridor Name:</p>{" "}
+              <p className="font-medium">{intRoutePopupInfo.corridor_name}</p>
+            </div>
+
+            <p>
+              <span className="text-black/70">Infrastructure Type:</span>{" "}
+              <span className="font-medium">
+                {intRoutePopupInfo.infrastructure_type}
+              </span>
+            </p>
+
+            <div>
+              <p className="text-black/70">Provinces Covered:</p>{" "}
+              <p className="font-medium">
+                {intRoutePopupInfo.provinces_covered}
+              </p>
+            </div>
+
+            <div>
+              <p className="text-black/70">Description:</p>{" "}
+              <p className="font-medium">{intRoutePopupInfo.description}</p>
+            </div>
+          </div>
+        </Popup>
+      )}
+
+      {/* Border posts Marker */}
       {isBorderPostVisible &&
         borderPosts &&
         borderPosts.features.map((feature: any, index: number) => (
@@ -411,9 +518,63 @@ export default function MainMap({
             latitude={feature.geometry.coordinates[1]}
             color="#F97316"
             style={{ cursor: "pointer" }}
+            onClick={() => {
+              // add popup
+              setBorderPortPopupInfo(feature);
+
+              if (mapRef.current) {
+                const mapzoom = mapRef.current.getZoom();
+                const newzoom = mapzoom < 6 ? 6 : mapzoom;
+
+                mapRef.current.flyTo({
+                  center: [
+                    feature.geometry.coordinates[0],
+                    feature.geometry.coordinates[1],
+                  ],
+                  duration: 1500,
+                  zoom: newzoom,
+                });
+              }
+            }}
           ></Marker>
         ))}
 
+      {/* Border posts Popup */}
+      {borderPortPopupInfo && (
+        <Popup
+          longitude={borderPortPopupInfo.geometry.coordinates[0]}
+          latitude={borderPortPopupInfo.geometry.coordinates[1]}
+          anchor="top"
+          closeOnClick={false}
+          onClose={() => setBorderPortPopupInfo(null)}
+          style={{
+            fontFamily: "var(--font-sans)",
+            minWidth: "20rem",
+            maxWidth: "24rem",
+            borderRadius: 50,
+          }}
+        >
+          <div className="space-y-2 p-2 text-sm font-medium text-black">
+            <h4 className="mb-2 text-p font-bold text-black">
+              {borderPortPopupInfo.properties.project_name}
+            </h4>
+            <div>
+              <p className="text-black/70">Country:</p>{" "}
+              <p className="font-medium">
+                {borderPortPopupInfo.properties.country}
+              </p>
+            </div>
+            <div>
+              <p className="text-black/70">Description:</p>{" "}
+              <p className="font-medium">
+                {borderPortPopupInfo.properties.description}
+              </p>
+            </div>
+          </div>
+        </Popup>
+      )}
+
+      {/* Export ports Marker */}
       {isExportPortVisible &&
         exportPorts &&
         exportPorts.features.map((feature, index: number) => (
@@ -423,9 +584,89 @@ export default function MainMap({
             latitude={feature.geometry.coordinates[1]}
             color="#5E8199"
             style={{ cursor: "pointer" }}
+            onClick={() => {
+              // add popup
+              setExportPortPopupInfo(feature);
+              console.log(feature);
+
+              if (mapRef.current) {
+                const mapzoom = mapRef.current.getZoom();
+                const newzoom = mapzoom < 4 ? 4 : mapzoom;
+
+                mapRef.current.flyTo({
+                  center: [
+                    feature.geometry.coordinates[0],
+                    feature.geometry.coordinates[1],
+                  ],
+                  duration: 1000,
+                  zoom: newzoom,
+                });
+              }
+            }}
           ></Marker>
         ))}
 
+      {/* Export port popup */}
+      {exportPortPopupInfo && (
+        <Popup
+          longitude={exportPortPopupInfo.geometry.coordinates[0]}
+          latitude={exportPortPopupInfo.geometry.coordinates[1]}
+          anchor="top"
+          closeOnClick={false}
+          onClose={() => setExportPortPopupInfo(null)}
+          style={{
+            fontFamily: "var(--font-sans)",
+            minWidth: "20rem",
+            maxWidth: "24rem",
+            borderRadius: 50,
+          }}
+        >
+          <ScrollArea className="h-96">
+            <div className="space-y-2 p-2 text-sm font-medium text-black">
+              <h4 className="mb-2 text-p font-bold text-black">
+                {exportPortPopupInfo.properties.name}
+              </h4>
+
+              <div>
+                <p className="text-black/70">Corridor Name: </p>
+                <p className="font-medium">
+                  {exportPortPopupInfo.properties.corridor_name}
+                </p>
+              </div>
+
+              <p>
+                <span className="text-black/70">Country:</span>{" "}
+                <span className="font-medium">
+                  {exportPortPopupInfo.properties.country}
+                </span>
+              </p>
+
+              <p>
+                <span className="text-black/70">Province:</span>{" "}
+                <span className="font-medium">
+                  {exportPortPopupInfo.properties.province}
+                </span>
+              </p>
+
+              <div>
+                <p className="text-black/70">Description: </p>
+                <p className="font-medium">
+                  {exportPortPopupInfo.properties.description}
+                </p>
+              </div>
+
+              <div>
+                <p className="text-black/70">Products Transported: </p>
+                <p className="font-medium">
+                  {exportPortPopupInfo.properties.products_transported}
+                </p>
+              </div>
+            </div>
+          </ScrollArea>
+        </Popup>
+      )}
+
+      {/* Socio Economic Marker */}
       {isSocioEconomicVisible &&
         clusters.map((cluster) => {
           const [longitude, latitude] = cluster.geometry.coordinates;
@@ -447,16 +688,10 @@ export default function MainMap({
                   if (mapRef.current) {
                     mapRef.current.flyTo({
                       center: [longitude, latitude],
-                      duration: 1000,
+                      duration: 1500,
                       zoom: expansionZoom,
                     });
                   }
-                  // setViewState({
-                  //   ...viewState,
-                  //   longitude,
-                  //   latitude,
-                  //   zoom: expansionZoom,
-                  // });
                 }}
               >
                 <div className="rounded-full bg-lime-500/50 p-2">
@@ -503,18 +738,7 @@ export default function MainMap({
           );
         })}
 
-      {isEnvironmentalImpactVisible &&
-        environmentalImpacts.map(
-          (environmentalImpactData: any, index: number) => (
-            <Marker
-              key={index}
-              longitude={environmentalImpactData.longitude}
-              latitude={environmentalImpactData.latitude}
-              color="red"
-            ></Marker>
-          ),
-        )}
-
+      {/* Socio Economic Popup */}
       {selectedMarker && (
         <Popup
           longitude={selectedMarker.geometry.coordinates[0]}
@@ -570,37 +794,98 @@ export default function MainMap({
         </Popup>
       )}
 
-      {hoveredFeature && (
-        <div
+      {/* Environmental Impacts Marker */}
+      {isEnvironmentalImpactVisible &&
+        environmentalImpacts.map(
+          (environmentalImpactData: any, index: number) => (
+            <Marker
+              key={index}
+              longitude={environmentalImpactData.longitude}
+              latitude={environmentalImpactData.latitude}
+              color="red"
+              anchor="bottom"
+              style={{ cursor: "pointer" }}
+              onClick={() => {
+                // add popup with environmental impact details
+
+                setEnvironmantalImpactInfo(environmentalImpactData);
+                console.log(environmentalImpactData);
+
+                // add code to zoom to the marker
+                if (mapRef.current) {
+                  const mapzoom = mapRef.current.getZoom();
+                  const newzoom = mapzoom < 6 ? 6 : mapzoom;
+                  mapRef.current.flyTo({
+                    center: [
+                      environmentalImpactData.longitude,
+                      environmentalImpactData.latitude,
+                    ],
+                    duration: 1500,
+                    zoom: newzoom,
+                  });
+                }
+              }}
+            ></Marker>
+          ),
+        )}
+
+      {/* Environmental Impacts Popup */}
+      {environmantalImpactInfo && (
+        <Popup
+          longitude={environmantalImpactInfo.longitude}
+          latitude={environmantalImpactInfo.latitude}
+          anchor="top"
+          closeOnClick={false}
+          onClose={() => setEnvironmantalImpactInfo(null)}
           style={{
-            position: "absolute",
-            left: hoveredFeature.x + 10,
-            top: hoveredFeature.y + 10,
-            backgroundColor: "white",
-            padding: "5px",
-            borderRadius: "3px",
             fontFamily: "var(--font-sans)",
-            fontSize: "0.875rem" /* 14px */,
-            lineHeight: "1.25rem" /* 20px */,
-            color: "black",
+            minWidth: "20rem",
+            maxWidth: "24rem",
+            borderRadius: 50,
           }}
         >
-          <div className="space-y-1">
-            <p className="xs font-bold">
-              {hoveredFeature.feature.properties.Project_name}
-            </p>
-            <p className="xs font-medium text-black/60">
-              Nationality:{" "}
-              <span className="text-black">
-                {hoveredFeature.feature.properties.Nationality}
-              </span>
-            </p>
+          <div className="space-y-2 p-2 text-sm font-medium text-black">
+            <h4 className="mb-2 text-p font-bold text-black">
+              {environmantalImpactInfo.project_name}
+            </h4>
+
+            <div>
+              <p className="text-black/70">Environmental Problems:</p>{" "}
+              <p>{environmantalImpactInfo.environmental_issues}</p>
+            </div>
+
+            <div>
+              <p className="text-black/70">Geographical Coordinates:</p>{" "}
+              <p>{environmantalImpactInfo.geographical_coordinates}</p>
+            </div>
+
+            <div className="space-y-1 text-sm font-medium text-black">
+              <p>
+                <span className="text-black/70">Province:</span>{" "}
+                {environmantalImpactInfo.province}
+              </p>
+            </div>
+
+            <div className="flex gap-1">
+              <p className="text-black/70">Sources: </p>
+              <Link
+                href={environmantalImpactInfo.sources}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-1 text-blue-500 underline"
+              >
+                Link
+                <ArrowUpRight className="h-4 w-4" />
+              </Link>
+            </div>
           </div>
-        </div>
+        </Popup>
       )}
 
+      {/* Map contents Component */}
       <MapContents reference={mapRef} />
 
+      {/* Legend */}
       <div className="absolute bottom-20 right-4 rounded-lg bg-background/40 p-2 sm:bottom-4">
         <div className="flex-wrap">
           {countriesWithColors.map(({ country, color }) => (
