@@ -137,6 +137,16 @@ export default function MainMap({
   const SociaImapctData = socioEconomicData;
   const EnvironmentalImpactData = environmantalImpactData;
 
+  // Update map style based on theme
+  useEffect(() => {
+    const currentTheme = theme === "system" ? systemTheme : theme;
+    setMapStyle(
+      currentTheme === "dark"
+        ? "mapbox://styles/mapbox/dark-v10"
+        : "mapbox://styles/mapbox/outdoors-v11",
+    );
+  }, [theme, systemTheme]);
+
   useEffect(() => {
     setBorderPosts(BorderPostData);
     setIntRoute(InternationalRoutesData);
@@ -333,6 +343,7 @@ export default function MainMap({
       onMouseMove={onHover}
       onMouseLeave={onLeave}
       onClick={onClick}
+      onError={(e) => console.error("Map error:", e)}
     >
       {isMobile ? (
         <>
