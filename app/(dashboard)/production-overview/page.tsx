@@ -35,6 +35,7 @@ import DonutChart, {
   DoubleDonutChart,
 } from "@/components/charts/shadcn/pie-chart/donut";
 import { numberFormatter } from "@/lib/utils";
+import { CardDescription } from "@/components/ui/card";
 
 type shareDataProps = {
   year: string;
@@ -321,6 +322,39 @@ export default function Dashboard() {
           <KPI kpi={kpi} kpiTrend={processedKpiTrendData} />
 
           <div className="grid items-start gap-4 md:gap-4 xl:grid-cols-3">
+            <div className="space-y-4 xl:col-span-1">
+              <DonutChart
+                data={cuShareData}
+                title="Countries present in the copper and cobalt sector in the DRC"
+              />
+              <div className="space-y-2">
+                <DonutChart
+                  data={coShareData}
+                  description={
+                    <CardDescription className="px-4 py-4">
+                      Shares of{" "}
+                      <span className="text-p font-bold text-blue-500">
+                        Cobalt
+                      </span>{" "}
+                      mining production by project groups
+                    </CardDescription>
+                  }
+                />
+
+                <DonutChart
+                  data={cuShareData}
+                  description={
+                    <CardDescription className="px-4 py-4">
+                      Shares of{" "}
+                      <span className="text-p font-bold text-orange-500">
+                        Copper
+                      </span>{" "}
+                      mining production by project groups
+                    </CardDescription>
+                  }
+                />
+              </div>
+            </div>
             <div className="space-y-4 xl:col-span-2">
               {/* Exports of Product by Projects Chart */}
               <ProductionExports
@@ -335,25 +369,6 @@ export default function Dashboard() {
                 coDestSum={coDestSum}
                 cuDestSum={cuDestSum}
               />
-            </div>
-
-            <div className="space-y-2 xl:col-span-1">
-              {/* <DoubleDonutChart /> */}
-              <DonutChart
-                data={cuShareData}
-                title="Countries present in the copper and cobalt sector in the DRC"
-              />
-              <div>
-                <DonutChart
-                  data={coShareData}
-                  description="Countries present in the copper and cobalt sector in the DRC"
-                />
-
-                <DonutChart
-                  data={cuShareData}
-                  description="Countries present in the copper and cobalt sector in the DRC"
-                />
-              </div>
             </div>
           </div>
 

@@ -93,24 +93,23 @@ export default function Component({
 }: {
   data: shareDataByCountryProps;
   title?: string;
-  description?: string;
+  description?: React.ReactNode;
 }) {
   return (
-    <Card className="flex flex-col border-none shadow-none dark:bg-neutral-900/30">
+    // <Card className="flex flex-col border-none shadow-none dark:bg-neutral-900/30">
+    <Card className="__card flex flex-col">
       {title && (
         <CardHeader className="">
           <CardTitle>{title}</CardTitle>
         </CardHeader>
       )}
-      {description && (
-        <CardDescription className="px-4 py-4">{description}</CardDescription>
-      )}
+      {description && description}
 
       <div className="grid grid-cols-2">
         <CardContent className="my-auto flex-1 pb-0">
           <ChartContainer
             config={chartConfig}
-            className="aspect-square max-h-[220px]"
+            className="aspect-square max-h-[216px]"
           >
             <PieChart
               margin={{
@@ -124,15 +123,16 @@ export default function Component({
                 dataKey="share"
                 nameKey="country"
                 innerRadius={60}
-                label
                 labelLine
               />
             </PieChart>
           </ChartContainer>
         </CardContent>
 
-        <div className="flex flex-col gap-2 p-6">
-          <h6 className="text-center text-h6 font-semibold">Nationality</h6>
+        <div className="flex flex-col gap-2 pr-6">
+          <h6 className="text-center text-p font-semibold text-foreground/70">
+            Nationality
+          </h6>
           {data.map((item) => (
             <div
               key={item.country}
@@ -143,9 +143,9 @@ export default function Component({
                   className="h-3 w-3 rounded-full"
                   style={{ backgroundColor: `hsl(${item.fill})` }}
                 />
-                <p className="text-sm">{item.country}</p>
+                <p className="text-sm text-foreground/80">{item.country}</p>
               </div>
-              <p className="text-sm">{item.share.toFixed(1)}%</p>
+              <p className="text-sm font-bold">{item.share.toFixed(1)}%</p>
             </div>
           ))}
         </div>
