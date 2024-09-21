@@ -12,6 +12,8 @@ import trendData from "@/data/overview/kpitrend_year_data.json";
 import historyByExporterData from "@/data/overview/exports_history_by_exporter_data_2015-2022.json";
 import historyByDestinationData from "@/data/overview/quantity-transaction_history_by_destination-country_2015-2022.json";
 import exporterShareData from "@/data/overview/exporters_share_table.json";
+import cobaltShareData from "@/data/overview/cobalt_share_nationality.json";
+import copperShareData from "@/data/overview/copper_share_nationality.json";
 
 import {
   summarizeDestinations,
@@ -23,6 +25,7 @@ import {
   InputData,
   kpiTrendProps,
   OverviewDestinationSummary,
+  shareDataByCountryProps,
   TransformedData,
   xhistoryProps,
   xShareDataProps,
@@ -31,14 +34,27 @@ import { Skeleton } from "@/components/ui/skeleton";
 import DonutChart, {
   DoubleDonutChart,
 } from "@/components/charts/shadcn/pie-chart/donut";
+import { numberFormatter } from "@/lib/utils";
+
+type shareDataProps = {
+  year: string;
+  product: string;
+  nationality: string;
+  quantity: number;
+  quantity_share: number;
+  transaction: number;
+  transaction_share: number;
+}[];
 
 export default function Dashboard() {
-  const [selectedYear, setSelectedYear] = useState<string>("2023");
+  const [selectedYear, setSelectedYear] = useState<string>("2019");
   const [kpi, setKpi] = useState<typeof kpiData>([]);
   const [coXhistory, setCoXhistory] = useState<xhistoryProps[]>([]);
   const [cuXhistory, setCuXhistory] = useState<xhistoryProps[]>([]);
   const [coDestSum, setCoDestSum] = useState<OverviewDestinationSummary[]>([]);
   const [cuDestSum, setCuDestSum] = useState<OverviewDestinationSummary[]>([]);
+  const [coShareData, setCoShareData] = useState<shareDataByCountryProps>([]);
+  const [cuShareData, setCuShareData] = useState<shareDataByCountryProps>([]);
   const [xshareData, setXshareData] = useState<xShareDataProps>([]);
 
   // Memoize processedKpiTrendData to avoid unnecessary recalculations
@@ -154,6 +170,64 @@ export default function Dashboard() {
       }
     };
 
+    const fetchDestinationData = async ({
+      data,
+      product,
+    }: {
+      data: any[];
+      product: string;
+    }) => {
+      try {
+        // Filter data
+        const filter1 = data.filter((row) => row.year === selectedYear);
+
+        const filter2 = filter1
+          .filter((row) => row.product === "Copper")
+          .map((row) => ({
+            short_destination: row.short_destination,
+            long_destination: row.long_destination,
+            quantity: parseFloat(row.quantity),
+            transaction: parseFloat(row.transaction),
+          }));
+
+        // Process data for chart - sort for top destinations
+        const cuDestData = summarizeDestinations(filter2);
+
+        setCuDestSum(cuDestData);
+      } catch (error) {
+        console.error(
+          "Error fetching and processing cu destination data:",
+          error,
+        );
+      }
+    };
+
+    const fetchShareData = async ({
+      data,
+      func,
+    }: {
+      data: shareDataProps;
+      func: Function;
+    }) => {
+      try {
+        const filtered = data
+          .filter((row) => row.year === selectedYear)
+          .map((row) => ({
+            product: row.product,
+            country: row.nationality,
+            quantity: parseFloat(row.quantity.toFixed(1)),
+            share: parseFloat((row.quantity_share * 100).toFixed(1)),
+            fill: "var(--color-${})".replace("${}", row.nationality),
+          }));
+        console.log("share data", filtered);
+        func(filtered);
+      } catch (error) {
+        console.error(
+          "Error fetching and processing share by nationality data:",
+        );
+      }
+    };
+
     const fetchExporterShareData = async () => {
       try {
         const filtered = exporterShareData.filter(
@@ -185,9 +259,14 @@ export default function Dashboard() {
     fetchkpiData();
     fetchCoDestinationData();
     fetchCuDestinationData();
+    fetchShareData({ data: cobaltShareData, func: setCoShareData });
+    fetchShareData({ data: copperShareData, func: setCuShareData });
     fetchHistoryByExporterData();
     fetchExporterShareData();
   }, [selectedYear]);
+
+  console.log("co share data", coShareData);
+  console.log("cu share data", cuShareData);
 
   // Memoize quantityTrendData to avoid unnecessary recalculations
   const quantityTrendData: TransformedData = useMemo(() => {
@@ -258,9 +337,23 @@ export default function Dashboard() {
               />
             </div>
 
-            <div className="space-y-4 xl:col-span-1">
-              <DonutChart />
-              <DoubleDonutChart />
+            <div className="space-y-2 xl:col-span-1">
+              {/* <DoubleDonutChart /> */}
+              <DonutChart
+                data={cuShareData}
+                title="Countries present in the copper and cobalt sector in the DRC"
+              />
+              <div>
+                <DonutChart
+                  data={coShareData}
+                  description="Countries present in the copper and cobalt sector in the DRC"
+                />
+
+                <DonutChart
+                  data={cuShareData}
+                  description="Countries present in the copper and cobalt sector in the DRC"
+                />
+              </div>
             </div>
           </div>
 

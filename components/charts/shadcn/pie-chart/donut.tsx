@@ -26,8 +26,7 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@/components/ui/chart";
-
-export const description = "A donut chart";
+import { shareDataByCountryProps } from "@/types/overview";
 
 const chartData = [
   { browser: "chrome", visitors: 275, fill: "var(--color-chrome)" },
@@ -36,63 +35,121 @@ const chartData = [
   { browser: "edge", visitors: 173, fill: "var(--color-edge)" },
   { browser: "other", visitors: 90, fill: "var(--color-other)" },
 ];
-
+// ['Australia',
+//   'China',
+//   'China/Canada',
+//   'DR Congo',
+//   'India',
+//   'Kazakhstan',
+//   'Others',
+//   'South Africa',
+//   'Switzerland']
 const chartConfig = {
-  visitors: {
-    label: "Visitors",
+  country: {
+    label: "Country",
   },
-  chrome: {
-    label: "Chrome",
+  Australia: {
+    label: "Australia",
     color: "hsl(var(--chart-1))",
   },
-  safari: {
-    label: "Safari",
+  China: {
+    label: "China",
     color: "hsl(var(--chart-2))",
   },
-  firefox: {
-    label: "Firefox",
+  "China/Canada": {
+    label: "China/Canada",
     color: "hsl(var(--chart-3))",
   },
-  edge: {
-    label: "Edge",
+  "DR Congo": {
+    label: "DR Congo",
     color: "hsl(var(--chart-4))",
   },
-  other: {
-    label: "Other",
+  India: {
+    label: "India",
     color: "hsl(var(--chart-5))",
+  },
+  Kazakhstan: {
+    label: "Kazakhstan",
+    color: "hsl(var(--chart-6))",
+  },
+  Others: {
+    label: "Others",
+    color: "hsl(var(--chart-7))",
+  },
+  "South Africa": {
+    label: "South Africa",
+    color: "hsl(var(--chart-6))",
+  },
+  Switzerland: {
+    label: "Switzerland",
+    color: "hsl(var(--chart-9))",
   },
 } satisfies ChartConfig;
 
-export default function Component() {
+export default function Component({
+  data,
+  title,
+  description,
+}: {
+  data: shareDataByCountryProps;
+  title?: string;
+  description?: string;
+}) {
   return (
     <Card className="flex flex-col border-none shadow-none dark:bg-neutral-900/30">
-      <CardHeader className="">
-        <CardTitle>
-          Countries present in the copper and cobalt sector in the DRC
-        </CardTitle>
-      </CardHeader>
-      <CardContent className="flex-1 pb-0">
-        <ChartContainer
-          config={chartConfig}
-          className="m-auto aspect-square max-h-[230px]"
-        >
-          <PieChart
-            margin={{
-              right: 8,
-              left: 8,
-            }}
+      {title && (
+        <CardHeader className="">
+          <CardTitle>{title}</CardTitle>
+        </CardHeader>
+      )}
+      {description && (
+        <CardDescription className="px-4 py-4">{description}</CardDescription>
+      )}
+
+      <div className="grid grid-cols-2">
+        <CardContent className="my-auto flex-1 pb-0">
+          <ChartContainer
+            config={chartConfig}
+            className="aspect-square max-h-[220px]"
           >
-            <ChartTooltip content={<ChartTooltipContent hideLabel />} />
-            <Pie
-              data={chartData}
-              dataKey="visitors"
-              label
-              nameKey="browser"
-              innerRadius={60}
-            />
-          </PieChart>
-        </ChartContainer>
-      </CardContent>
+            <PieChart
+              margin={{
+                right: 8,
+                left: 8,
+              }}
+            >
+              <ChartTooltip content={<ChartTooltipContent hideLabel />} />
+              <Pie
+                data={data}
+                dataKey="share"
+                nameKey="country"
+                innerRadius={60}
+                label
+                labelLine
+              />
+            </PieChart>
+          </ChartContainer>
+        </CardContent>
+
+        <div className="flex flex-col gap-2 p-6">
+          <h6 className="text-center text-h6 font-semibold">Nationality</h6>
+          {data.map((item) => (
+            <div
+              key={item.country}
+              className="flex items-center justify-between"
+            >
+              <div className="flex items-center gap-2">
+                <div
+                  className="h-3 w-3 rounded-full"
+                  style={{ backgroundColor: `hsl(${item.fill})` }}
+                />
+                <p className="text-sm">{item.country}</p>
+              </div>
+              <p className="text-sm">{item.share.toFixed(1)}%</p>
+            </div>
+          ))}
+        </div>
+      </div>
     </Card>
   );
 }
