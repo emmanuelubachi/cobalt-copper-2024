@@ -129,7 +129,7 @@ export default function Component({
           </ChartContainer>
         </CardContent>
 
-        <div className="flex flex-col gap-2 pb-6 pr-6">
+        <div className="flex flex-col gap-2 pb-6 pr-6 pt-2">
           <h6 className="text-center text-p font-semibold text-foreground/70">
             Nationality
           </h6>

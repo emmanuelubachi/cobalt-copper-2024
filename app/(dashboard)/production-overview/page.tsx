@@ -281,7 +281,7 @@ export default function Dashboard() {
 
   // console.log("co share data", coShareData);
   // console.log("cu share data", cuShareData);
-  console.log("nation share data", nationShareData);
+  // console.log("nation share data", nationShareData);
 
   // Memoize quantityTrendData to avoid unnecessary recalculations
   const quantityTrendData: TransformedData = useMemo(() => {
