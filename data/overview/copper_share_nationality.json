@@ -259,5 +259,149 @@
     "quantity_share": 0.0147416109,
     "transaction": 156998275.6999999881,
     "transaction_share": 0.0125723437
+  },
+  {
+    "year": "2022",
+    "product": "Copper",
+    "nationality": "China",
+    "quantity": 1579053764,
+    "quantity_share": 0.5450617257,
+    "transaction": 13049778011,
+    "transaction_share": 0.65446882
+  },
+  {
+    "year": "2022",
+    "product": "Copper",
+    "nationality": "China/Canada",
+    "quantity": 673879894,
+    "quantity_share": 0.2326115464,
+    "transaction": 2286521263,
+    "transaction_share": 0.1146729754
+  },
+  {
+    "year": "2022",
+    "product": "Copper",
+    "nationality": "Switzerland",
+    "quantity": 249498373,
+    "quantity_share": 0.0861224721,
+    "transaction": 2179266570,
+    "transaction_share": 0.109293968
+  },
+  {
+    "year": "2022",
+    "product": "Copper",
+    "nationality": "Kazakhstan",
+    "quantity": 249244340,
+    "quantity_share": 0.0860347844,
+    "transaction": 1186232025,
+    "transaction_share": 0.059491577
+  },
+  {
+    "year": "2022",
+    "product": "Copper",
+    "nationality": "India",
+    "quantity": 96450389,
+    "quantity_share": 0.0332929864,
+    "transaction": 799456049,
+    "transaction_share": 0.0400940964
+  },
+  {
+    "year": "2022",
+    "product": "Copper",
+    "nationality": "Australia",
+    "quantity": 37413786,
+    "quantity_share": 0.0129145842,
+    "transaction": 335334612,
+    "transaction_share": 0.0168176078
+  },
+  {
+    "year": "2022",
+    "product": "Copper",
+    "nationality": "DR Congo",
+    "quantity": 11470699,
+    "quantity_share": 0.0039594846,
+    "transaction": 102852765,
+    "transaction_share": 0.0051582431
+  },
+  {
+    "year": "2022",
+    "product": "Copper",
+    "nationality": "South Africa",
+    "quantity": 7000,
+    "quantity_share": 0.0000024163,
+    "transaction": 54082,
+    "transaction_share": 0.0000027123
+  },
+  {
+    "year": "2023",
+    "product": "Copper",
+    "nationality": "China",
+    "quantity": 1981717.6698067901,
+    "quantity_share": 0.622005152,
+    "transaction": 16078157605.0730991364,
+    "transaction_share": 0.7192597278
+  },
+  {
+    "year": "2023",
+    "product": "Copper",
+    "nationality": "China/Canada",
+    "quantity": 717657.31420654,
+    "quantity_share": 0.2252523422,
+    "transaction": 2333491361.775080204,
+    "transaction_share": 0.1043892219
+  },
+  {
+    "year": "2023",
+    "product": "Copper",
+    "nationality": "Switzerland",
+    "quantity": 234621.1654,
+    "quantity_share": 0.0736409509,
+    "transaction": 1977018991.214799881,
+    "transaction_share": 0.0884423562
+  },
+  {
+    "year": "2023",
+    "product": "Copper",
+    "nationality": "Kazakhstan",
+    "quantity": 107866.416,
+    "quantity_share": 0.0338562185,
+    "transaction": 880870114.9608000517,
+    "transaction_share": 0.039405908
+  },
+  {
+    "year": "2023",
+    "product": "Copper",
+    "nationality": "India",
+    "quantity": 84995.496,
+    "quantity_share": 0.0266776833,
+    "transaction": 688910150.7820999622,
+    "transaction_share": 0.030818539
+  },
+  {
+    "year": "2023",
+    "product": "Copper",
+    "nationality": "Australia",
+    "quantity": 33087.241,
+    "quantity_share": 0.0103851495,
+    "transaction": 280259199.7552000284,
+    "transaction_share": 0.0125374536
+  },
+  {
+    "year": "2023",
+    "product": "Copper",
+    "nationality": "DR Congo",
+    "quantity": 26009.578,
+    "quantity_share": 0.0081636712,
+    "transaction": 114712751.2951200008,
+    "transaction_share": 0.0051316988
+  },
+  {
+    "year": "2023",
+    "product": "Copper",
+    "nationality": "South Africa",
+    "quantity": 60.0,
+    "quantity_share": 0.0000188323,
+    "transaction": 337423.8,
+    "transaction_share": 0.0000150947
   }
 ]
