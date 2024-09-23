@@ -105,7 +105,7 @@ export default function Component({
       )}
       {description && description}
 
-      <div className="grid grid-cols-2">
+      <div className="my-auto grid grid-cols-2 md:flex lg:grid lg:grid-cols-2">
         <CardContent className="my-auto flex-1 pb-0">
           <ChartContainer
             config={chartConfig}
@@ -122,21 +122,21 @@ export default function Component({
                 data={data}
                 dataKey="share"
                 nameKey="country"
-                innerRadius={60}
+                innerRadius={40}
                 labelLine
               />
             </PieChart>
           </ChartContainer>
         </CardContent>
 
-        <div className="flex flex-col gap-2 pr-6">
+        <div className="flex flex-col gap-2 pb-6 pr-6 pt-2">
           <h6 className="text-center text-p font-semibold text-foreground/70">
             Nationality
           </h6>
           {data.map((item) => (
             <div
               key={item.country}
-              className="flex items-center justify-between"
+              className="flex items-center justify-between md:flex-col md:items-end lg:flex-row lg:items-center"
             >
               <div className="flex items-center gap-2">
                 <div
