@@ -56,7 +56,7 @@ export default function TopDestinations({
           yAxisDataKey="short_destination"
           xAxisDataKey="quantity"
           maxValue={maxValue}
-          className="h-[400px]"
+          className="h-[408px]"
         />
 
         <CustomLabelBarChart
@@ -67,7 +67,7 @@ export default function TopDestinations({
           yAxisDataKey="short_destination"
           xAxisDataKey="quantity"
           maxValue={maxValue}
-          className="h-[400px]"
+          className="h-[408px]"
         />
       </div>
     </section>

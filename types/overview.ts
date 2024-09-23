@@ -51,7 +51,7 @@ export type xShareDataProps = {
 }[];
 
 export type shareDataByCountryProps = {
-  product: string;
+  // product: string;
   country: string;
   quantity: number;
   share: number;
