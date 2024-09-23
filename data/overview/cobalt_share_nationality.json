@@ -196,5 +196,95 @@
     "quantity_share": 0.0009344652,
     "transaction": 731430.0,
     "transaction_share": 0.0001946582
+  },
+  {
+    "year": "2022",
+    "product": "Cobalt",
+    "nationality": "China",
+    "quantity": 261180018,
+    "quantity_share": 0.514239984,
+    "transaction": 4215303116,
+    "transaction_share": 0.4952410099
+  },
+  {
+    "year": "2022",
+    "product": "Cobalt",
+    "nationality": "Switzerland",
+    "quantity": 112397559,
+    "quantity_share": 0.2213006929,
+    "transaction": 2209442019,
+    "transaction_share": 0.2595795051
+  },
+  {
+    "year": "2022",
+    "product": "Cobalt",
+    "nationality": "Kazakhstan",
+    "quantity": 71713746,
+    "quantity_share": 0.1411979212,
+    "transaction": 1564353121,
+    "transaction_share": 0.1837902989
+  },
+  {
+    "year": "2022",
+    "product": "Cobalt",
+    "nationality": "India",
+    "quantity": 29999800,
+    "quantity_share": 0.0590669102,
+    "transaction": 339445248,
+    "transaction_share": 0.0398802181
+  },
+  {
+    "year": "2022",
+    "product": "Cobalt",
+    "nationality": "DR Congo",
+    "quantity": 23814074,
+    "quantity_share": 0.0468877716,
+    "transaction": 151643295,
+    "transaction_share": 0.0178160328
+  },
+  {
+    "year": "2022",
+    "product": "Cobalt",
+    "nationality": "South Africa",
+    "quantity": 8790000,
+    "quantity_share": 0.0173067201,
+    "transaction": 31432860,
+    "transaction_share": 0.0036929352
+  },
+  {
+    "year": "2023",
+    "product": "Cobalt",
+    "nationality": "China",
+    "quantity": 266789.58204,
+    "quantity_share": 0.6752555959,
+    "transaction": 2235317394.0131001472,
+    "transaction_share": 0.6158912859
+  },
+  {
+    "year": "2023",
+    "product": "Cobalt",
+    "nationality": "Switzerland",
+    "quantity": 73167.136857,
+    "quantity_share": 0.1851890851,
+    "transaction": 808563993.986199975,
+    "transaction_share": 0.2227815698
+  },
+  {
+    "year": "2023",
+    "product": "Cobalt",
+    "nationality": "Kazakhstan",
+    "quantity": 48733.4627223,
+    "quantity_share": 0.1233464334,
+    "transaction": 541673862.0458999872,
+    "transaction_share": 0.1492460142
+  },
+  {
+    "year": "2023",
+    "product": "Cobalt",
+    "nationality": "India",
+    "quantity": 6404.037,
+    "quantity_share": 0.0162088856,
+    "transaction": 43847284.2930999994,
+    "transaction_share": 0.0120811301
   }
 ]
