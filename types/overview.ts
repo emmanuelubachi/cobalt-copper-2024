@@ -49,3 +49,11 @@ export type xShareDataProps = {
   transaction: number;
   transaction_percent: number;
 }[];
+
+export type shareDataByCountryProps = {
+  product: string;
+  country: string;
+  quantity: number;
+  share: number;
+  fill: string;
+}[];
