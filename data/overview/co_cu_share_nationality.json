@@ -1,0 +1,250 @@
+[
+  {
+    "year": "2018",
+    "nationality": "China",
+    "quantity": 1250629.111,
+    "quantity_share": 0.5071874986,
+    "transaction": 9919215261.2000007629,
+    "transaction_share": 0.5194682964
+  },
+  {
+    "year": "2018",
+    "nationality": "Switzerland",
+    "quantity": 562367.446,
+    "quantity_share": 0.2280658076,
+    "transaction": 6767237316.0100002289,
+    "transaction_share": 0.3543995313
+  },
+  {
+    "year": "2018",
+    "nationality": "Kazakhstan",
+    "quantity": 474510.075,
+    "quantity_share": 0.1924356117,
+    "transaction": 933421597.2400000095,
+    "transaction_share": 0.0488831943
+  },
+  {
+    "year": "2018",
+    "nationality": "India",
+    "quantity": 124467.073,
+    "quantity_share": 0.0504771102,
+    "transaction": 1172722174.4800000191,
+    "transaction_share": 0.0614153412
+  },
+  {
+    "year": "2018",
+    "nationality": "South Africa",
+    "quantity": 24005.0,
+    "quantity_share": 0.0097351291,
+    "transaction": 102220619.0,
+    "transaction_share": 0.0053532834
+  },
+  {
+    "year": "2018",
+    "nationality": "Australia",
+    "quantity": 19333.45,
+    "quantity_share": 0.0078406012,
+    "transaction": 131674370.0600000024,
+    "transaction_share": 0.0068957734
+  },
+  {
+    "year": "2018",
+    "nationality": "DR Congo",
+    "quantity": 8708.562,
+    "quantity_share": 0.0035317215,
+    "transaction": 57332091.7800000012,
+    "transaction_share": 0.0030024758
+  },
+  {
+    "year": "2018",
+    "nationality": "Others",
+    "quantity": 1791.462,
+    "quantity_share": 0.0007265201,
+    "transaction": 11115242.0999999996,
+    "transaction_share": 0.0005821041
+  },
+  {
+    "year": "2019",
+    "nationality": "China",
+    "quantity": 1238653.102,
+    "quantity_share": 0.5540786106,
+    "transaction": 6690537778.6900005341,
+    "transaction_share": 0.5656207351
+  },
+  {
+    "year": "2019",
+    "nationality": "Switzerland",
+    "quantity": 481701.194,
+    "quantity_share": 0.2154762523,
+    "transaction": 3447904450.3800001144,
+    "transaction_share": 0.2914872189
+  },
+  {
+    "year": "2019",
+    "nationality": "Kazakhstan",
+    "quantity": 369530.999,
+    "quantity_share": 0.1652998908,
+    "transaction": 838437954.0099999905,
+    "transaction_share": 0.0708818794
+  },
+  {
+    "year": "2019",
+    "nationality": "India",
+    "quantity": 114248.673,
+    "quantity_share": 0.0511061135,
+    "transaction": 681758023.9900000095,
+    "transaction_share": 0.0576360956
+  },
+  {
+    "year": "2019",
+    "nationality": "DR Congo",
+    "quantity": 15014.683,
+    "quantity_share": 0.0067164202,
+    "transaction": 88395410.599999994,
+    "transaction_share": 0.0074729833
+  },
+  {
+    "year": "2019",
+    "nationality": "Australia",
+    "quantity": 9119.862,
+    "quantity_share": 0.0040795284,
+    "transaction": 55469502.8100000024,
+    "transaction_share": 0.0046894139
+  },
+  {
+    "year": "2019",
+    "nationality": "South Africa",
+    "quantity": 5630.0,
+    "quantity_share": 0.0025184312,
+    "transaction": 17033317.0,
+    "transaction_share": 0.0014400034
+  },
+  {
+    "year": "2019",
+    "nationality": "Others",
+    "quantity": 1620.199,
+    "quantity_share": 0.000724753,
+    "transaction": 9127830.5800000001,
+    "transaction_share": 0.0007716704
+  },
+  {
+    "year": "2020",
+    "nationality": "China",
+    "quantity": 1407829.8290000001,
+    "quantity_share": 0.5961243778,
+    "transaction": 8203728023.529999733,
+    "transaction_share": 0.621735534
+  },
+  {
+    "year": "2020",
+    "nationality": "Kazakhstan",
+    "quantity": 418044.5,
+    "quantity_share": 0.1770146593,
+    "transaction": 1328472992.4000000954,
+    "transaction_share": 0.1006809176
+  },
+  {
+    "year": "2020",
+    "nationality": "Switzerland",
+    "quantity": 374106.887,
+    "quantity_share": 0.1584099375,
+    "transaction": 2739729535.5500001907,
+    "transaction_share": 0.2076357482
+  },
+  {
+    "year": "2020",
+    "nationality": "India",
+    "quantity": 126426.052,
+    "quantity_share": 0.0535332112,
+    "transaction": 735114819.1900000572,
+    "transaction_share": 0.0557121108
+  },
+  {
+    "year": "2020",
+    "nationality": "DR Congo",
+    "quantity": 25350.816,
+    "quantity_share": 0.0107344219,
+    "transaction": 144580047.1599999964,
+    "transaction_share": 0.010957281
+  },
+  {
+    "year": "2020",
+    "nationality": "Australia",
+    "quantity": 4875.193,
+    "quantity_share": 0.0020643272,
+    "transaction": 28600709.3599999994,
+    "transaction_share": 0.0021675606
+  },
+  {
+    "year": "2020",
+    "nationality": "South Africa",
+    "quantity": 4740.0,
+    "quantity_share": 0.0020070817,
+    "transaction": 13316940.0,
+    "transaction_share": 0.0010092503
+  },
+  {
+    "year": "2020",
+    "nationality": "Others",
+    "quantity": 264.464,
+    "quantity_share": 0.0001119833,
+    "transaction": 1340568.1599999999,
+    "transaction_share": 0.0001015976
+  },
+  {
+    "year": "2021",
+    "nationality": "China",
+    "quantity": 1187174.6680000001,
+    "quantity_share": 0.6267999741,
+    "transaction": 10347407173.1499996185,
+    "transaction_share": 0.6369556055
+  },
+  {
+    "year": "2021",
+    "nationality": "Switzerland",
+    "quantity": 283537.479,
+    "quantity_share": 0.1497010417,
+    "transaction": 3019867776.6099996567,
+    "transaction_share": 0.1858940772
+  },
+  {
+    "year": "2021",
+    "nationality": "Kazakhstan",
+    "quantity": 230162.214,
+    "quantity_share": 0.1215201719,
+    "transaction": 1533054409.1199998856,
+    "transaction_share": 0.0943702691
+  },
+  {
+    "year": "2021",
+    "nationality": "India",
+    "quantity": 95078.233,
+    "quantity_share": 0.0501990445,
+    "transaction": 838843215.2400000095,
+    "transaction_share": 0.051636693
+  },
+  {
+    "year": "2021",
+    "nationality": "China/Canada",
+    "quantity": 74140.558,
+    "quantity_share": 0.0391444503,
+    "transaction": 348197197.2799999714,
+    "transaction_share": 0.0214339837
+  },
+  {
+    "year": "2021",
+    "nationality": "DR Congo",
+    "quantity": 23661.604,
+    "quantity_share": 0.0124927638,
+    "transaction": 156998275.6999999881,
+    "transaction_share": 0.0096643468
+  },
+  {
+    "year": "2021",
+    "nationality": "South Africa",
+    "quantity": 270.0,
+    "quantity_share": 0.0001425536,
+    "transaction": 731430.0,
+    "transaction_share": 0.0000450247
+  }
+]
