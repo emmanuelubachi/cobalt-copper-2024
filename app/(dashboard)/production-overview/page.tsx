@@ -118,14 +118,14 @@ export default function Dashboard() {
         const cofiltered: xhistoryProps[] = filteredhistory
           .filter((row) => row.product === "Cobalt")
           .map((row: any) => ({
-            exporter: row.exporter,
+            exporter: row.project,
             quantity: parseFloat(row.quantity),
           }));
 
         const cufiltered: xhistoryProps[] = filteredhistory
           .filter((row) => row.product === "Copper")
           .map((row: any) => ({
-            exporter: row.exporter,
+            exporter: row.project,
             quantity: parseFloat(row.quantity),
           }));
 
@@ -138,62 +138,6 @@ export default function Dashboard() {
         );
       }
     };
-
-    // const fetchCoDestinationData = async () => {
-    //   try {
-    //     // Filter data
-    //     const filter1 = exportDestinationData.filter(
-    //       (row) => row.year === selectedYear,
-    //     );
-
-    //     const filter2 = filter1
-    //       .filter((row) => row.product === "Cobalt")
-    //       .map((row) => ({
-    //         short_destination: row.short_destination,
-    //         long_destination: row.long_destination,
-    //         quantity: parseFloat(row.quantity),
-    //         transaction: parseFloat(row.transaction),
-    //       }));
-
-    //     // Process data: sum by destination and sort for top quntity or transaction
-    //     const coDestData = summarizeDestinations(filter2);
-
-    //     setCoDestSum(coDestData);
-    //   } catch (error) {
-    //     console.error(
-    //       "Error fetching and processing co destination data:",
-    //       error,
-    //     );
-    //   }
-    // };
-
-    // const fetchCuDestinationData = async () => {
-    //   try {
-    //     // Filter data
-    //     const filter1 = exportDestinationData.filter(
-    //       (row) => row.year === selectedYear,
-    //     );
-
-    //     const filter2 = filter1
-    //       .filter((row) => row.product === "Copper")
-    //       .map((row) => ({
-    //         short_destination: row.short_destination,
-    //         long_destination: row.long_destination,
-    //         quantity: parseFloat(row.quantity),
-    //         transaction: parseFloat(row.transaction),
-    //       }));
-
-    //     // Process data for chart - sort for top destinations
-    //     const cuDestData = summarizeDestinations(filter2);
-
-    //     setCuDestSum(cuDestData);
-    //   } catch (error) {
-    //     console.error(
-    //       "Error fetching and processing cu destination data:",
-    //       error,
-    //     );
-    //   }
-    // };
 
     const fetchDestinationData = async ({
       data,
