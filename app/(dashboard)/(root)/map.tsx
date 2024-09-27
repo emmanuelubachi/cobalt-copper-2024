@@ -204,7 +204,6 @@ export default function MainMap({
     const hovered = features && features[0];
 
     if (mapRef.current) {
-      console.log(hovered);
       if (hovered) {
         mapRef.current.getCanvas().style.cursor = "pointer";
         if (hovered.layer.id === "data-layer") {
@@ -599,7 +598,6 @@ export default function MainMap({
             onClick={() => {
               // add popup
               setExportPortPopupInfo(feature);
-              console.log(feature);
 
               if (mapRef.current) {
                 const mapzoom = mapRef.current.getZoom();
@@ -819,9 +817,7 @@ export default function MainMap({
               style={{ cursor: "pointer" }}
               onClick={() => {
                 // add popup with environmental impact details
-
                 setEnvironmantalImpactInfo(environmentalImpactData);
-                console.log(environmentalImpactData);
 
                 // add code to zoom to the marker
                 if (mapRef.current) {

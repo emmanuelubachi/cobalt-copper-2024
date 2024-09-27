@@ -34,7 +34,6 @@ export function AreaChartRender({ data, valueFormatter }: AreaChartHeroProps) {
       colors={["amber", "blue"]}
       valueFormatter={format}
       yAxisWidth={60}
-      // onValueChange={(v) => console.log(v)}
       showGradient={false}
       animationDuration={500}
     />
