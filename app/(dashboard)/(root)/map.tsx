@@ -30,6 +30,7 @@ import { BorderPost } from "@/types/map";
 
 import socioEconomicData from "@/data/map/additional_info/socio_economic_impact.json";
 import environmantalImpactData from "@/data/map/additional_info/environmental_impact.json";
+
 import { countriesWithColors } from "@/constants/application";
 import { ArrowUpRight } from "lucide-react";
 import { ScrollArea } from "@/components/ui/scroll-area";
