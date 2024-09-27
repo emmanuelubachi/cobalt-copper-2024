@@ -98,8 +98,6 @@ export default function Projects({
     monthlyExports.filter((d) => d.product === "Copper"),
   );
 
-  console.log("products", groupByProductAndConcentration(products));
-
   return (
     <section className="space-y-0">
       <header
