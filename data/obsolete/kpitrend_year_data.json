@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2015",
+    "quantity": "414920",
+    "transaction": "2419942993",
+    "product": "Cobalt"
+  },
+  {
+    "date": "2015",
+    "quantity": "1353554.2",
+    "transaction": "5627163582",
+    "product": "Copper"
+  },
+  {
+    "date": "2016",
+    "quantity": "295411",
+    "transaction": "1723290794",
+    "product": "Cobalt"
+  },
+  {
+    "date": "2016",
+    "quantity": "1541127.7",
+    "transaction": "4725181722",
+    "product": "Copper"
+  },
+  {
+    "date": "2017",
+    "quantity": "477498.4",
+    "transaction": "5192246291",
+    "product": "Cobalt"
+  },
+  {
+    "date": "2017",
+    "quantity": "1582860.9",
+    "transaction": "6185392644",
+    "product": "Copper"
+  },
+  {
+    "date": "2018",
+    "quantity": "639154.4",
+    "transaction": "10939815350",
+    "product": "Cobalt"
+  },
+  {
+    "date": "2018",
+    "quantity": "1834983.4",
+    "transaction": "8290721142",
+    "product": "Copper"
+  },
+  {
+    "date": "2019",
+    "quantity": "442123.6",
+    "transaction": "3810328864",
+    "product": "Cobalt"
+  },
+  {
+    "date": "2019",
+    "quantity": "1799693.4",
+    "transaction": "8066808373",
+    "product": "Copper"
+  },
+  {
+    "date": "2020",
+    "quantity": "383988.3",
+    "transaction": "3294665539",
+    "product": "Cobalt"
+  },
+  {
+    "date": "2020",
+    "quantity": "2009652.8",
+    "transaction": "10051289156",
+    "product": "Copper"
+  },
+  {
+    "date": "2021",
+    "quantity": "310833.4",
+    "transaction": "3859886811",
+    "product": "Cobalt"
+  },
+  {
+    "date": "2021",
+    "quantity": "1605089.4",
+    "transaction": "12487590161",
+    "product": "Copper"
+  },
+  {
+    "date": "2022",
+    "quantity": "507895.2",
+    "transaction": "8566100366",
+    "product": "Cobalt"
+  },
+  {
+    "date": "2022",
+    "quantity": "2897018.2",
+    "transaction": "19999495967",
+    "product": "Copper"
+  },
+  {
+    "date": "2023",
+    "quantity": "139840.09",
+    "transaction": "3629402534",
+    "product": "Cobalt"
+  },
+  {
+    "date": "2023",
+    "quantity": "2842021.882",
+    "transaction": "22353757599",
+    "product": "Copper"
+  }
+]
