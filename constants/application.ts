@@ -279,10 +279,10 @@ export const CompaniesList = [
         value: "golden",
         label: "Golden Africa Resources SPRL",
       },
-      // {
-      //   value: "kimin",
-      //   label: "Kisanfu Mining SPRL",
-      // },
+      {
+        value: "kimin",
+        label: "Kisanfu Mining SPRL",
+      },
       {
         value: "omr",
         label: "Om Metal Ressources SPRL",
