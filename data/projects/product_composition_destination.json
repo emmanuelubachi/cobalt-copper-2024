@@ -16969,7 +16969,6 @@
     "destination": "Luxembourg",
     "_project_id": "tsm"
   },
-
   {
     "project": "AMICAL KAKANA MINING SPRL",
     "year": "2023",
@@ -16977,7 +16976,7 @@
     "quantity": "512.0",
     "transaction": "496842.72",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "amical"
   },
   {
@@ -17047,7 +17046,7 @@
     "quantity": "408.496",
     "transaction": "2777691.4948",
     "product": "Cobalt",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "ccr"
   },
   {
@@ -17067,7 +17066,7 @@
     "quantity": "1549.359",
     "transaction": "13873580.2296",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "ccr"
   },
   {
@@ -17104,18 +17103,8 @@
     "project": "CHEMICAL OF AFRICA SPRL",
     "year": "2023",
     "concentration": "Cobalt Hydroxide",
-    "quantity": "6164.173",
-    "transaction": "42632791.9479",
-    "product": "Cobalt",
-    "destination": "UAE",
-    "_project_id": "chemaf"
-  },
-  {
-    "project": "CHEMICAL OF AFRICA SPRL",
-    "year": "2023",
-    "concentration": "Cobalt Hydroxide",
-    "quantity": "65.974",
-    "transaction": "453494.0604",
+    "quantity": "6230.147",
+    "transaction": "43086286.0083",
     "product": "Cobalt",
     "destination": "UAE",
     "_project_id": "chemaf"
@@ -17124,18 +17113,8 @@
     "project": "CHEMICAL OF AFRICA SPRL",
     "year": "2023",
     "concentration": "Copper Cathodes",
-    "quantity": "16560.0",
-    "transaction": "140162402.875",
-    "product": "Copper",
-    "destination": "UAE",
-    "_project_id": "chemaf"
-  },
-  {
-    "project": "CHEMICAL OF AFRICA SPRL",
-    "year": "2023",
-    "concentration": "Copper Cathodes",
-    "quantity": "200.0",
-    "transaction": "1587848.0",
+    "quantity": "16760.0",
+    "transaction": "141750250.875",
     "product": "Copper",
     "destination": "UAE",
     "_project_id": "chemaf"
@@ -17187,7 +17166,7 @@
     "quantity": "2400.327",
     "transaction": "19331964.0729",
     "product": "Copper",
-    "destination": "Hong Kong",
+    "destination": "Hong\u00a0Kong",
     "_project_id": "cnmc"
   },
   {
@@ -17227,7 +17206,7 @@
     "quantity": "113.579",
     "transaction": "728665.9609",
     "product": "Cobalt",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "comika"
   },
   {
@@ -17397,7 +17376,7 @@
     "quantity": "57.151",
     "transaction": "467122.5555",
     "product": "Copper",
-    "destination": "Hong Kong",
+    "destination": "Hong\u00a0Kong",
     "_project_id": "excellen"
   },
   {
@@ -17437,7 +17416,7 @@
     "quantity": "4238.985",
     "transaction": "36342413.67",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "gcm"
   },
   {
@@ -17517,7 +17496,7 @@
     "quantity": "334.10200000000003",
     "transaction": "2945306.2497",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "hmc"
   },
   {
@@ -17537,7 +17516,7 @@
     "quantity": "2549.8058",
     "transaction": "20438836.445100002",
     "product": "Copper",
-    "destination": "Hong Kong",
+    "destination": "Hong\u00a0Kong",
     "_project_id": "huachin_mabende"
   },
   {
@@ -17587,7 +17566,7 @@
     "quantity": "581.2162",
     "transaction": "4750558.9860000005",
     "product": "Copper",
-    "destination": "Hong Kong",
+    "destination": "Hong\u00a0Kong",
     "_project_id": "huachin_metal"
   },
   {
@@ -17631,7 +17610,7 @@
     "_project_id": "kaipeng"
   },
   {
-    "project": "KALONGWE MINING S.A",
+    "project": "KALONGWE MINING SA",
     "year": "2023",
     "concentration": "Cobalt Hydroxide",
     "quantity": "11629.626",
@@ -17641,7 +17620,7 @@
     "_project_id": "kalongwe"
   },
   {
-    "project": "KALONGWE MINING S.A",
+    "project": "KALONGWE MINING SA",
     "year": "2023",
     "concentration": "Copper Cathodes",
     "quantity": "36154.214",
@@ -17687,7 +17666,7 @@
     "quantity": "4970.613",
     "transaction": "40143690.6518",
     "product": "Copper",
-    "destination": "Hong Kong",
+    "destination": "Hong\u00a0Kong",
     "_project_id": "kambove"
   },
   {
@@ -17717,7 +17696,7 @@
     "quantity": "414.88599999999997",
     "transaction": "3458716.3899999997",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "kamoa"
   },
   {
@@ -17747,7 +17726,7 @@
     "quantity": "3114.0023666",
     "transaction": "8583681.9865",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "kamoa"
   },
   {
@@ -17787,7 +17766,7 @@
     "quantity": "13429.60555",
     "transaction": "157725048.6392",
     "product": "Cobalt",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "kcc"
   },
   {
@@ -17857,7 +17836,7 @@
     "quantity": "2141.529",
     "transaction": "18105419.1225",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "kcc"
   },
   {
@@ -17907,7 +17886,7 @@
     "quantity": "33.512",
     "transaction": "242939.0986",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "kcc"
   },
   {
@@ -17919,66 +17898,6 @@
     "product": "Copper",
     "destination": "Tanzania",
     "_project_id": "kcc"
-  },
-  {
-    "project": "KISANFU MINING",
-    "year": "2023",
-    "concentration": "Cobalt Hydroxide",
-    "quantity": "685.1468",
-    "transaction": "3175457.9595999997",
-    "product": "Cobalt",
-    "destination": "China",
-    "_project_id": "kfm"
-  },
-  {
-    "project": "KISANFU MINING",
-    "year": "2023",
-    "concentration": "Cobalt Hydroxide",
-    "quantity": "422.00079999999997",
-    "transaction": "2244507.2072",
-    "product": "Cobalt",
-    "destination": "Tanzania",
-    "_project_id": "kfm"
-  },
-  {
-    "project": "KISANFU MINING",
-    "year": "2023",
-    "concentration": "Copper Cathodes",
-    "quantity": "7802.0",
-    "transaction": "65835098.66",
-    "product": "Copper",
-    "destination": "China",
-    "_project_id": "kfm"
-  },
-  {
-    "project": "KISANFU MINING",
-    "year": "2023",
-    "concentration": "Copper Cathodes",
-    "quantity": "620.0",
-    "transaction": "5531908.26",
-    "product": "Copper",
-    "destination": "Mozambique",
-    "_project_id": "kfm"
-  },
-  {
-    "project": "KISANFU MINING",
-    "year": "2023",
-    "concentration": "Copper Cathodes",
-    "quantity": "17010.0",
-    "transaction": "143948052.9",
-    "product": "Copper",
-    "destination": "Tanzania",
-    "_project_id": "kfm"
-  },
-  {
-    "project": "KISANFU MINING",
-    "year": "2023",
-    "concentration": "Copper Cathodes",
-    "quantity": "864.0",
-    "transaction": "7223857.16",
-    "product": "Copper",
-    "destination": "UAE",
-    "_project_id": "kfm"
   },
   {
     "project": "KINSENDA COPPER COMPANY SARL",
@@ -18019,6 +17938,66 @@
     "product": "Copper",
     "destination": "Vietnam",
     "_project_id": "kicc"
+  },
+  {
+    "project": "KISANFU MINING SPRL",
+    "year": "2023",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "685.1468",
+    "transaction": "3175457.9595999997",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "kimin"
+  },
+  {
+    "project": "KISANFU MINING SPRL",
+    "year": "2023",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "422.00079999999997",
+    "transaction": "2244507.2072",
+    "product": "Cobalt",
+    "destination": "Tanzania",
+    "_project_id": "kimin"
+  },
+  {
+    "project": "KISANFU MINING SPRL",
+    "year": "2023",
+    "concentration": "Copper Cathodes",
+    "quantity": "7802.0",
+    "transaction": "65835098.66",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "kimin"
+  },
+  {
+    "project": "KISANFU MINING SPRL",
+    "year": "2023",
+    "concentration": "Copper Cathodes",
+    "quantity": "620.0",
+    "transaction": "5531908.26",
+    "product": "Copper",
+    "destination": "Mozambique",
+    "_project_id": "kimin"
+  },
+  {
+    "project": "KISANFU MINING SPRL",
+    "year": "2023",
+    "concentration": "Copper Cathodes",
+    "quantity": "17010.0",
+    "transaction": "143948052.9",
+    "product": "Copper",
+    "destination": "Tanzania",
+    "_project_id": "kimin"
+  },
+  {
+    "project": "KISANFU MINING SPRL",
+    "year": "2023",
+    "concentration": "Copper Cathodes",
+    "quantity": "864.0",
+    "transaction": "7223857.16",
+    "product": "Copper",
+    "destination": "UAE",
+    "_project_id": "kimin"
   },
   {
     "project": "LA MINIERE DE KALUNKUNDI",
@@ -18097,7 +18076,7 @@
     "quantity": "24533.9696039",
     "transaction": "284743216.119",
     "product": "Cobalt",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "metalkol"
   },
   {
@@ -18137,7 +18116,7 @@
     "quantity": "30872.314000000002",
     "transaction": "263104913.5211",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "metalkol"
   },
   {
@@ -18151,7 +18130,7 @@
     "_project_id": "metalkol"
   },
   {
-    "project": "LA  MINIERE  DE  KASOMBO",
+    "project": "LA MINIERE DE KASOMBO",
     "year": "2023",
     "concentration": "Cobalt Hydroxide",
     "quantity": "2684.082",
@@ -18161,7 +18140,7 @@
     "_project_id": "mikas"
   },
   {
-    "project": "LA  MINIERE  DE  KASOMBO",
+    "project": "LA MINIERE DE KASOMBO",
     "year": "2023",
     "concentration": "Copper Cathodes",
     "quantity": "28034.4574",
@@ -18197,7 +18176,7 @@
     "quantity": "1362.5",
     "transaction": "10932694.82",
     "product": "Copper",
-    "destination": "Hong Kong",
+    "destination": "Hong\u00a0Kong",
     "_project_id": "mjm"
   },
   {
@@ -18227,7 +18206,7 @@
     "quantity": "160.56833",
     "transaction": "2057397.2539",
     "product": "Cobalt",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "mkm"
   },
   {
@@ -18297,7 +18276,7 @@
     "quantity": "1611.6979999999999",
     "transaction": "13012673.7963",
     "product": "Copper",
-    "destination": "Hong Kong",
+    "destination": "Hong\u00a0Kong",
     "_project_id": "mm"
   },
   {
@@ -18337,7 +18316,7 @@
     "quantity": "624.865",
     "transaction": "5366158.691",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "mmg"
   },
   {
@@ -18407,7 +18386,7 @@
     "quantity": "10599.58522",
     "transaction": "104215858.98020001",
     "product": "Cobalt",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "mumi"
   },
   {
@@ -18437,7 +18416,7 @@
     "quantity": "232.199",
     "transaction": "1975240.5603999998",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "mumi"
   },
   {
@@ -18457,7 +18436,7 @@
     "quantity": "33.785",
     "transaction": "276141.0218",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "mumi"
   },
   {
@@ -18547,7 +18526,7 @@
     "quantity": "55.177",
     "transaction": "379272.9038",
     "product": "Cobalt",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "ruashi"
   },
   {
@@ -18557,7 +18536,7 @@
     "quantity": "2118.962",
     "transaction": "14257401.837",
     "product": "Cobalt",
-    "destination": "South\u00A0Korea",
+    "destination": "South\u00a0Korea",
     "_project_id": "ruashi"
   },
   {
@@ -18627,7 +18606,7 @@
     "quantity": "6042.039",
     "transaction": "48755253.3214",
     "product": "Copper",
-    "destination": "Hong Kong",
+    "destination": "Hong\u00a0Kong",
     "_project_id": "sek"
   },
   {
@@ -18707,7 +18686,7 @@
     "quantity": "4474.73",
     "transaction": "39334616.023",
     "product": "Copper",
-    "destination": "South\u00A0Africa",
+    "destination": "South\u00a0Africa",
     "_project_id": "somidez"
   },
   {
@@ -18744,8 +18723,8 @@
     "project": "SOCIETE MINIERE DU KATANGA",
     "year": "2023",
     "concentration": "Copper Cathodes",
-    "quantity": "37284.0",
-    "transaction": "315984351.3",
+    "quantity": "37746.0",
+    "transaction": "319785065.48",
     "product": "Copper",
     "destination": "UAE",
     "_project_id": "somika"
@@ -18758,16 +18737,6 @@
     "transaction": "1211968.5",
     "product": "Copper",
     "destination": "Uganda",
-    "_project_id": "somika"
-  },
-  {
-    "project": "SOCIETE MINIERE DU KATANGA",
-    "year": "2023",
-    "concentration": "Copper Cathodes",
-    "quantity": "462.0",
-    "transaction": "3800714.1799999997",
-    "product": "Copper",
-    "destination": "UAE",
     "_project_id": "somika"
   },
   {
@@ -18787,7 +18756,7 @@
     "quantity": "195.79000000000002",
     "transaction": "507919.397",
     "product": "Copper",
-    "destination": "Hong Kong",
+    "destination": "Hong\u00a0Kong",
     "_project_id": "stl"
   },
   {
@@ -18823,9 +18792,9 @@
   {
     "project": "TENKE FUNGURUME MINING",
     "year": "2023",
-    "concentration": "Cobalt hydroxide",
+    "concentration": "Cobalt Hydroxide",
     "quantity": "103213.286",
-    "transaction": "941522097.9400000572",
+    "transaction": "941522097.94",
     "product": "Cobalt",
     "destination": "China",
     "_project_id": "tfm"
@@ -18833,8 +18802,8 @@
   {
     "project": "TENKE FUNGURUME MINING",
     "year": "2023",
-    "concentration": "Cobalt hydroxide",
-    "quantity": "102.058",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "102.05799999999999",
     "transaction": "930930.23",
     "product": "Cobalt",
     "destination": "Singapore",
@@ -18843,9 +18812,9 @@
   {
     "project": "TENKE FUNGURUME MINING",
     "year": "2023",
-    "concentration": "Electrolytic copper",
+    "concentration": "Electrolytic Copper",
     "quantity": "467175.77",
-    "transaction": "3940904508.2100000381",
+    "transaction": "3940904508.21",
     "product": "Copper",
     "destination": "China",
     "_project_id": "tfm"

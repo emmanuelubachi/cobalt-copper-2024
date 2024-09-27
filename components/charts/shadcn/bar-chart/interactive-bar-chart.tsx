@@ -238,7 +238,6 @@ export function SingleInteractiveBarChart({
             <Bar
               dataKey={props.ydataKey}
               fill={`var(--color-${props.ydataKey})`}
-              // onClick={(e) => console.log(e)}
             >
               <LabelList
                 dataKey={props.ydataKey}
