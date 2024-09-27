@@ -332,14 +332,15 @@
     "transaction": 54082,
     "transaction_share": 0.0000027123
   },
+
   {
     "year": "2023",
     "product": "Copper",
     "nationality": "China",
-    "quantity": 1981717.6698067901,
-    "quantity_share": 0.622005152,
-    "transaction": 16078157605.0730991364,
-    "transaction_share": 0.7192597278
+    "quantity": 1955421.6698067901,
+    "quantity_share": 0.613751581,
+    "transaction": 15855618688.0930995941,
+    "transaction_share": 0.709304403
   },
   {
     "year": "2023",
@@ -362,20 +363,20 @@
   {
     "year": "2023",
     "product": "Copper",
+    "nationality": "India",
+    "quantity": 111291.496,
+    "quantity_share": 0.0349312543,
+    "transaction": 911449067.7620999813,
+    "transaction_share": 0.0407738638
+  },
+  {
+    "year": "2023",
+    "product": "Copper",
     "nationality": "Kazakhstan",
     "quantity": 107866.416,
     "quantity_share": 0.0338562185,
     "transaction": 880870114.9608000517,
     "transaction_share": 0.039405908
-  },
-  {
-    "year": "2023",
-    "product": "Copper",
-    "nationality": "India",
-    "quantity": 84995.496,
-    "quantity_share": 0.0266776833,
-    "transaction": 688910150.7820999622,
-    "transaction_share": 0.030818539
   },
   {
     "year": "2023",

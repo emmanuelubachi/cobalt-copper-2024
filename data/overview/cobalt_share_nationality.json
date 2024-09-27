@@ -255,10 +255,10 @@
     "year": "2023",
     "product": "Cobalt",
     "nationality": "China",
-    "quantity": 266789.58204,
-    "quantity_share": 0.6752555959,
-    "transaction": 2235317394.0131001472,
-    "transaction_share": 0.6158912859
+    "quantity": 265682.43444,
+    "quantity_share": 0.672453359,
+    "transaction": 2229897428.8463001251,
+    "transaction_share": 0.6143979368
   },
   {
     "year": "2023",
@@ -282,9 +282,9 @@
     "year": "2023",
     "product": "Cobalt",
     "nationality": "India",
-    "quantity": 6404.037,
-    "quantity_share": 0.0162088856,
-    "transaction": 43847284.2930999994,
-    "transaction_share": 0.0120811301
+    "quantity": 7511.1846,
+    "quantity_share": 0.0190111225,
+    "transaction": 49267249.4598999992,
+    "transaction_share": 0.0135744793
   }
 ]
