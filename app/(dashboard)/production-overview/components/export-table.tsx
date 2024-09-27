@@ -62,7 +62,7 @@ export default function ExportTable({ data }: { data: xShareDataProps }) {
           <div>
             <CardTitle>Cobalt and Copper Exporters</CardTitle>
             <CardDescription>
-              Share of exported copper and cobalt products by exporter.
+              Share of exported copper and cobalt products by projects.
             </CardDescription>
           </div>
           <div className="flex flex-col gap-2 md:flex-row md:items-center">
