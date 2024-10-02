@@ -69,7 +69,7 @@ export function BorderPosts() {
   return (
     <div className="__toggle_container border-orange-500">
       <div>
-        <h6 className="text-xs font-medium">Boreder Posts</h6>
+        <h6 className="text-xs font-medium">Border Posts</h6>
       </div>
       <div className="flex gap-2">
         <Toggle
