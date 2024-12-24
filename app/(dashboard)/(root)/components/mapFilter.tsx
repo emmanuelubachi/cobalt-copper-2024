@@ -48,10 +48,10 @@ export default function MapFilter({ defaultValue }: MapFilterProps) {
       >
         <div>
           <h6 className="text-h6 font-semibold">Mining Activities</h6>
-          <p className="text-xs italic text-foreground/40">
+          {/* <p className="text-xs italic text-foreground/40">
             Beatae quia excepturi dignissimos autem natus inventore quas amet
             praesentium earum iste.
-          </p>
+          </p> */}
         </div>
         <ArtisanalSites />
         <Separator />
@@ -64,10 +64,10 @@ export default function MapFilter({ defaultValue }: MapFilterProps) {
       >
         <div>
           <h6 className="text-h6 font-semibold">Additional Information</h6>
-          <p className="text-xs italic text-foreground/40">
+          {/* <p className="text-xs italic text-foreground/40">
             Beatae quia excepturi dignissimos autem natus inventore quas amet
             praesentium earum iste, perspiciatis dolores, ea ipsam.
-          </p>
+          </p> */}
         </div>
         <div className="grid gap-4">
           <ProcessingEntities />
