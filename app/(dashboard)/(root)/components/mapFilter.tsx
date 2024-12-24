@@ -2,11 +2,11 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import {
   ArtisanalSites,
-  IndustralProjects,
-} from "./mining-activites/mining-activities-filter";
+  IndustrialProjects,
+} from "./mining-activities/mining-activities-filter";
 import {
   BorderPosts,
-  EnvironmantalImpact,
+  EnvironmentalImpact,
   ExportPorts,
   InternationalRoutes,
   ProcessingEntities,
@@ -48,14 +48,13 @@ export default function MapFilter({ defaultValue }: MapFilterProps) {
       >
         <div>
           <h6 className="text-h6 font-semibold">Mining Activities</h6>
-          <p className="text-xs italic text-foreground/40">
-            Beatae quia excepturi dignissimos autem natus inventore quas amet
-            praesentium earum iste.
-          </p>
+          {/* <p className="text-xs italic text-foreground/40">
+            
+          </p> */}
         </div>
         <ArtisanalSites />
         <Separator />
-        <IndustralProjects />
+        <IndustrialProjects />
       </TabsContent>
 
       <TabsContent
@@ -64,10 +63,9 @@ export default function MapFilter({ defaultValue }: MapFilterProps) {
       >
         <div>
           <h6 className="text-h6 font-semibold">Additional Information</h6>
-          <p className="text-xs italic text-foreground/40">
-            Beatae quia excepturi dignissimos autem natus inventore quas amet
-            praesentium earum iste, perspiciatis dolores, ea ipsam.
-          </p>
+          {/* <p className="text-xs italic text-foreground/40">
+            
+          </p> */}
         </div>
         <div className="grid gap-4">
           <ProcessingEntities />
@@ -83,7 +81,7 @@ export default function MapFilter({ defaultValue }: MapFilterProps) {
           <Separator className="" />
           <SocioEconomic />
           <Separator className="" />
-          <EnvironmantalImpact />
+          <EnvironmentalImpact />
         </div>
       </TabsContent>
     </Tabs>

@@ -20,7 +20,7 @@ import Supercluster, { AnyProps, PointFeature } from "supercluster";
 import useMapDetailsStore from "@/store/mapDetailsStore";
 import useDeviceType from "@/hooks/useDeviceType";
 import MapContents from "./mapContents";
-import { IndustrialProjectsContent } from "./components/mining-activites/industral-content";
+import { IndustrialProjectsContent } from "./components/mining-activities/industral-content";
 import { GeoJSONFeatureCollection } from "@/types/geojson";
 import { GeoJSONExportPort, IndustralProjectDetailsProps } from "@/types/map";
 import useUpdateSearchParams from "@/hooks/useUpdateSearchParams";
@@ -266,7 +266,11 @@ export default function MainMap({
         }
       }
 
-      if (clickedFeature && clickedFeature.layer.id === "intRoute") {
+      if (
+        clickedFeature &&
+        clickedFeature.layer &&
+        clickedFeature.layer.id === "intRoute"
+      ) {
         setIntRoutePopupInfo(clickedFeature.properties);
         setIntRoutePopupCoords({
           longitude: event.lngLat.lng,
@@ -312,7 +316,10 @@ export default function MainMap({
   const updateClusters = useCallback(() => {
     if (!mapRef.current || !supercluster) return;
 
-    const bounds = mapRef.current.getMap().getBounds().toArray().flat() as [
+    const mapInstance = mapRef.current.getMap();
+    if (!mapInstance) return; // Additional check for map instance
+
+    const bounds = mapInstance?.getBounds()?.toArray().flat() as [
       number,
       number,
       number,
@@ -415,7 +422,7 @@ export default function MainMap({
                 0.6,
               ],
             }}
-            interactive={true}
+            // interactive={true}
           />
         </Source>
       )}
@@ -466,7 +473,7 @@ export default function MainMap({
               ],
               "line-width": ["interpolate", ["linear"], ["zoom"], 0, 2, 22, 9],
             }}
-            interactive={true}
+            // interactive={true}
           />
         </Source>
       )}

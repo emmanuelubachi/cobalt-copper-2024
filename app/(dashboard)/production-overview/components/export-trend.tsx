@@ -1,4 +1,3 @@
-import { Card } from "@/components/ui/card";
 import { LegendAreaChart } from "@/components/charts/shadcn/area-chart/legend-area-chart";
 
 export const exportTrendChartConfig = {

@@ -15,7 +15,7 @@ import inactive_sites from "@/data/map/mining_activities/inactive_sites.json";
 import processing_entities from "@/data/map/additional_info/processing_entities.json";
 
 import { PopupContent } from "./components/popupContent";
-import { ArtisanalSiteContent } from "./components/mining-activites/artisanal-content";
+import { ArtisanalSiteContent } from "./components/mining-activities/artisanal-content";
 import { ArtisanalSite, ProcessingEntities } from "@/types";
 
 type MapContentsProps = {
@@ -158,7 +158,7 @@ export default function MapContents({ reference }: MapContentsProps) {
     setProcessingSupercluster(processingIndex);
 
     if (mapRef.current) {
-      const bounds = mapRef.current.getBounds().toArray().flat() as [
+      const bounds = mapRef.current.getBounds()?.toArray().flat() as [
         number,
         number,
         number,
