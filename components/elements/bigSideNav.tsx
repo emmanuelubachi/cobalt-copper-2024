@@ -5,7 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { useTheme } from "next-themes";
 
-import { PanelLeft, Languages, ChevronRight } from "lucide-react";
+import { Languages, ChevronRight } from "lucide-react";
 import {
   Sheet,
   SheetClose,

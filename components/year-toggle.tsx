@@ -1,5 +1,4 @@
 "use client";
-import React, { useEffect, useState } from "react";
 import { ToggleGroup, ToggleGroupItem } from "./ui/toggle-group";
 import { cn } from "@/lib/utils";
 
@@ -59,7 +58,7 @@ export default function YearToggle({
               aria-label={`Toggle year ${year}`}
               disabled={missingYears.includes(year)}
               className={cn(
-                "__button_pressed text-2xs rounded-md bg-transparent px-2 py-0 text-foreground/70 sm:text-xs",
+                "__button_pressed rounded-md bg-transparent px-2 py-0 text-2xs text-foreground/70 sm:text-xs",
                 "data-[state=on]:bg-primary data-[state=on]:font-black data-[state=on]:text-white data-[state=on]:ring-1 data-[state=on]:ring-neutral-200",
                 "hover:data-[state=on]:bg-primary data-[state=off]:hover:text-primary data-[state=on]:hover:text-white",
                 "dark:bg-muted/80 dark:ring-0 dark:data-[state=on]:bg-background data-[state=off]:dark:hover:text-foreground",
@@ -95,7 +94,7 @@ export default function YearToggle({
             size="sm"
             aria-label={`Toggle year ${year}`}
             className={cn(
-              "__button_pressed text-2xs rounded-md bg-transparent px-2 py-0 text-foreground/70 sm:text-xs",
+              "__button_pressed rounded-md bg-transparent px-2 py-0 text-2xs text-foreground/70 sm:text-xs",
               "data-[state=on]:bg-primary data-[state=on]:font-black data-[state=on]:text-white data-[state=on]:ring-1 data-[state=on]:ring-neutral-200",
               "hover:data-[state=on]:bg-primary data-[state=off]:hover:text-primary data-[state=on]:hover:text-white",
               "dark:bg-muted/80 dark:ring-0 dark:data-[state=on]:bg-background data-[state=off]:dark:hover:text-foreground",

@@ -1,11 +1,7 @@
 "use client";
 
-import * as React from "react";
-import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
-
 import { MoonIcon, SunIcon } from "lucide-react";
-
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -13,8 +9,6 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-
-// import { Toggle } from "@/components/ui/toggle";
 
 export default function ModeToggle() {
   const { theme, setTheme } = useTheme();
@@ -58,43 +52,3 @@ export default function ModeToggle() {
     </DropdownMenu>
   );
 }
-
-// export default function ModeToggle() {
-//   const { theme, setTheme, systemTheme } = useTheme();
-//   const [isMounted, setIsMounted] = useState(false);
-
-//   useEffect(() => {
-//     setIsMounted(true);
-//   }, []);
-
-//   const isDark =
-//     theme === "dark" || (theme === "system" && systemTheme === "dark");
-
-//   const toggleTheme = () => {
-//     if (theme === "light" || (theme === "system" && systemTheme === "light")) {
-//       setTheme("dark");
-//     } else {
-//       setTheme("light");
-//     }
-//   };
-
-//   if (!isMounted) {
-//     return null;
-//   }
-
-//   return (
-//     <Toggle
-//       size="sm"
-//       className="__muted h-9"
-//       variant={"__btn_outline"}
-//       aria-label="Toggle theme"
-//       onPressedChange={toggleTheme}
-//     >
-//       {isDark ? (
-//         <MoonIcon className="h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-//       ) : (
-//         <SunIcon className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-//       )}
-//     </Toggle>
-//   );
-// }
