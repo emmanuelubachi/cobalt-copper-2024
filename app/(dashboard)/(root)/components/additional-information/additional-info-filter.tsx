@@ -130,7 +130,7 @@ export function SocioEconomic() {
   return (
     <div className="__toggle_container border-lime-500">
       <div>
-        <h6 className="text-xs font-medium">Socio Economic Projects</h6>
+        <h6 className="text-xs font-medium">Socio-Economic Projects</h6>
       </div>
       <div className="flex gap-2">
         <Toggle

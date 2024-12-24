@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Link from "next/link";
-import Flags from "country-flag-icons/react/3x2";
+import * as Flags from "country-flag-icons/react/3x2";
 import { ArrowUpRight } from "lucide-react";
 
 import useFilterStore from "@/store/filterStore";
@@ -25,7 +25,7 @@ export default function GridList({ data }: { data: CompaniesListProps }) {
     <div className="space-y-2">
       <div className="mt-2 gap-3 space-y-6 sm:mt-4">
         {data.map((member) => (
-          <>
+          <div key={member.value} className="space-y-4 sm:space-y-6">
             <div className="w-full" key={member.value}>
               <div className="flex items-center space-x-2">
                 <div className="flex items-center">
@@ -63,7 +63,7 @@ export default function GridList({ data }: { data: CompaniesListProps }) {
               </div>
             </div>
             <Separator />
-          </>
+          </div>
         ))}
       </div>
     </div>
