@@ -155,13 +155,13 @@ export function SocioEconomic() {
   );
 }
 
-export function EnvironmantalImpact() {
+export function EnvironmentalImpact() {
   const { isEnvironmentalImpactVisible, toggleEnvironmentalImpact } =
     useMarkerVisibilityStore();
   return (
     <div className="__toggle_container border-red-500">
       <div>
-        <h6 className="text-xs font-medium">Environmantal Impact</h6>
+        <h6 className="text-xs font-medium">Environmental Impact</h6>
       </div>
       <div className="flex gap-2">
         <Toggle

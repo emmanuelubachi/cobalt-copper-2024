@@ -5,9 +5,9 @@ import useMapFilterStore from "@/store/mapFilterStore";
 import CheckBoxTreeWithFilter from "@/components/m-ui/checkbox-tree";
 import useUpdateSearchParams from "@/hooks/useUpdateSearchParams";
 import { Toggle } from "@/components/ui/toggle";
-import { IndustralProjectsNode } from "@/constants/application";
+import { IndustrialProjectsNode } from "@/constants/application";
 
-const nodes = IndustralProjectsNode;
+const nodes = IndustrialProjectsNode;
 
 const expanded = [""];
 
@@ -130,10 +130,10 @@ export function ArtisanalSites() {
   );
 }
 
-export function IndustralProjects() {
+export function IndustrialProjects() {
   return (
     <div className="flex flex-col gap-2">
-      <h6 className="text-p font-semibold">Industral Projects</h6>
+      <h6 className="text-p font-semibold">Industrial Projects</h6>
       <CheckBoxTreeWithFilter nodes={nodes} expandedNodes={expanded} />
     </div>
   );

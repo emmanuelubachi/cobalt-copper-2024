@@ -20,7 +20,7 @@ import Supercluster, { AnyProps, PointFeature } from "supercluster";
 import useMapDetailsStore from "@/store/mapDetailsStore";
 import useDeviceType from "@/hooks/useDeviceType";
 import MapContents from "./mapContents";
-import { IndustrialProjectsContent } from "./components/mining-activites/industral-content";
+import { IndustrialProjectsContent } from "./components/mining-activities/industral-content";
 import { GeoJSONFeatureCollection } from "@/types/geojson";
 import { GeoJSONExportPort, IndustralProjectDetailsProps } from "@/types/map";
 import useUpdateSearchParams from "@/hooks/useUpdateSearchParams";

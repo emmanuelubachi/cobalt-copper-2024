@@ -352,7 +352,7 @@ export const CompaniesList = [
   },
 ];
 
-export const IndustralProjectsNode = [
+export const IndustrialProjectsNode = [
   {
     value: "Australia",
     label: "Australia",
