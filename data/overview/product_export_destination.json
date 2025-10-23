@@ -1807,5 +1807,258 @@
     "quantity": "11719.0027686",
     "transaction": "37539144.5382",
     "product": "Copper"
+  },
+   {
+    "year": "2024",
+    "destination": "Angola",
+    "short_destination": "Angola",
+    "long_destination": "Angola",
+    "quantity": "15565.021",
+    "transaction": "145969221.68",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "China",
+    "short_destination": "China",
+    "long_destination": "China",
+    "quantity": "369069.338",
+    "transaction": "3343370493.2",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "China",
+    "short_destination": "China",
+    "long_destination": "China",
+    "quantity": "2427801.6785",
+    "transaction": "17715002853.56",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Eswatini",
+    "short_destination": "Eswatini",
+    "long_destination": "Eswatini",
+    "quantity": "7018.587",
+    "transaction": "11646025.0",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "Eswatini",
+    "short_destination": "Eswatini",
+    "long_destination": "Eswatini",
+    "quantity": "3838.506",
+    "transaction": "34859975.0",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Hong Kong",
+    "short_destination": "Hong Kong",
+    "long_destination": "Hong\u00a0Kong",
+    "quantity": "68361.785",
+    "transaction": "418970036.0",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "Hong Kong",
+    "short_destination": "Hong Kong",
+    "long_destination": "Hong\u00a0Kong",
+    "quantity": "271438.086",
+    "transaction": "2502273439.0",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "India",
+    "short_destination": "India",
+    "long_destination": "India",
+    "quantity": "1754.638",
+    "transaction": "16205078.0",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Kenya",
+    "short_destination": "Kenya",
+    "long_destination": "Kenya",
+    "quantity": "4620.369",
+    "transaction": "44872058.160000004",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Mozambique",
+    "short_destination": "Mozambique",
+    "long_destination": "Mozambique",
+    "quantity": "83189.419",
+    "transaction": "716920855.5600001",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "Mozambique",
+    "short_destination": "Mozambique",
+    "long_destination": "Mozambique",
+    "quantity": "106704.97",
+    "transaction": "973033485.08",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Namibia",
+    "short_destination": "Namibia",
+    "long_destination": "Namibia",
+    "quantity": "3511.661",
+    "transaction": "28487568.240000002",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "Namibia",
+    "short_destination": "Namibia",
+    "long_destination": "Namibia",
+    "quantity": "570.937",
+    "transaction": "5470908.48",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Serbia",
+    "short_destination": "Serbia",
+    "long_destination": "Serbia",
+    "quantity": "22881.748",
+    "transaction": "70964494.0",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Singapore",
+    "short_destination": "Singapore",
+    "long_destination": "Singapore",
+    "quantity": "4865.425",
+    "transaction": "27516221.0",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "Singapore",
+    "short_destination": "Singapore",
+    "long_destination": "Singapore",
+    "quantity": "192762.651",
+    "transaction": "1479899936.0",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "South Africa",
+    "short_destination": "South Africa",
+    "long_destination": "South\u00a0Africa",
+    "quantity": "74979.987",
+    "transaction": "642311608.84",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "South Africa",
+    "short_destination": "South Africa",
+    "long_destination": "South\u00a0Africa",
+    "quantity": "96943.941",
+    "transaction": "603473138.28",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "South Korea",
+    "short_destination": "South Korea",
+    "long_destination": "South\u00a0Korea",
+    "quantity": "339.907",
+    "transaction": "2298542.0",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "Switzerland",
+    "short_destination": "Switzerland",
+    "long_destination": "Switzerland",
+    "quantity": "16713.178",
+    "transaction": "38338189.0",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "Switzerland",
+    "short_destination": "Switzerland",
+    "long_destination": "Switzerland",
+    "quantity": "89436.208",
+    "transaction": "673862721.84",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Tanzania",
+    "short_destination": "Tanzania",
+    "long_destination": "Tanzania",
+    "quantity": "177843.367",
+    "transaction": "1653899850.44",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Uganda",
+    "short_destination": "Uganda",
+    "long_destination": "Uganda",
+    "quantity": "120.0",
+    "transaction": "1019400.0",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "United Arab Emirates",
+    "short_destination": "UAE",
+    "long_destination": "United\u00a0Arab\u00a0Emirates",
+    "quantity": "13107.25",
+    "transaction": "63854436.0",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "United Arab Emirates",
+    "short_destination": "UAE",
+    "long_destination": "United\u00a0Arab\u00a0Emirates",
+    "quantity": "119924.188",
+    "transaction": "1100524965.0",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Vietnam",
+    "short_destination": "Vietnam",
+    "long_destination": "Vietnam",
+    "quantity": "78613.513",
+    "transaction": "736543437.0",
+    "product": "Copper"
+  },
+  {
+    "year": "2024",
+    "destination": "Zambia",
+    "short_destination": "Zambia",
+    "long_destination": "Zambia",
+    "quantity": "38283.947",
+    "transaction": "326603816.0",
+    "product": "Cobalt"
+  },
+  {
+    "year": "2024",
+    "destination": "Zambia",
+    "short_destination": "Zambia",
+    "long_destination": "Zambia",
+    "quantity": "33725.158",
+    "transaction": "91323734.0",
+    "product": "Copper"
   }
+
 ]

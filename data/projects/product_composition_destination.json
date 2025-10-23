@@ -18858,5 +18858,1705 @@
     "product": "Copper",
     "destination": "Switzerland",
     "_project_id": "thomas"
+  },
+  {
+    "project": "AMICAL KAKANA MINING SPRL",
+    "year": "2024",
+    "concentration": "Blister Copper",
+    "quantity": "90.0",
+    "transaction": "687594.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "amical"
+  },
+  {
+    "project": "AMICAL KAKANA MINING SPRL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "231.0",
+    "transaction": "237957.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "amical"
+  },
+  {
+    "project": "BOSS MINING SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "715.913",
+    "transaction": "6652041.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "boss"
+  },
+  {
+    "project": "BROTHER MINING SASU",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "1367.25",
+    "transaction": "7392988.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "brother"
+  },
+  {
+    "project": "BROTHER MINING SASU",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "3625.5",
+    "transaction": "19444068.0",
+    "product": "Cobalt",
+    "destination": "Hong Kong",
+    "_project_id": "brother"
+  },
+  {
+    "project": "BROTHER MINING SASU",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "30025.729",
+    "transaction": "279075854.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "brother"
+  },
+  {
+    "project": "BROTHER MINING SASU",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "20290.371",
+    "transaction": "190311163.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "brother"
+  },
+  {
+    "project": "CHENGTUN CONGO RESSOURCES SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "5401.25",
+    "transaction": "31728952.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "ccr"
+  },
+  {
+    "project": "CHENGTUN CONGO RESSOURCES SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "66074.898",
+    "transaction": "602783717.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "ccr"
+  },
+  {
+    "project": "CONGO DONGFANG INTERNATIONAL MINING",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "2801.3999999999996",
+    "transaction": "20601494.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "cdm"
+  },
+  {
+    "project": "CONGO DONGFANG INTERNATIONAL MINING",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "57331.097",
+    "transaction": "525716264.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "cdm"
+  },
+  {
+    "project": "CHEMICAL OF AFRICA SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "5561.25",
+    "transaction": "29919614.0",
+    "product": "Cobalt",
+    "destination": "United Arab Emirates",
+    "_project_id": "chemaf"
+  },
+  {
+    "project": "CHEMICAL OF AFRICA SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "17582.5",
+    "transaction": "167639011.0",
+    "product": "Copper",
+    "destination": "United Arab Emirates",
+    "_project_id": "chemaf"
+  },
+  {
+    "project": "CONGO JINJUN CHENG",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "22233.498",
+    "transaction": "204576207.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "cjcmc"
+  },
+  {
+    "project": "SOCIETE CNMC CONGO COMPAGNIE MINIER",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "15686.153",
+    "transaction": "147253300.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "cnmc"
+  },
+  {
+    "project": "SOCIETE CNMC CONGO COMPAGNIE MINIER",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "445.646",
+    "transaction": "4088715.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "cnmc"
+  },
+  {
+    "project": "SOCIETE CNMC CONGO COMPAGNIE MINIER",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "4189.991",
+    "transaction": "36387486.0",
+    "product": "Copper",
+    "destination": "Switzerland",
+    "_project_id": "cnmc"
+  },
+  {
+    "project": "COMPAGNIE MINIERE DE KAMBOVE SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "9503.567",
+    "transaction": "55484898.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "comika"
+  },
+  {
+    "project": "COMPAGNIE MINIERE DE KAMBOVE SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "905.361",
+    "transaction": "5347777.0",
+    "product": "Cobalt",
+    "destination": "Switzerland",
+    "_project_id": "comika"
+  },
+  {
+    "project": "COMPAGNIE MINIERE DE KAMBOVE SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "36271.605",
+    "transaction": "338779175.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "comika"
+  },
+  {
+    "project": "COMPAGNIE MINIERE DE KAMBOVE SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "185.43",
+    "transaction": "1804593.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "comika"
+  },
+  {
+    "project": "COMPAGNIE MINIERE DE KAMBOVE SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "11574.44",
+    "transaction": "109017185.0",
+    "product": "Copper",
+    "destination": "Switzerland",
+    "_project_id": "comika"
+  },
+  {
+    "project": "COMPAGNIE MINIERE DE LUISHA",
+    "year": "2024",
+    "concentration": "Cobalt-Copper Hydroxide",
+    "quantity": "861.986",
+    "transaction": "6140313.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "comilu"
+  },
+  {
+    "project": "COMPAGNIE MINIERE DE LUISHA",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "22883.362",
+    "transaction": "210828558.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "comilu"
+  },
+  {
+    "project": "LA COMPAGNIE MINIERE DE MUSONOIE GL",
+    "year": "2024",
+    "concentration": "Blister Copper",
+    "quantity": "19837.232",
+    "transaction": "158318061.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "commus"
+  },
+  {
+    "project": "LA COMPAGNIE MINIERE DE MUSONOIE GL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "2601.823",
+    "transaction": "18253538.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "commus"
+  },
+  {
+    "project": "LA COMPAGNIE MINIERE DE MUSONOIE GL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "24049.096",
+    "transaction": "82528169.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "commus"
+  },
+  {
+    "project": "LA COMPAGNIE MINIERE DE MUSONOIE GL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "2036.302",
+    "transaction": "6719462.0",
+    "product": "Copper",
+    "destination": "South Africa",
+    "_project_id": "commus"
+  },
+  {
+    "project": "LA COMPAGNIE MINIERE DE MUSONOIE GL",
+    "year": "2024",
+    "concentration": "Copper Mattes",
+    "quantity": "3221.564",
+    "transaction": "15226559.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "commus"
+  },
+  {
+    "project": "LA COMPAGNIE MINIERE DE MUSONOIE GL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "51324.032",
+    "transaction": "471836096.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "commus"
+  },
+  {
+    "project": "DIVINE LAND MINING SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "748.283",
+    "transaction": "3367458.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "divine"
+  },
+  {
+    "project": "DIVINE LAND MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "9976.003",
+    "transaction": "91172102.0",
+    "product": "Copper",
+    "destination": "Switzerland",
+    "_project_id": "divine"
+  },
+  {
+    "project": "EPSILON SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1680.295",
+    "transaction": "15557853.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "epsilon"
+  },
+  {
+    "project": "EVERBRIGHT MINING SARL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "22000.0",
+    "transaction": "69789880.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "everbright"
+  },
+  {
+    "project": "EXCELLEN MINERALS",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "140.0",
+    "transaction": "745140.0",
+    "product": "Cobalt",
+    "destination": "Hong Kong",
+    "_project_id": "excellen"
+  },
+  {
+    "project": "EXCELLEN MINERALS",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1033.685",
+    "transaction": "9390094.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "excellen"
+  },
+  {
+    "project": "EXCELLEN MINERALS",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "28890.532",
+    "transaction": "269264699.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "excellen"
+  },
+  {
+    "project": "FRONTIER SPRL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "8784.64",
+    "transaction": "15102691.0",
+    "product": "Copper",
+    "destination": "Zambia",
+    "_project_id": "frontier"
+  },
+  {
+    "project": "LA GENERALE DES CARRIERES ET DES MI",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "3006.423",
+    "transaction": "28272220.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "gcm"
+  },
+  {
+    "project": "LA GENERALE DES CARRIERES ET DES MI",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1846.663",
+    "transaction": "17603565.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "gcm"
+  },
+  {
+    "project": "LA GENERALE DES CARRIERES ET DES MI",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "589.51",
+    "transaction": "4932177.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "gcm"
+  },
+  {
+    "project": "LA GENERALE DES CARRIERES ET DES MI",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "506.522",
+    "transaction": "4404547.0",
+    "product": "Copper",
+    "destination": "Switzerland",
+    "_project_id": "gcm"
+  },
+  {
+    "project": "GOLDEN AFRICAN RESOURCES SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "8479.0",
+    "transaction": "77954096.0",
+    "product": "Copper",
+    "destination": "United Arab Emirates",
+    "_project_id": "golden"
+  },
+  {
+    "project": "HANRUI METAL CONGO SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "355.70000000000005",
+    "transaction": "1966697.0",
+    "product": "Cobalt",
+    "destination": "Singapore",
+    "_project_id": "hmc"
+  },
+  {
+    "project": "HANRUI METAL CONGO SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "20567.894",
+    "transaction": "187644365.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "hmc"
+  },
+  {
+    "project": "HANRUI METAL CONGO SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "17318.118",
+    "transaction": "158683785.0",
+    "product": "Copper",
+    "destination": "South Africa",
+    "_project_id": "hmc"
+  },
+  {
+    "project": "CNMC HUACHIN MABENDE MINING SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "377.693",
+    "transaction": "3430990.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "huachin_mabende"
+  },
+  {
+    "project": "CNMC HUACHIN MABENDE MINING SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "21827.789",
+    "transaction": "202593122.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "huachin_mabende"
+  },
+  {
+    "project": "CNMC HUACHIN MABENDE MINING SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "352.527",
+    "transaction": "2995506.0",
+    "product": "Copper",
+    "destination": "Tanzania",
+    "_project_id": "huachin_mabende"
+  },
+  {
+    "project": "HUACHIN METAL LEACH SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "269.503",
+    "transaction": "1294431.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "huachin_metal"
+  },
+  {
+    "project": "HUACHIN METAL LEACH SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "446.875",
+    "transaction": "2015039.0",
+    "product": "Cobalt",
+    "destination": "Hong Kong",
+    "_project_id": "huachin_metal"
+  },
+  {
+    "project": "HUACHIN METAL LEACH SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1354.256",
+    "transaction": "12303262.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "huachin_metal"
+  },
+  {
+    "project": "HUACHIN METAL LEACH SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "17950.564",
+    "transaction": "166004345.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "huachin_metal"
+  },
+  {
+    "project": "JIN XUN CONGO MINING SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "156.30599999999998",
+    "transaction": "1023860.0",
+    "product": "Cobalt",
+    "destination": "Singapore",
+    "_project_id": "jxcom"
+  },
+  {
+    "project": "JIN XUN CONGO MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "12456.571",
+    "transaction": "117023752.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "jxcom"
+  },
+  {
+    "project": "JIN XUN CONGO MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "3056.477",
+    "transaction": "26852642.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "jxcom"
+  },
+  {
+    "project": "SOCIETE KAI PENG MINING",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "78613.513",
+    "transaction": "736543437.0",
+    "product": "Copper",
+    "destination": "Vietnam",
+    "_project_id": "kaipeng"
+  },
+  {
+    "project": "KALONGWE MINING S.A",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "22185.100000000002",
+    "transaction": "131285582.0",
+    "product": "Cobalt",
+    "destination": "Hong Kong",
+    "_project_id": "kalongwe"
+  },
+  {
+    "project": "KALONGWE MINING S.A",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "54314.843",
+    "transaction": "495921582.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "kalongwe"
+  },
+  {
+    "project": "KAMBOVE MINING SAS",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "2031.134",
+    "transaction": "15447341.0",
+    "product": "Cobalt",
+    "destination": "Hong Kong",
+    "_project_id": "kambove"
+  },
+  {
+    "project": "KAMBOVE MINING SAS",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1816.227",
+    "transaction": "16077856.0",
+    "product": "Copper",
+    "destination": "Eswatini",
+    "_project_id": "kambove"
+  },
+  {
+    "project": "KAMBOVE MINING SAS",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "5415.455",
+    "transaction": "49826860.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "kambove"
+  },
+  {
+    "project": "KAMBOVE MINING SAS",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "4688.686",
+    "transaction": "40335108.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "kambove"
+  },
+  {
+    "project": "KAMBOVE MINING SAS",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "20930.452",
+    "transaction": "202722335.0",
+    "product": "Copper",
+    "destination": "Switzerland",
+    "_project_id": "kambove"
+  },
+  {
+    "project": "KAMOA COPPER SA",
+    "year": "2024",
+    "concentration": "Blister Copper",
+    "quantity": "89370.238",
+    "transaction": "772805717.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "kamoa"
+  },
+  {
+    "project": "KAMOA COPPER SA",
+    "year": "2024",
+    "concentration": "Blister Copper",
+    "quantity": "33.49",
+    "transaction": "280913.0",
+    "product": "Copper",
+    "destination": "South Africa",
+    "_project_id": "kamoa"
+  },
+  {
+    "project": "KAMOA COPPER SA",
+    "year": "2024",
+    "concentration": "Blister Copper",
+    "quantity": "31.549",
+    "transaction": "264632.0",
+    "product": "Copper",
+    "destination": "Tanzania",
+    "_project_id": "kamoa"
+  },
+  {
+    "project": "KAMOA COPPER SA",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "670711.6715",
+    "transaction": "1983020329.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "kamoa"
+  },
+  {
+    "project": "KAMOA COPPER SA",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "22881.748",
+    "transaction": "70964494.0",
+    "product": "Copper",
+    "destination": "Serbia",
+    "_project_id": "kamoa"
+  },
+  {
+    "project": "KAMOA COPPER SA",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "44835.818",
+    "transaction": "134742204.0",
+    "product": "Copper",
+    "destination": "South Africa",
+    "_project_id": "kamoa"
+  },
+  {
+    "project": "KAMOA COPPER SA",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "23904.979",
+    "transaction": "72223559.0",
+    "product": "Copper",
+    "destination": "Zambia",
+    "_project_id": "kamoa"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "33.44",
+    "transaction": "249901.2",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "69650.391",
+    "transaction": "605004923.52",
+    "product": "Cobalt",
+    "destination": "Mozambique",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "27786.339",
+    "transaction": "239637034.44000003",
+    "product": "Cobalt",
+    "destination": "South Africa",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Copper Scrap",
+    "quantity": "281.878",
+    "transaction": "2463382.8000000003",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Copper Scrap",
+    "quantity": "157.809",
+    "transaction": "1455117.4800000002",
+    "product": "Copper",
+    "destination": "South Africa",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Copper Scrap",
+    "quantity": "1499.379",
+    "transaction": "12996008.280000001",
+    "product": "Copper",
+    "destination": "Tanzania",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1951.019",
+    "transaction": "17716988.52",
+    "product": "Copper",
+    "destination": "Angola",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1220.041",
+    "transaction": "10996178.76",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "4620.369",
+    "transaction": "44872058.160000004",
+    "product": "Copper",
+    "destination": "Kenya",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "73510.186",
+    "transaction": "665251250.4000001",
+    "product": "Copper",
+    "destination": "Mozambique",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "570.937",
+    "transaction": "5470908.48",
+    "product": "Copper",
+    "destination": "Namibia",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "3427.159",
+    "transaction": "31716991.8",
+    "product": "Copper",
+    "destination": "South Africa",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "102.394",
+    "transaction": "859974.8400000001",
+    "product": "Copper",
+    "destination": "Switzerland",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "104124.985",
+    "transaction": "967786176.96",
+    "product": "Copper",
+    "destination": "Tanzania",
+    "_project_id": "kcc"
+  },
+  {
+    "project": "KISANFU MINING",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "218827.341",
+    "transaction": "2258771309.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "kfm"
+  },
+  {
+    "project": "KISANFU MINING",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "199532.566",
+    "transaction": "1852428207.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "kfm"
+  },
+  {
+    "project": "KISANFU MINING",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "65.531",
+    "transaction": "605932.0",
+    "product": "Copper",
+    "destination": "Zambia",
+    "_project_id": "kfm"
+  },
+  {
+    "project": "KINSENDA COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "45870.0",
+    "transaction": "134610162.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "kicc"
+  },
+  {
+    "project": "KINSENDA COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "25482.0",
+    "transaction": "76920310.0",
+    "product": "Copper",
+    "destination": "Switzerland",
+    "_project_id": "kicc"
+  },
+  {
+    "project": "KINSENDA COPPER COMPANY SARL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "900.0",
+    "transaction": "2699429.0",
+    "product": "Copper",
+    "destination": "Zambia",
+    "_project_id": "kicc"
+  },
+  {
+    "project": "KISANFU MINING SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "4546.0",
+    "transaction": "20614184.0",
+    "product": "Cobalt",
+    "destination": "United Arab Emirates",
+    "_project_id": "kimin"
+  },
+  {
+    "project": "KISANFU MINING SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "29517.0",
+    "transaction": "271006599.0",
+    "product": "Copper",
+    "destination": "United Arab Emirates",
+    "_project_id": "kimin"
+  },
+  {
+    "project": "LA MINIERE DE KALUNKUNDI",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "14578.65",
+    "transaction": "117805628.0",
+    "product": "Cobalt",
+    "destination": "Hong Kong",
+    "_project_id": "lamikal"
+  },
+  {
+    "project": "LA MINIERE DE KALUNKUNDI",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "51687.917",
+    "transaction": "481481425.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "lamikal"
+  },
+  {
+    "project": "LUALABA COPPER SMELTER SAS",
+    "year": "2024",
+    "concentration": "Black Copper",
+    "quantity": "29739.628",
+    "transaction": "243696513.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "lcs"
+  },
+  {
+    "project": "LUALABA COPPER SMELTER SAS",
+    "year": "2024",
+    "concentration": "Blister Copper",
+    "quantity": "7595.948",
+    "transaction": "58315206.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "lcs"
+  },
+  {
+    "project": "LONG FEI MINING",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "33074.724",
+    "transaction": "306149211.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "long_fei"
+  },
+  {
+    "project": "LONG FEI MINING",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "32.064",
+    "transaction": "312452.0",
+    "product": "Copper",
+    "destination": "South Africa",
+    "_project_id": "long_fei"
+  },
+  {
+    "project": "LONG FEI MINING",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "36.171",
+    "transaction": "320716.0",
+    "product": "Copper",
+    "destination": "Tanzania",
+    "_project_id": "long_fei"
+  },
+  {
+    "project": "LUILU RESSOURCES SAS",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "10967.449999999999",
+    "transaction": "49922384.0",
+    "product": "Cobalt",
+    "destination": "Hong Kong",
+    "_project_id": "lr_sas"
+  },
+  {
+    "project": "LUILU RESSOURCES SAS",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "42156.355",
+    "transaction": "390267789.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "lr_sas"
+  },
+  {
+    "project": "COMPAGNIE DE TRAITEMENT DES REJETS KINGYAMBO",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "29911.055",
+    "transaction": "256382845.0",
+    "product": "Cobalt",
+    "destination": "South Africa",
+    "_project_id": "metalkol"
+  },
+  {
+    "project": "COMPAGNIE DE TRAITEMENT DES REJETS KINGYAMBO",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "38283.947",
+    "transaction": "326603816.0",
+    "product": "Cobalt",
+    "destination": "Zambia",
+    "_project_id": "metalkol"
+  },
+  {
+    "project": "COMPAGNIE DE TRAITEMENT DES REJETS KINGYAMBO",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "27526.829",
+    "transaction": "255067196.0",
+    "product": "Copper",
+    "destination": "Mozambique",
+    "_project_id": "metalkol"
+  },
+  {
+    "project": "COMPAGNIE DE TRAITEMENT DES REJETS KINGYAMBO",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "29103.181",
+    "transaction": "269562213.0",
+    "product": "Copper",
+    "destination": "South Africa",
+    "_project_id": "metalkol"
+  },
+  {
+    "project": "COMPAGNIE DE TRAITEMENT DES REJETS KINGYAMBO",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "45242.2",
+    "transaction": "421144220.0",
+    "product": "Copper",
+    "destination": "Tanzania",
+    "_project_id": "metalkol"
+  },
+  {
+    "project": "COMPAGNIE DE TRAITEMENT DES REJETS KINGYAMBO",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "70.00800000000001",
+    "transaction": "692123.0",
+    "product": "Copper",
+    "destination": "Zambia",
+    "_project_id": "metalkol"
+  },
+  {
+    "project": "LA MINIERE DE KASOMBO",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "981.0",
+    "transaction": "6250896.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "mikas"
+  },
+  {
+    "project": "LA MINIERE DE KASOMBO",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "25582.657",
+    "transaction": "234724651.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "mikas"
+  },
+  {
+    "project": "MACROLINK JIAYUAN MINING SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1582.742",
+    "transaction": "14667074.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "mjm"
+  },
+  {
+    "project": "MACROLINK JIAYUAN MINING SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "13702.288",
+    "transaction": "126485051.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "mjm"
+  },
+  {
+    "project": "LA MINIERE DE KALUNBWE MYUNGA",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "18029.462",
+    "transaction": "164997212.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "mkm"
+  },
+  {
+    "project": "METAL MINES SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "226.38000000000002",
+    "transaction": "1020943.0",
+    "product": "Cobalt",
+    "destination": "Singapore",
+    "_project_id": "mm"
+  },
+  {
+    "project": "METAL MINES SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "17981.406",
+    "transaction": "166480436.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "mm"
+  },
+  {
+    "project": "MMG KINSEVERE SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "4472.575",
+    "transaction": "29379403.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "mmg"
+  },
+  {
+    "project": "MMG KINSEVERE SARL",
+    "year": "2024",
+    "concentration": "Cobalt-Copper Hydroxide",
+    "quantity": "2729.988",
+    "transaction": "20824087.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "mmg"
+  },
+  {
+    "project": "MMG KINSEVERE SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "44120.235",
+    "transaction": "405750543.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "mmg"
+  },
+  {
+    "project": "MINERAL METAL TECHNOLOGY SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "6352.5",
+    "transaction": "34741264.0",
+    "product": "Cobalt",
+    "destination": "Hong Kong",
+    "_project_id": "mmt"
+  },
+  {
+    "project": "MINERAL METAL TECHNOLOGY SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "26392.331",
+    "transaction": "243785373.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "mmt"
+  },
+  {
+    "project": "MUTANDA MINING SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "13539.028",
+    "transaction": "111915932.04",
+    "product": "Cobalt",
+    "destination": "Mozambique",
+    "_project_id": "mumi"
+  },
+  {
+    "project": "MUTANDA MINING SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "3511.661",
+    "transaction": "28487568.240000002",
+    "product": "Cobalt",
+    "destination": "Namibia",
+    "_project_id": "mumi"
+  },
+  {
+    "project": "MUTANDA MINING SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "17282.593",
+    "transaction": "146291729.4",
+    "product": "Cobalt",
+    "destination": "South Africa",
+    "_project_id": "mumi"
+  },
+  {
+    "project": "MUTANDA MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1446.594",
+    "transaction": "13564127.16",
+    "product": "Copper",
+    "destination": "Angola",
+    "_project_id": "mumi"
+  },
+  {
+    "project": "MUTANDA MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "5667.955",
+    "transaction": "52715038.68",
+    "product": "Copper",
+    "destination": "Mozambique",
+    "_project_id": "mumi"
+  },
+  {
+    "project": "MUTANDA MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "26556.556",
+    "transaction": "248392591.20000002",
+    "product": "Copper",
+    "destination": "Tanzania",
+    "_project_id": "mumi"
+  },
+  {
+    "project": "MUPINE COPPER CORPORATION SAS",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1754.638",
+    "transaction": "16205078.0",
+    "product": "Copper",
+    "destination": "India",
+    "_project_id": "mupine"
+  },
+  {
+    "project": "NEW MINERALS INVESTMENT",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "369.6",
+    "transaction": "2060244.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "nmi"
+  },
+  {
+    "project": "NEW MINERALS INVESTMENT",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "41947.178",
+    "transaction": "385019776.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "nmi"
+  },
+  {
+    "project": "NATIONAL METAL  SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "2055.0",
+    "transaction": "19386679.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "nms"
+  },
+  {
+    "project": "OM METAL RESSOURCES SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "1061.0",
+    "transaction": "9367394.0",
+    "product": "Copper",
+    "destination": "United Arab Emirates",
+    "_project_id": "omr"
+  },
+  {
+    "project": "RUASHI MINING SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "3473.786",
+    "transaction": "22187777.0",
+    "product": "Cobalt",
+    "destination": "Singapore",
+    "_project_id": "ruashi"
+  },
+  {
+    "project": "RUASHI MINING SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "339.907",
+    "transaction": "2298542.0",
+    "product": "Cobalt",
+    "destination": "South Korea",
+    "_project_id": "ruashi"
+  },
+  {
+    "project": "RUASHI MINING SPRL",
+    "year": "2024",
+    "concentration": "Cobalt-Copper Concentrates",
+    "quantity": "7018.587",
+    "transaction": "11646025.0",
+    "product": "Cobalt",
+    "destination": "Eswatini",
+    "_project_id": "ruashi"
+  },
+  {
+    "project": "RUASHI MINING SPRL",
+    "year": "2024",
+    "concentration": "Cobalt-Copper Concentrates",
+    "quantity": "653.253",
+    "transaction": "1316944.0",
+    "product": "Cobalt",
+    "destination": "Singapore",
+    "_project_id": "ruashi"
+  },
+  {
+    "project": "RUASHI MINING SPRL",
+    "year": "2024",
+    "concentration": "Cobalt-Copper Concentrates",
+    "quantity": "15807.817",
+    "transaction": "32990412.0",
+    "product": "Cobalt",
+    "destination": "Switzerland",
+    "_project_id": "ruashi"
+  },
+  {
+    "project": "RUASHI MINING SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "22757.468",
+    "transaction": "208244636.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "ruashi"
+  },
+  {
+    "project": "RUBAMIN SARL",
+    "year": "2024",
+    "concentration": "Black Copper",
+    "quantity": "13982.456",
+    "transaction": "87941254.0",
+    "product": "Copper",
+    "destination": "United Arab Emirates",
+    "_project_id": "rubamin"
+  },
+  {
+    "project": "SABWE MINING SARLSABWE MINING SARL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "3059.363",
+    "transaction": "8940943.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "sabwe"
+  },
+  {
+    "project": "SABWE MINING SARLSABWE MINING SARL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "2169.354",
+    "transaction": "6788900.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "sabwe"
+  },
+  {
+    "project": "SABWE MINING SARLSABWE MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "18551.728",
+    "transaction": "170243644.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "sabwe"
+  },
+  {
+    "project": "SABWE MINING SARLSABWE MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "5332.823",
+    "transaction": "45248122.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "sabwe"
+  },
+  {
+    "project": "SOCIETE D'EXPLOITATION DE KIPOI",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "36683.926",
+    "transaction": "337801971.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "sek"
+  },
+  {
+    "project": "SHITURU MINING CORPORATION SPRL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "2798.268",
+    "transaction": "17001210.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "shituru"
+  },
+  {
+    "project": "SHITURU MINING CORPORATION SPRL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "25328.327",
+    "transaction": "234144145.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "shituru"
+  },
+  {
+    "project": "SINO CONGOLAISE DES MINES SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "8453.169",
+    "transaction": "85464722.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "sicomines"
+  },
+  {
+    "project": "SINO CONGOLAISE DES MINES SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "12005.394",
+    "transaction": "113114844.0",
+    "product": "Copper",
+    "destination": "Angola",
+    "_project_id": "sicomines"
+  },
+  {
+    "project": "SINO CONGOLAISE DES MINES SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "234197.035",
+    "transaction": "2142509690.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "sicomines"
+  },
+  {
+    "project": "SOCIETE MINIERE DE DEZIWA SAS",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "23102.365999999998",
+    "transaction": "174969518.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "somidez"
+  },
+  {
+    "project": "SOCIETE MINIERE DE DEZIWA SAS",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "89150.561",
+    "transaction": "822327182.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "somidez"
+  },
+  {
+    "project": "SOCIETE MINIERE DU KATANGA",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "3000.0",
+    "transaction": "13320638.0",
+    "product": "Cobalt",
+    "destination": "United Arab Emirates",
+    "_project_id": "somika"
+  },
+  {
+    "project": "SOCIETE MINIERE DU KATANGA",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "120.0",
+    "transaction": "1019400.0",
+    "product": "Copper",
+    "destination": "Uganda",
+    "_project_id": "somika"
+  },
+  {
+    "project": "SOCIETE MINIERE DU KATANGA",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "48386.232",
+    "transaction": "478091524.0",
+    "product": "Copper",
+    "destination": "United Arab Emirates",
+    "_project_id": "somika"
+  },
+  {
+    "project": "SOCIETE POUR LE TRAITEMENT DU TERRIL DE LUBUMBASHI",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "742.104",
+    "transaction": "6950158.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "stl"
+  },
+  {
+    "project": "SOCIETE POUR LE TRAITEMENT DU TERRIL DE LUBUMBASHI",
+    "year": "2024",
+    "concentration": "White Alloys",
+    "quantity": "1862.601",
+    "transaction": "5333594.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "stl"
+  },
+  {
+    "project": "TENGYUAN COBALT & COPPER RESOURCES",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "9169.702",
+    "transaction": "50042419.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "tcc"
+  },
+  {
+    "project": "TENGYUAN COBALT & COPPER RESOURCES",
+    "year": "2024",
+    "concentration": "Copper Scrap",
+    "quantity": "99.27",
+    "transaction": "843284.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "tcc"
+  },
+  {
+    "project": "TENGYUAN COBALT & COPPER RESOURCES",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "53380.383",
+    "transaction": "493086802.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "tcc"
+  },
+  {
+    "project": "TENKE FUNGURUME MINING",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "74576.827",
+    "transaction": "554092712.0",
+    "product": "Cobalt",
+    "destination": "China",
+    "_project_id": "tfm"
+  },
+  {
+    "project": "TENKE FUNGURUME MINING",
+    "year": "2024",
+    "concentration": "Copper Scrap",
+    "quantity": "606.1",
+    "transaction": "5965018.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "tfm"
+  },
+  {
+    "project": "TENKE FUNGURUME MINING",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "162.014",
+    "transaction": "1573262.0",
+    "product": "Copper",
+    "destination": "Angola",
+    "_project_id": "tfm"
+  },
+  {
+    "project": "TENKE FUNGURUME MINING",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "441290.484",
+    "transaction": "4097107211.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "tfm"
+  },
+  {
+    "project": "THOMAS MINING SARL",
+    "year": "2024",
+    "concentration": "Cobalt Hydroxide",
+    "quantity": "8034.576",
+    "transaction": "47563590.0",
+    "product": "Cobalt",
+    "destination": "Hong Kong",
+    "_project_id": "thomas"
+  },
+  {
+    "project": "THOMAS MINING SARL",
+    "year": "2024",
+    "concentration": "Copper Concentrates",
+    "quantity": "7011.004",
+    "transaction": "15532415.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "thomas"
+  },
+  {
+    "project": "THOMAS MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "4278.508",
+    "transaction": "38927890.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "thomas"
+  },
+  {
+    "project": "THOMAS MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "2022.279",
+    "transaction": "18782119.0",
+    "product": "Copper",
+    "destination": "Eswatini",
+    "_project_id": "thomas"
+  },
+  {
+    "project": "THOMAS MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "4871.567",
+    "transaction": "46222683.0",
+    "product": "Copper",
+    "destination": "Hong Kong",
+    "_project_id": "thomas"
+  },
+  {
+    "project": "THOMAS MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "6041.582",
+    "transaction": "55976486.0",
+    "product": "Copper",
+    "destination": "Singapore",
+    "_project_id": "thomas"
+  },
+  {
+    "project": "THOMAS MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "16674.406",
+    "transaction": "152378782.0",
+    "product": "Copper",
+    "destination": "Switzerland",
+    "_project_id": "thomas"
+  },
+  {
+    "project": "WORLD MINERALS RESOURCES",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "916.0",
+    "transaction": "8525087.0",
+    "product": "Copper",
+    "destination": "United Arab Emirates",
+    "_project_id": "wmr"
   }
 ]

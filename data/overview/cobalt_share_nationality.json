@@ -286,5 +286,50 @@
     "quantity_share": 0.0190111225,
     "transaction": 49267249.4598999992,
     "transaction_share": 0.0135744793
+  },
+    {
+    "year": "2024",
+    "product": "Cobalt",
+    "nationality": "China",
+    "quantity": 461342.03,
+    "quantity_share": 0.6790028573,
+    "transaction": 3815052549.0,
+    "transaction_share": 0.6787965896
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "nationality": "Switzerland",
+    "quantity": 131803.452,
+    "quantity_share": 0.1939882228,
+    "transaction": 1131587088.8400001526,
+    "transaction_share": 0.2013386308
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "nationality": "Kazakhstan",
+    "quantity": 68195.002,
+    "quantity_share": 0.1003693533,
+    "transaction": 582986661.0,
+    "transaction_share": 0.1037284158
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "nationality": "India",
+    "quantity": 13107.25,
+    "quantity_share": 0.0192912408,
+    "transaction": 63854436.0,
+    "transaction_share": 0.0113613568
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "nationality": "DR Congo",
+    "quantity": 4992.75,
+    "quantity_share": 0.0073483257,
+    "transaction": 26837056.0,
+    "transaction_share": 0.0047750069
   }
 ]

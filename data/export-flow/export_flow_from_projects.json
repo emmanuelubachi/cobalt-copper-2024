@@ -1,4 +1,1476 @@
 [
+    {
+    "year": "2024",
+    "_project_id": "amical",
+    "product": "Copper",
+    "project": "AMICAL KAKANA",
+    "importer": "CHINA NATIONAL NONFERROUS METALS IMP EXP JIANGXI CORP",
+    "quantity": "231.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "amical",
+    "product": "Copper",
+    "project": "AMICAL KAKANA",
+    "importer": "TRAXYS BEIJING CO LTD",
+    "quantity": "90.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "boss",
+    "product": "Copper",
+    "project": "BOSS MINING",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "715.913"
+  },
+  {
+    "year": "2024",
+    "_project_id": "brother",
+    "product": "Cobalt",
+    "project": "BROTHER",
+    "importer": "HONG-KONG XUCHEN LTD",
+    "quantity": "4992.75"
+  },
+  {
+    "year": "2024",
+    "_project_id": "brother",
+    "product": "Copper",
+    "project": "BROTHER",
+    "importer": "HONG KONG KELIXIN METAL MATERIALS CO LIMITED",
+    "quantity": "24670.953"
+  },
+  {
+    "year": "2024",
+    "_project_id": "brother",
+    "product": "Copper",
+    "project": "BROTHER",
+    "importer": "HONG-KONG XUCHEN LTD",
+    "quantity": "25645.147"
+  },
+  {
+    "year": "2024",
+    "_project_id": "ccr",
+    "product": "Cobalt",
+    "project": "CCR",
+    "importer": "CHENGTUN GLOBAL RESOURCES INVESTMENT LIMITED",
+    "quantity": "4571.05"
+  },
+  {
+    "year": "2024",
+    "_project_id": "ccr",
+    "product": "Cobalt",
+    "project": "CCR",
+    "importer": "PROSPEROUS ASCENT",
+    "quantity": "830.2"
+  },
+  {
+    "year": "2024",
+    "_project_id": "ccr",
+    "product": "Copper",
+    "project": "CCR",
+    "importer": "CHENGTUN GLOBAL RESOURCES INVESTMENT LIMITED",
+    "quantity": "66074.898"
+  },
+  {
+    "year": "2024",
+    "_project_id": "cdm",
+    "product": "Cobalt",
+    "project": "CDM",
+    "importer": "HUAYOU HONG KONG CO LTD",
+    "quantity": "2801.3999999999996"
+  },
+  {
+    "year": "2024",
+    "_project_id": "cdm",
+    "product": "Copper",
+    "project": "CDM",
+    "importer": "HUAYOU HONG KONG CO LTD",
+    "quantity": "57331.097"
+  },
+  {
+    "year": "2024",
+    "_project_id": "chemaf",
+    "product": "Cobalt",
+    "project": "CHEMAF",
+    "importer": "CHEMAF RESOURCES LTD",
+    "quantity": "5561.25"
+  },
+  {
+    "year": "2024",
+    "_project_id": "chemaf",
+    "product": "Copper",
+    "project": "CHEMAF",
+    "importer": "CHEMAF RESOURCES LTD",
+    "quantity": "17582.5"
+  },
+  {
+    "year": "2024",
+    "_project_id": "cjcmc",
+    "product": "Copper",
+    "project": "CJCMC",
+    "importer": "SAMSUNG C&T SINGAPOUR PTE",
+    "quantity": "22233.498"
+  },
+  {
+    "year": "2024",
+    "_project_id": "cnmc",
+    "product": "Copper",
+    "project": "CNMC CONGO",
+    "importer": "NEW SPREAD TRADING LTD",
+    "quantity": "20321.79"
+  },
+  {
+    "year": "2024",
+    "_project_id": "comika",
+    "product": "Cobalt",
+    "project": "COMIKA",
+    "importer": "SILVERKEY DEVELOPMENT LTD",
+    "quantity": "10408.928"
+  },
+  {
+    "year": "2024",
+    "_project_id": "comika",
+    "product": "Copper",
+    "project": "COMIKA",
+    "importer": "NORINN MINING(HONG KONG)LTD",
+    "quantity": "48031.475"
+  },
+  {
+    "year": "2024",
+    "_project_id": "comilu",
+    "product": "Cobalt",
+    "project": "COMILU",
+    "importer": "CHINA RAILWAY RESOURCES GROUP CO LTD",
+    "quantity": "861.986"
+  },
+  {
+    "year": "2024",
+    "_project_id": "comilu",
+    "product": "Copper",
+    "project": "COMILU",
+    "importer": "CHINA RAILWAY RESOURCES GROUP CO LTD",
+    "quantity": "22883.362"
+  },
+  {
+    "year": "2024",
+    "_project_id": "commus",
+    "product": "Cobalt",
+    "project": "COMMUS",
+    "importer": "CHEONGFULI (HONG KONG) COMPANY",
+    "quantity": "857.578"
+  },
+  {
+    "year": "2024",
+    "_project_id": "commus",
+    "product": "Cobalt",
+    "project": "COMMUS",
+    "importer": "GOLDEN HARBOUR INTERNATIONAL TRADING LTD",
+    "quantity": "1744.245"
+  },
+  {
+    "year": "2024",
+    "_project_id": "commus",
+    "product": "Copper",
+    "project": "COMMUS",
+    "importer": "FT GLOBAL RESOURCES PTE. LTD",
+    "quantity": "3221.564"
+  },
+  {
+    "year": "2024",
+    "_project_id": "commus",
+    "product": "Copper",
+    "project": "COMMUS",
+    "importer": "GLENCORE INTERNATIONAL",
+    "quantity": "26282.298"
+  },
+  {
+    "year": "2024",
+    "_project_id": "commus",
+    "product": "Copper",
+    "project": "COMMUS",
+    "importer": "INTERCONTINENTAL RESOURCES HK CO",
+    "quantity": "9768.637"
+  },
+  {
+    "year": "2024",
+    "_project_id": "commus",
+    "product": "Copper",
+    "project": "COMMUS",
+    "importer": "OCTAGON COMMODITIES",
+    "quantity": "14587.42"
+  },
+  {
+    "year": "2024",
+    "_project_id": "commus",
+    "product": "Copper",
+    "project": "COMMUS",
+    "importer": "SHANDONG GOLD GROUP(HAINAN)INTERNATIONAL ,LTD",
+    "quantity": "39.923"
+  },
+  {
+    "year": "2024",
+    "_project_id": "commus",
+    "product": "Copper",
+    "project": "COMMUS",
+    "importer": "SHANJIN RUIPENG SHANGHAI TRADING CO LTD",
+    "quantity": "46568.384"
+  },
+  {
+    "year": "2024",
+    "_project_id": "divine",
+    "product": "Cobalt",
+    "project": "DIVINE LAND",
+    "importer": "GUANGDONG JIANA ENERGY TECHNOLOGY CO",
+    "quantity": "748.283"
+  },
+  {
+    "year": "2024",
+    "_project_id": "divine",
+    "product": "Copper",
+    "project": "DIVINE LAND",
+    "importer": "TRANSAMINE SA",
+    "quantity": "9976.003"
+  },
+  {
+    "year": "2024",
+    "_project_id": "epsilon",
+    "product": "Copper",
+    "project": "EPSILON",
+    "importer": "HUAYOU HONG KONG CO LTD",
+    "quantity": "1680.295"
+  },
+  {
+    "year": "2024",
+    "_project_id": "everbright",
+    "product": "Copper",
+    "project": "EVERBRIGHT",
+    "importer": "TOP VIEW INTERNATIONAL TRADING LTD",
+    "quantity": "22000.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "excellen",
+    "product": "Cobalt",
+    "project": "EXCELLEN",
+    "importer": "HONG KONG EXCELLEN MINING INVESTMENT CO,LTD",
+    "quantity": "140.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "excellen",
+    "product": "Copper",
+    "project": "EXCELLEN",
+    "importer": "HONG KONG EXCELLEN MINING INVESTMENT CO,LTD",
+    "quantity": "29924.217"
+  },
+  {
+    "year": "2024",
+    "_project_id": "frontier",
+    "product": "Copper",
+    "project": "FRONTIER",
+    "importer": "RELOAD LOGISTICS",
+    "quantity": "8784.64"
+  },
+  {
+    "year": "2024",
+    "_project_id": "gcm",
+    "product": "Copper",
+    "project": "GECAMINES",
+    "importer": "AFRICAN SPECIALITY METALS TRADING AND INVESTMENT",
+    "quantity": "371.193"
+  },
+  {
+    "year": "2024",
+    "_project_id": "gcm",
+    "product": "Copper",
+    "project": "GECAMINES",
+    "importer": "CHINA NONFERROUS METALS MINING HOLDINGS LIMITED",
+    "quantity": "2223.006"
+  },
+  {
+    "year": "2024",
+    "_project_id": "gcm",
+    "product": "Copper",
+    "project": "GECAMINES",
+    "importer": "HUAYOU HONG KONG CO LTD",
+    "quantity": "2258.887"
+  },
+  {
+    "year": "2024",
+    "_project_id": "gcm",
+    "product": "Copper",
+    "project": "GECAMINES",
+    "importer": "MRI TRADING AG",
+    "quantity": "506.522"
+  },
+  {
+    "year": "2024",
+    "_project_id": "gcm",
+    "product": "Copper",
+    "project": "GECAMINES",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "589.51"
+  },
+  {
+    "year": "2024",
+    "_project_id": "golden",
+    "product": "Copper",
+    "project": "GOLDEN AFRICAN",
+    "importer": "AFRO GULF COMMODITIES TRADING",
+    "quantity": "8479.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "hmc",
+    "product": "Cobalt",
+    "project": "HANRUI METAL",
+    "importer": "HANRUI COBALT (SINGAPORE) PTE LTD",
+    "quantity": "355.70000000000005"
+  },
+  {
+    "year": "2024",
+    "_project_id": "hmc",
+    "product": "Copper",
+    "project": "HANRUI METAL",
+    "importer": "NANJING HANRUI COBALT H.K LTD",
+    "quantity": "37886.012"
+  },
+  {
+    "year": "2024",
+    "_project_id": "huachin_mabende",
+    "product": "Copper",
+    "project": "HUACHIN MABENDE",
+    "importer": "CHINA NONFERROUS METALS MINING HOLDINGS LIMITED",
+    "quantity": "22232.551"
+  },
+  {
+    "year": "2024",
+    "_project_id": "huachin_mabende",
+    "product": "Copper",
+    "project": "HUACHIN MABENDE",
+    "importer": "OCTAGON COMMODITIES",
+    "quantity": "325.45799999999997"
+  },
+  {
+    "year": "2024",
+    "_project_id": "huachin_metal",
+    "product": "Cobalt",
+    "project": "HUACHIN METAL",
+    "importer": "NEW SPREAD TRADING LTD",
+    "quantity": "716.378"
+  },
+  {
+    "year": "2024",
+    "_project_id": "huachin_metal",
+    "product": "Copper",
+    "project": "HUACHIN METAL",
+    "importer": "CHINA NONFERROUS METALS MINING HOLDINGS LIMITED",
+    "quantity": "19235.619"
+  },
+  {
+    "year": "2024",
+    "_project_id": "huachin_metal",
+    "product": "Copper",
+    "project": "HUACHIN METAL",
+    "importer": "MRI TRADING AG",
+    "quantity": "69.201"
+  },
+  {
+    "year": "2024",
+    "_project_id": "jxcom",
+    "product": "Cobalt",
+    "project": "JXCOM",
+    "importer": "JINXUN (SINGAPORE) INTERNATIONAL TRADE PTE.LTD",
+    "quantity": "156.30599999999998"
+  },
+  {
+    "year": "2024",
+    "_project_id": "jxcom",
+    "product": "Copper",
+    "project": "JXCOM",
+    "importer": "JINXUN (SINGAPORE) INTERNATIONAL TRADE PTE.LTD",
+    "quantity": "15513.048"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kaipeng",
+    "product": "Copper",
+    "project": "KAI PENG",
+    "importer": "MAURITIUS NANKAI HOLDING GROUP CO.LTD",
+    "quantity": "78613.513"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kalongwe",
+    "product": "Cobalt",
+    "project": "KALONGWE",
+    "importer": "HONG-KONG XUCHEN LTD",
+    "quantity": "22185.100000000002"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kalongwe",
+    "product": "Copper",
+    "project": "KALONGWE",
+    "importer": "CHENGTUN GLOBAL RESOURCES INVESTMENT LIMITED",
+    "quantity": "6568.056"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kalongwe",
+    "product": "Copper",
+    "project": "KALONGWE",
+    "importer": "HONG-KONG XUCHEN LTD",
+    "quantity": "47746.787"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kambove",
+    "product": "Cobalt",
+    "project": "KAMBOVE MINING",
+    "importer": "NEW SPREAD TRADING LTD",
+    "quantity": "2031.134"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kambove",
+    "product": "Copper",
+    "project": "KAMBOVE MINING",
+    "importer": "CNMC NEW BRIDGE LOGISTICS & TRADING",
+    "quantity": "4750.909"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kambove",
+    "product": "Copper",
+    "project": "KAMBOVE MINING",
+    "importer": "IXM S.A",
+    "quantity": "26291.94"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kambove",
+    "product": "Copper",
+    "project": "KAMBOVE MINING",
+    "importer": "NEW SPREAD TRADING LTD",
+    "quantity": "1807.971"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kamoa",
+    "product": "Copper",
+    "project": "KAMOA",
+    "importer": "CITIC METAL (HK) LIMITED",
+    "quantity": "367205.063"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kamoa",
+    "product": "Copper",
+    "project": "KAMOA",
+    "importer": "GOLD MOUNTAINS(HK)INTERNATIONAL MINING COMPANY LTD",
+    "quantity": "370839.9135"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kamoa",
+    "product": "Copper",
+    "project": "KAMOA",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "113724.517"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kcc",
+    "product": "Cobalt",
+    "project": "KCC",
+    "importer": "GLENCORE INTERNATIONAL",
+    "quantity": "97436.73"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kcc",
+    "product": "Cobalt",
+    "project": "KCC",
+    "importer": "KAMOTO COPPER COMPANY SA",
+    "quantity": "33.44"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kcc",
+    "product": "Copper",
+    "project": "KCC",
+    "importer": "ACCESS WORLD",
+    "quantity": "62.144999999999996"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kcc",
+    "product": "Copper",
+    "project": "KCC",
+    "importer": "GLENCORE INTERNATIONAL",
+    "quantity": "191142.005"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kcc",
+    "product": "Copper",
+    "project": "KCC",
+    "importer": "KAMOTO COPPER COMPANY SA",
+    "quantity": "262.006"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kfm",
+    "product": "Cobalt",
+    "project": "CMOC",
+    "importer": "CMOC LIMITED",
+    "quantity": "38542.408"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kfm",
+    "product": "Cobalt",
+    "project": "CMOC",
+    "importer": "KFM HOLDING LTD",
+    "quantity": "180284.933"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kfm",
+    "product": "Copper",
+    "project": "CMOC",
+    "importer": "CMOC LIMITED",
+    "quantity": "199443.596"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kfm",
+    "product": "Copper",
+    "project": "CMOC",
+    "importer": "KFM HOLDING LTD",
+    "quantity": "154.501"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kicc",
+    "product": "Copper",
+    "project": "KICC",
+    "importer": "KANSANSHI MINING PLC",
+    "quantity": "900.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kicc",
+    "product": "Copper",
+    "project": "KICC",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "45969.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kicc",
+    "product": "Copper",
+    "project": "KICC",
+    "importer": "TRANSAMINE SA",
+    "quantity": "25383.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kimin",
+    "product": "Cobalt",
+    "project": "KIMIN",
+    "importer": "VIN METAL SYNERGIES FZCO",
+    "quantity": "4546.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "kimin",
+    "product": "Copper",
+    "project": "KIMIN",
+    "importer": "VIN METAL SYNERGIES FZCO",
+    "quantity": "29517.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "lamikal",
+    "product": "Cobalt",
+    "project": "LAMIKAL",
+    "importer": "GRAND FUTURE GROUP LIMITED",
+    "quantity": "308.75"
+  },
+  {
+    "year": "2024",
+    "_project_id": "lamikal",
+    "product": "Cobalt",
+    "project": "LAMIKAL",
+    "importer": "NORINN MINING(HONG KONG)LTD",
+    "quantity": "14269.9"
+  },
+  {
+    "year": "2024",
+    "_project_id": "lamikal",
+    "product": "Copper",
+    "project": "LAMIKAL",
+    "importer": "NORINN MINING(HONG KONG)LTD",
+    "quantity": "51687.917"
+  },
+  {
+    "year": "2024",
+    "_project_id": "lcs",
+    "product": "Copper",
+    "project": "LCS",
+    "importer": "KINGSAIL LIMITED",
+    "quantity": "37335.576"
+  },
+  {
+    "year": "2024",
+    "_project_id": "long_fei",
+    "product": "Copper",
+    "project": "LONG FEI",
+    "importer": "CMOC LIMITED",
+    "quantity": "69.898"
+  },
+  {
+    "year": "2024",
+    "_project_id": "long_fei",
+    "product": "Copper",
+    "project": "LONG FEI",
+    "importer": "KFM HOLDING LTD",
+    "quantity": "96.85499999999999"
+  },
+  {
+    "year": "2024",
+    "_project_id": "long_fei",
+    "product": "Copper",
+    "project": "LONG FEI",
+    "importer": "ZHAN FEI TRADING (MAURITIUS) LTD",
+    "quantity": "32976.206"
+  },
+  {
+    "year": "2024",
+    "_project_id": "lr_sas",
+    "product": "Cobalt",
+    "project": "LR SAS",
+    "importer": "HONG KONG EXCELLEN MINING INVESTMENT CO,LTD",
+    "quantity": "10967.449999999999"
+  },
+  {
+    "year": "2024",
+    "_project_id": "lr_sas",
+    "product": "Copper",
+    "project": "LR SAS",
+    "importer": "HONG KONG EXCELLEN MINING INVESTMENT CO,LTD",
+    "quantity": "41726.497"
+  },
+  {
+    "year": "2024",
+    "_project_id": "lr_sas",
+    "product": "Copper",
+    "project": "LR SAS",
+    "importer": "NORINN MINING(HONG KONG)LTD",
+    "quantity": "429.858"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Cobalt",
+    "project": "METALKOL",
+    "importer": "ACCESS WORLD",
+    "quantity": "19860.839"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Cobalt",
+    "project": "METALKOL",
+    "importer": "ERG SALES AFRICA",
+    "quantity": "14305.704"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Cobalt",
+    "project": "METALKOL",
+    "importer": "RELOAD LOGISTICS",
+    "quantity": "24977.04"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Cobalt",
+    "project": "METALKOL",
+    "importer": "RTR COBALT/COPPER AG",
+    "quantity": "9051.419"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "ACCESS WORLD",
+    "quantity": "38688.607"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "AFRICAN INLAND LOGISTICS LIMITED",
+    "quantity": "5976.853"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "C-STEINWEG BRIDGE",
+    "quantity": "5607.162"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "ERG SALES AFRICA",
+    "quantity": "20644.278"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "GLENCORE INTERNATIONAL",
+    "quantity": "8394.472"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "KEFA CARGO SOLUTION LTD",
+    "quantity": "2996.788"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "KURASINI INLAND CONTAINER",
+    "quantity": "572.8679999999999"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "PALSTAVE LIMITED",
+    "quantity": "101.98400000000001"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "PIONEER METALS PTY LTD",
+    "quantity": "102.001"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "POLYTRA AFRICA INLAND LOGISTICS LTD",
+    "quantity": "5959.497"
+  },
+  {
+    "year": "2024",
+    "_project_id": "metalkol",
+    "product": "Copper",
+    "project": "METALKOL",
+    "importer": "RTR COBALT/COPPER AG",
+    "quantity": "12897.708"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mikas",
+    "product": "Cobalt",
+    "project": "MIKAS",
+    "importer": "HUAYOU HONG KONG CO LTD",
+    "quantity": "981.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mikas",
+    "product": "Copper",
+    "project": "MIKAS",
+    "importer": "HUAYOU HONG KONG CO LTD",
+    "quantity": "25582.657"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mjm",
+    "product": "Copper",
+    "project": "MJM",
+    "importer": "JIANA HK LIMITED",
+    "quantity": "15285.03"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mkm",
+    "product": "Copper",
+    "project": "MKM SAS",
+    "importer": "CHINA RAILWAY RESOURCES GROUP CO LTD",
+    "quantity": "18029.462"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mm",
+    "product": "Cobalt",
+    "project": "MM",
+    "importer": "HANRUI COBALT (SINGAPORE) PTE LTD",
+    "quantity": "226.38000000000002"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mm",
+    "product": "Copper",
+    "project": "MM",
+    "importer": "NANJING HANRUI COBALT H.K LTD",
+    "quantity": "17981.406"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mmg",
+    "product": "Cobalt",
+    "project": "MMG",
+    "importer": "CHINA MINMETALS NORTH EUROPA",
+    "quantity": "232.966"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mmg",
+    "product": "Cobalt",
+    "project": "MMG",
+    "importer": "HUAYOU HONG KONG CO LTD",
+    "quantity": "695.804"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mmg",
+    "product": "Cobalt",
+    "project": "MMG",
+    "importer": "MINMETALS NORTH-EUROPE",
+    "quantity": "2539.262"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mmg",
+    "product": "Cobalt",
+    "project": "MMG",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "2701.979"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mmg",
+    "product": "Cobalt",
+    "project": "MMG",
+    "importer": "TRAXYS EUROPE SA",
+    "quantity": "1032.552"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mmg",
+    "product": "Copper",
+    "project": "MMG",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "44120.235"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mmt",
+    "product": "Cobalt",
+    "project": "MMT",
+    "importer": "DOWSTONE HK LTD",
+    "quantity": "6352.5"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mmt",
+    "product": "Copper",
+    "project": "MMT",
+    "importer": "JIANA HK LIMITED",
+    "quantity": "26392.331"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mumi",
+    "product": "Cobalt",
+    "project": "MUTANDA MINING",
+    "importer": "ACCESS WORLD",
+    "quantity": "3868.495"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mumi",
+    "product": "Cobalt",
+    "project": "MUTANDA MINING",
+    "importer": "BRIGDE PORT 151",
+    "quantity": "100.756"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mumi",
+    "product": "Cobalt",
+    "project": "MUTANDA MINING",
+    "importer": "C-STEINWEG BRIDGE",
+    "quantity": "28.688"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mumi",
+    "product": "Cobalt",
+    "project": "MUTANDA MINING",
+    "importer": "GLENCORE INTERNATIONAL",
+    "quantity": "30300.705"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mumi",
+    "product": "Cobalt",
+    "project": "MUTANDA MINING",
+    "importer": "INDEPENDENT BEIRA LOGISTICS TERMINALS",
+    "quantity": "34.638"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mumi",
+    "product": "Copper",
+    "project": "MUTANDA MINING",
+    "importer": "GLENCORE INTERNATIONAL",
+    "quantity": "33671.105"
+  },
+  {
+    "year": "2024",
+    "_project_id": "mupine",
+    "product": "Copper",
+    "project": "MUPINE",
+    "importer": "TATA INTERNATIONAL LTD",
+    "quantity": "1754.638"
+  },
+  {
+    "year": "2024",
+    "_project_id": "nmi",
+    "product": "Cobalt",
+    "project": "NEW MINERALS",
+    "importer": "CHINA SHANGHAI GRAND HARMONY INTERNATIONAL.CO",
+    "quantity": "369.6"
+  },
+  {
+    "year": "2024",
+    "_project_id": "nmi",
+    "product": "Copper",
+    "project": "NEW MINERALS",
+    "importer": "SAMSUNG C&T SINGAPOUR PTE",
+    "quantity": "1002.64"
+  },
+  {
+    "year": "2024",
+    "_project_id": "nmi",
+    "product": "Copper",
+    "project": "NEW MINERALS",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "40944.538"
+  },
+  {
+    "year": "2024",
+    "_project_id": "nms",
+    "product": "Copper",
+    "project": "NMS",
+    "importer": "TRANSAMINE SA",
+    "quantity": "2055.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "omr",
+    "product": "Copper",
+    "project": "OMR",
+    "importer": "OM METAL AND CHEMICALS FZC",
+    "quantity": "1061.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "ruashi",
+    "product": "Cobalt",
+    "project": "RUASHI",
+    "importer": "COSMO ECOCHEM CO,LIMITED",
+    "quantity": "339.907"
+  },
+  {
+    "year": "2024",
+    "_project_id": "ruashi",
+    "product": "Cobalt",
+    "project": "RUASHI",
+    "importer": "IXM S.A",
+    "quantity": "23166.49"
+  },
+  {
+    "year": "2024",
+    "_project_id": "ruashi",
+    "product": "Cobalt",
+    "project": "RUASHI",
+    "importer": "RAFFEMET PTE LTD",
+    "quantity": "3473.786"
+  },
+  {
+    "year": "2024",
+    "_project_id": "ruashi",
+    "product": "Cobalt",
+    "project": "RUASHI",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "313.16700000000003"
+  },
+  {
+    "year": "2024",
+    "_project_id": "ruashi",
+    "product": "Copper",
+    "project": "RUASHI",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "22757.468"
+  },
+  {
+    "year": "2024",
+    "_project_id": "rubamin",
+    "product": "Copper",
+    "project": "RUBAMIN",
+    "importer": "VULCANIS LLP",
+    "quantity": "13982.456"
+  },
+  {
+    "year": "2024",
+    "_project_id": "sabwe",
+    "product": "Copper",
+    "project": "SABWE",
+    "importer": "HIONEST TECHNOLOGY (HAINAN)LTD",
+    "quantity": "10766.152"
+  },
+  {
+    "year": "2024",
+    "_project_id": "sabwe",
+    "product": "Copper",
+    "project": "SABWE",
+    "importer": "TOP VIEW INTERNATIONAL TRADING LTD",
+    "quantity": "18347.115999999998"
+  },
+  {
+    "year": "2024",
+    "_project_id": "sek",
+    "product": "Copper",
+    "project": "SEK",
+    "importer": "HONG KONG HONGXIN BUSINESS-TRADING LTD",
+    "quantity": "36683.926"
+  },
+  {
+    "year": "2024",
+    "_project_id": "shituru",
+    "product": "Cobalt",
+    "project": "SHITURU MINING",
+    "importer": "PENGXIN INTERNATIONAL GROUP LIMITED",
+    "quantity": "2798.268"
+  },
+  {
+    "year": "2024",
+    "_project_id": "shituru",
+    "product": "Copper",
+    "project": "SHITURU MINING",
+    "importer": "PENGXIN INTERNATIONAL GROUP LIMITED",
+    "quantity": "25328.327"
+  },
+  {
+    "year": "2024",
+    "_project_id": "sicomines",
+    "product": "Cobalt",
+    "project": "SICOMINES",
+    "importer": "CHINA RAILWAY RESOURCES GROUP CO LTD",
+    "quantity": "8453.169"
+  },
+  {
+    "year": "2024",
+    "_project_id": "sicomines",
+    "product": "Copper",
+    "project": "SICOMINES",
+    "importer": "CHINA RAILWAY RESOURCES GROUP CO LTD",
+    "quantity": "246202.429"
+  },
+  {
+    "year": "2024",
+    "_project_id": "somidez",
+    "product": "Cobalt",
+    "project": "SOMIDEZ",
+    "importer": "CNIT(SHANGHAI)TRADING CO.LTD",
+    "quantity": "1931.806"
+  },
+  {
+    "year": "2024",
+    "_project_id": "somidez",
+    "product": "Cobalt",
+    "project": "SOMIDEZ",
+    "importer": "NEW SPREAD TRADING LTD",
+    "quantity": "21170.56"
+  },
+  {
+    "year": "2024",
+    "_project_id": "somidez",
+    "product": "Copper",
+    "project": "SOMIDEZ",
+    "importer": "CNMC NEW BRIDGE LOGISTICS & TRADING",
+    "quantity": "65597.611"
+  },
+  {
+    "year": "2024",
+    "_project_id": "somidez",
+    "product": "Copper",
+    "project": "SOMIDEZ",
+    "importer": "NEW SPREAD TRADING LTD",
+    "quantity": "23552.95"
+  },
+  {
+    "year": "2024",
+    "_project_id": "somika",
+    "product": "Cobalt",
+    "project": "SOMIKA",
+    "importer": "VIN METAL SYNERGIES FZCO",
+    "quantity": "3000.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "somika",
+    "product": "Copper",
+    "project": "SOMIKA",
+    "importer": "CABLE CORPORATION LIMITED",
+    "quantity": "120.0"
+  },
+  {
+    "year": "2024",
+    "_project_id": "somika",
+    "product": "Copper",
+    "project": "SOMIKA",
+    "importer": "VIN METAL SYNERGIES FZCO",
+    "quantity": "48386.232"
+  },
+  {
+    "year": "2024",
+    "_project_id": "stl",
+    "product": "Copper",
+    "project": "STL",
+    "importer": "HUAYOU HONG KONG CO LTD",
+    "quantity": "1862.601"
+  },
+  {
+    "year": "2024",
+    "_project_id": "stl",
+    "product": "Copper",
+    "project": "STL",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "742.104"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tcc",
+    "product": "Cobalt",
+    "project": "TCC",
+    "importer": "VICTOR INTERNATIONAL TRADE CO,LTD",
+    "quantity": "9169.702"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tcc",
+    "product": "Copper",
+    "project": "TCC",
+    "importer": "VICTOR INTERNATIONAL TRADE CO,LTD",
+    "quantity": "53479.653"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "ACCESS WORLD",
+    "quantity": "19178.222"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "AFRICAN INLAND LOGISTICS LIMITED",
+    "quantity": "30.978"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "ALISTAIR LOGISTICS",
+    "quantity": "3348.773"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "BIDVEST SACD/SOUTH FRICA",
+    "quantity": "2750.445"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "C-STEINWEG BRIDGE",
+    "quantity": "15499.096"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "CMOC LIMITED",
+    "quantity": "23079.673"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "ETG SEAMASTER",
+    "quantity": "8976.141"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "GALCO VS-CARGO",
+    "quantity": "832.908"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "IMPALA",
+    "quantity": "428.944"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "SLS",
+    "quantity": "187.796"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Cobalt",
+    "project": "TFM",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "263.851"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "ACCESS WORLD",
+    "quantity": "36441.901"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "AFRICAN INLAND LOGISTICS LIMITED",
+    "quantity": "2438.834"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "AGL BOLLORE",
+    "quantity": "1327.26"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "ALISTAIR LOGISTICS",
+    "quantity": "5668.604"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "C-STEINWEG BRIDGE",
+    "quantity": "48607.933"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "CLEARXPRESS LIMITED",
+    "quantity": "20129.116"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "CMOC LIMITED",
+    "quantity": "242194.451"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "DSM MCCL",
+    "quantity": "5613.434"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "GALCO VS-CARGO",
+    "quantity": "9455.616"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "GLENCORE INTERNATIONAL",
+    "quantity": "13847.713"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "IMPALA",
+    "quantity": "2637.61"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "IMPALA TERMINALS",
+    "quantity": "29.682"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "MERCURIA",
+    "quantity": "17588.361"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "RELOAD LOGISTICS",
+    "quantity": "12880.238"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "SLS",
+    "quantity": "7462.836"
+  },
+  {
+    "year": "2024",
+    "_project_id": "tfm",
+    "product": "Copper",
+    "project": "TFM",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "15735.009"
+  },
+  {
+    "year": "2024",
+    "_project_id": "thomas",
+    "product": "Cobalt",
+    "project": "THOMAS",
+    "importer": "CONTINENTAL INTERNATIONAL LTD",
+    "quantity": "8034.576"
+  },
+  {
+    "year": "2024",
+    "_project_id": "thomas",
+    "product": "Copper",
+    "project": "THOMAS",
+    "importer": "CHENG TUN METALS INTERNATIONAL TRADE",
+    "quantity": "6046.385"
+  },
+  {
+    "year": "2024",
+    "_project_id": "thomas",
+    "product": "Copper",
+    "project": "THOMAS",
+    "importer": "CONTINENTAL INTERNATIONAL LTD",
+    "quantity": "7011.004"
+  },
+  {
+    "year": "2024",
+    "_project_id": "thomas",
+    "product": "Copper",
+    "project": "THOMAS",
+    "importer": "HUACHIN INTERNATIONAL TRADING LTD",
+    "quantity": "10638.039"
+  },
+  {
+    "year": "2024",
+    "_project_id": "thomas",
+    "product": "Copper",
+    "project": "THOMAS",
+    "importer": "MRI TRADING AG",
+    "quantity": "8530.575"
+  },
+  {
+    "year": "2024",
+    "_project_id": "thomas",
+    "product": "Copper",
+    "project": "THOMAS",
+    "importer": "TRAFIGURA PTE LTD",
+    "quantity": "5463.853"
+  },
+  {
+    "year": "2024",
+    "_project_id": "thomas",
+    "product": "Copper",
+    "project": "THOMAS",
+    "importer": "TRANSAMINE SA",
+    "quantity": "3209.49"
+  },
+  {
+    "year": "2024",
+    "_project_id": "wmr",
+    "product": "Copper",
+    "project": "WMR",
+    "importer": "STAR HIGH LIGHT TRADING LLC",
+    "quantity": "916.0"
+  },
   {
     "year": "2023",
     "_project_id": "amical",

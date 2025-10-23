@@ -106,5 +106,17 @@
     "product": "Copper",
     "quantity": "2842021.88",
     "transaction": "22353757599"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "quantity": "679440.48",
+    "transaction": "5620317790.84"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "quantity": "3644544.98",
+    "transaction": "27849198695.52"
   }
 ]

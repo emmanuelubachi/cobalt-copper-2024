@@ -374,5 +374,69 @@
     "quantity_share": 0.0000167546,
     "transaction": 337423.8,
     "transaction_share": 0.0000129862
+  },
+    {
+    "year": "2024",
+    "nationality": "China",
+    "quantity": 2696128.5140000004,
+    "quantity_share": 0.6235285795,
+    "transaction": 23557167344.0,
+    "transaction_share": 0.7038394879
+  },
+  {
+    "year": "2024",
+    "nationality": "China/Canada",
+    "quantity": 851769.4935,
+    "quantity_share": 0.1969871316,
+    "transaction": 3034301848.0,
+    "transaction_share": 0.0906586699
+  },
+  {
+    "year": "2024",
+    "nationality": "Switzerland",
+    "quantity": 356940.713,
+    "quantity_share": 0.0825490086,
+    "transaction": 3207843882.3600006104,
+    "transaction_share": 0.0958437474
+  },
+  {
+    "year": "2024",
+    "nationality": "Kazakhstan",
+    "quantity": 179637.773,
+    "quantity_share": 0.0415444905,
+    "transaction": 1551207145.0,
+    "transaction_share": 0.0463468645
+  },
+  {
+    "year": "2024",
+    "nationality": "India",
+    "quantity": 132235.438,
+    "quantity_share": 0.0305818415,
+    "transaction": 1156873714.0,
+    "transaction_share": 0.0345649963
+  },
+  {
+    "year": "2024",
+    "nationality": "DR Congo",
+    "quantity": 66854.311,
+    "quantity_share": 0.015461271,
+    "transaction": 589376050.0,
+    "transaction_share": 0.0176093386
+  },
+  {
+    "year": "2024",
+    "nationality": "Australia",
+    "quantity": 36683.926,
+    "quantity_share": 0.0084838227,
+    "transaction": 337801971.0,
+    "transaction_share": 0.0100928249
+  },
+  {
+    "year": "2024",
+    "nationality": "Others",
+    "quantity": 3735.295,
+    "quantity_share": 0.0008638547,
+    "transaction": 34944532.0,
+    "transaction_share": 0.0010440704
   }
 ]

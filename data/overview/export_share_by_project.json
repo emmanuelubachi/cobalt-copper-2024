@@ -3616,5 +3616,842 @@
     "quantity_share": "0.008976028855298359",
     "transaction": "241396118.5667",
     "transaction_share": "0.010798905620288715"
+  },
+    {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "BROTHER MINING SASU",
+    "quantity": "4992.75",
+    "quantity_share": "0.007348325743863094",
+    "transaction": "26837056.0",
+    "transaction_share": "0.004775006858818386"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "CHEMICAL OF AFRICA SPRL",
+    "quantity": "5561.25",
+    "quantity_share": "0.008185043621863428",
+    "transaction": "29919614.0",
+    "transaction_share": "0.005323473709754103"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "CHENGTUN CONGO RESSOURCES SARL",
+    "quantity": "5401.25",
+    "quantity_share": "0.007949555740632023",
+    "transaction": "31728952.0",
+    "transaction_share": "0.005645401769222352"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "COMPAGNIE DE TRAITEMENT DES REJETS KINGYAMBO",
+    "quantity": "68195.002",
+    "quantity_share": "0.10036935332219621",
+    "transaction": "582986661.0",
+    "transaction_share": "0.10372841584690323"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "COMPAGNIE MINIERE DE KAMBOVE SPRL",
+    "quantity": "10408.928",
+    "quantity_share": "0.015319852503814006",
+    "transaction": "60832675.0",
+    "transaction_share": "0.01082370735319365"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "COMPAGNIE MINIERE DE LUISHA",
+    "quantity": "861.986",
+    "quantity_share": "0.001268670354944584",
+    "transaction": "6140313.0",
+    "transaction_share": "0.0010925206062204326"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "CONGO DONGFANG INTERNATIONAL MINING",
+    "quantity": "2801.3999999999996",
+    "quantity_share": "0.004123098440510353",
+    "transaction": "20601494.0",
+    "transaction_share": "0.003665538990264276"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "DIVINE LAND MINING SARL",
+    "quantity": "748.283",
+    "quantity_share": "0.0011013223639467443",
+    "transaction": "3367458.0",
+    "transaction_share": "0.0005991579347147037"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "EXCELLEN MINERALS",
+    "quantity": "140.0",
+    "quantity_share": "0.00020605189607747896",
+    "transaction": "745140.0",
+    "transaction_share": "0.00013257969170612203"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "HANRUI METAL CONGO SARL",
+    "quantity": "355.70000000000005",
+    "quantity_share": "0.0005235189959625663",
+    "transaction": "1966697.0",
+    "transaction_share": "0.0003499262983323336"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "HUACHIN METAL LEACH SPRL",
+    "quantity": "716.378",
+    "quantity_share": "0.0010543646086299445",
+    "transaction": "3309470.0",
+    "transaction_share": "0.0005888403686698602"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "JIN XUN CONGO MINING SARL",
+    "quantity": "156.30599999999998",
+    "quantity_share": "0.00023005105477347446",
+    "transaction": "1023860.0",
+    "transaction_share": "0.00018217119353440976"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "KALONGWE MINING S.A",
+    "quantity": "22185.100000000002",
+    "quantity_share": "0.032652013711917706",
+    "transaction": "131285582.0",
+    "transaction_share": "0.02335910296993693"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "KAMBOVE MINING SAS",
+    "quantity": "2031.134",
+    "quantity_share": "0.0029894215134816725",
+    "transaction": "15447341.0",
+    "transaction_share": "0.002748481771827225"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "quantity": "97470.17",
+    "quantity_share": "0.14345652385353005",
+    "transaction": "844891859.1600001",
+    "transaction_share": "0.1503281292273198"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "KISANFU MINING",
+    "quantity": "218827.341",
+    "quantity_share": "0.32206991804745033",
+    "transaction": "2258771309.0",
+    "transaction_share": "0.401893877367815"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "KISANFU MINING SPRL",
+    "quantity": "4546.0",
+    "quantity_share": "0.006690799425487282",
+    "transaction": "20614184.0",
+    "transaction_share": "0.0036677968697067308"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "LA COMPAGNIE MINIERE DE MUSONOIE GL",
+    "quantity": "2601.823",
+    "quantity_share": "0.0038293611600571037",
+    "transaction": "18253538.0",
+    "transaction_share": "0.003247776848090269"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "LA MINIERE DE KALUNKUNDI",
+    "quantity": "14578.65",
+    "quantity_share": "0.021456846248213847",
+    "transaction": "117805628.0",
+    "transaction_share": "0.02096067026530061"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "LA MINIERE DE KASOMBO",
+    "quantity": "981.0",
+    "quantity_share": "0.001443835071800049",
+    "transaction": "6250896.0",
+    "transaction_share": "0.0011121961840285467"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "LUILU RESSOURCES SAS",
+    "quantity": "10967.449999999999",
+    "quantity_share": "0.016141884768821047",
+    "transaction": "49922384.0",
+    "transaction_share": "0.008882484204249723"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "METAL MINES SPRL",
+    "quantity": "226.38000000000002",
+    "quantity_share": "0.00033318591595728355",
+    "transaction": "1020943.0",
+    "transaction_share": "0.00018165218373664458"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "MINERAL METAL TECHNOLOGY SARL",
+    "quantity": "6352.5",
+    "quantity_share": "0.009349604784515608",
+    "transaction": "34741264.0",
+    "transaction_share": "0.006181370038651791"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "MMG KINSEVERE SARL",
+    "quantity": "7202.563",
+    "quantity_share": "0.010600726876910679",
+    "transaction": "50203490.0",
+    "transaction_share": "0.00893250023723244"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "MUTANDA MINING SARL",
+    "quantity": "34333.282",
+    "quantity_share": "0.050531698961876995",
+    "transaction": "286695229.68",
+    "transaction_share": "0.05101050160317557"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "NEW MINERALS INVESTMENT",
+    "quantity": "369.6",
+    "quantity_share": "0.0005439770056445445",
+    "transaction": "2060244.0",
+    "transaction_share": "0.00036657073081486385"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "RUASHI MINING SPRL",
+    "quantity": "27293.35",
+    "quantity_share": "0.04017033227004472",
+    "transaction": "70439700.0",
+    "transaction_share": "0.012533045749619835"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "SHITURU MINING CORPORATION SPRL",
+    "quantity": "2798.268",
+    "quantity_share": "0.004118488765235249",
+    "transaction": "17001210.0",
+    "transaction_share": "0.0030249552841493392"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "SINO CONGOLAISE DES MINES SARL",
+    "quantity": "8453.169",
+    "quantity_share": "0.012441367859381191",
+    "transaction": "85464722.0",
+    "transaction_share": "0.015206386040890871"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "SOCIETE MINIERE DE DEZIWA SAS",
+    "quantity": "23102.365999999998",
+    "quantity_share": "0.034002045129827733",
+    "transaction": "174969518.0",
+    "transaction_share": "0.03113160581153712"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "SOCIETE MINIERE DU KATANGA",
+    "quantity": "3000.0",
+    "quantity_share": "0.004415397773088835",
+    "transaction": "13320638.0",
+    "transaction_share": "0.0023700862648211797"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "TENGYUAN COBALT & COPPER RESOURCES",
+    "quantity": "9169.702",
+    "quantity_share": "0.013495960596896077",
+    "transaction": "50042419.0",
+    "transaction_share": "0.008903841537494408"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "TENKE FUNGURUME MINING",
+    "quantity": "74576.827",
+    "quantity_share": "0.10976211861994378",
+    "transaction": "554092712.0",
+    "transaction_share": "0.09858743448690052"
+  },
+  {
+    "year": "2024",
+    "product": "Cobalt",
+    "project": "THOMAS MINING SARL",
+    "quantity": "8034.576",
+    "quantity_share": "0.011825282992704333",
+    "transaction": "47563590.0",
+    "transaction_share": "0.008462793701366707"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "AMICAL KAKANA MINING SPRL",
+    "quantity": "321.0",
+    "quantity_share": "8.80768386192447e-05",
+    "transaction": "925551.0",
+    "transaction_share": "3.32343853092222e-05"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "BOSS MINING SPRL",
+    "quantity": "715.913",
+    "quantity_share": "0.0001964341238829263",
+    "transaction": "6652041.0",
+    "transaction_share": "0.00023885933210243817"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "BROTHER MINING SASU",
+    "quantity": "50316.1",
+    "quantity_share": "0.013805866104827971",
+    "transaction": "469387017.0",
+    "transaction_share": "0.01685459686405658"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "CHEMICAL OF AFRICA SPRL",
+    "quantity": "17582.5",
+    "quantity_share": "0.0048243333801335515",
+    "transaction": "167639011.0",
+    "transaction_share": "0.006019527270167651"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "CHENGTUN CONGO RESSOURCES SARL",
+    "quantity": "66074.898",
+    "quantity_share": "0.018129807252115437",
+    "transaction": "602783717.0",
+    "transaction_share": "0.021644562329793986"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "CNMC HUACHIN MABENDE MINING SPRL",
+    "quantity": "22558.009",
+    "quantity_share": "0.006189526848175917",
+    "transaction": "209019618.0",
+    "transaction_share": "0.0075054086936305366"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "COMPAGNIE DE TRAITEMENT DES REJETS KINGYAMBO",
+    "quantity": "101942.218",
+    "quantity_share": "0.02797117845256655",
+    "transaction": "946465752.0",
+    "transaction_share": "0.03398538544494117"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "COMPAGNIE MINIERE DE KAMBOVE SPRL",
+    "quantity": "48031.475",
+    "quantity_share": "0.013179004586352917",
+    "transaction": "449600953.0",
+    "transaction_share": "0.016144125291200056"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "COMPAGNIE MINIERE DE LUISHA",
+    "quantity": "22883.362",
+    "quantity_share": "0.006278798074578682",
+    "transaction": "210828558.0",
+    "transaction_share": "0.007570363524818946"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "CONGO DONGFANG INTERNATIONAL MINING",
+    "quantity": "57331.097",
+    "quantity_share": "0.015730659745586493",
+    "transaction": "525716264.0",
+    "transaction_share": "0.018877249207337878"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "CONGO JINJUN CHENG",
+    "quantity": "22233.498",
+    "quantity_share": "0.006100486651985358",
+    "transaction": "204576207.0",
+    "transaction_share": "0.007345856131685018"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "DIVINE LAND MINING SARL",
+    "quantity": "9976.003",
+    "quantity_share": "0.002737242387215268",
+    "transaction": "91172102.0",
+    "transaction_share": "0.0032737782870092607"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "EPSILON SARL",
+    "quantity": "1680.295",
+    "quantity_share": "0.00046104383659727037",
+    "transaction": "15557853.0",
+    "transaction_share": "0.0005586463427582473"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "EVERBRIGHT MINING SARL",
+    "quantity": "22000.0",
+    "quantity_share": "0.006036418846178765",
+    "transaction": "69789880.0",
+    "transaction_share": "0.0025059923900513105"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "EXCELLEN MINERALS",
+    "quantity": "29924.217",
+    "quantity_share": "0.008210686702542862",
+    "transaction": "278654793.0",
+    "transaction_share": "0.010005845986686367"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "FRONTIER SPRL",
+    "quantity": "8784.64",
+    "quantity_share": "0.002410353020586174",
+    "transaction": "15102691.0",
+    "transaction_share": "0.000542302533193873"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "GOLDEN AFRICAN RESOURCES SPRL",
+    "quantity": "8479.0",
+    "quantity_share": "0.0023264906998522613",
+    "transaction": "77954096.0",
+    "transaction_share": "0.0027991504119125768"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "HANRUI METAL CONGO SARL",
+    "quantity": "37886.012",
+    "quantity_share": "0.010395265311061585",
+    "transaction": "346328150.0",
+    "transaction_share": "0.012435838954882122"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "HUACHIN METAL LEACH SPRL",
+    "quantity": "19304.82",
+    "quantity_share": "0.005296908148640397",
+    "transaction": "178307607.0",
+    "transaction_share": "0.0064026117573244105"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "JIN XUN CONGO MINING SARL",
+    "quantity": "15513.048",
+    "quantity_share": "0.0042565116049489",
+    "transaction": "143876394.0",
+    "transaction_share": "0.005166266921106957"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "KALONGWE MINING S.A",
+    "quantity": "54314.843",
+    "quantity_share": "0.014903051905110945",
+    "transaction": "495921582.0",
+    "transaction_share": "0.01780739142342997"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "KAMBOVE MINING SAS",
+    "quantity": "32850.82",
+    "quantity_share": "0.009013695861837558",
+    "transaction": "308962159.0",
+    "transaction_share": "0.011094113061490047"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "KAMOA COPPER SA",
+    "quantity": "851769.4935",
+    "quantity_share": "0.23371079196197914",
+    "transaction": "3034301848.0",
+    "transaction_share": "0.10895472724994838"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "KAMOTO COPPER COMPANY SARL",
+    "quantity": "191466.156",
+    "quantity_share": "0.05253499602199106",
+    "transaction": "1761585036.48",
+    "transaction_share": "0.06325442450749506"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "KINSENDA COPPER COMPANY SARL",
+    "quantity": "72252.0",
+    "quantity_share": "0.019824697021550368",
+    "transaction": "214229901.0",
+    "transaction_share": "0.007692497846785889"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "KISANFU MINING",
+    "quantity": "199598.097",
+    "quantity_share": "0.054766259745100784",
+    "transaction": "1853034139.0",
+    "transaction_share": "0.06653814923939233"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "KISANFU MINING SPRL",
+    "quantity": "29517.0",
+    "quantity_share": "0.00809895341284812",
+    "transaction": "271006599.0",
+    "transaction_share": "0.009731217115542928"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "LA COMPAGNIE MINIERE DE MUSONOIE GL",
+    "quantity": "100468.226",
+    "quantity_share": "0.027566740584933972",
+    "transaction": "734628347.0",
+    "transaction_share": "0.026378796569043725"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "LA GENERALE DES CARRIERES ET DES MI",
+    "quantity": "5949.118",
+    "quantity_share": "0.001632334909697333",
+    "transaction": "55212509.0",
+    "transaction_share": "0.001982552877145504"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "LA MINIERE DE KALUNBWE MYUNGA",
+    "quantity": "18029.462",
+    "quantity_share": "0.004946972009239267",
+    "transaction": "164997212.0",
+    "transaction_share": "0.005924666407961767"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "LA MINIERE DE KALUNKUNDI",
+    "quantity": "51687.917",
+    "quantity_share": "0.014182268922660172",
+    "transaction": "481481425.0",
+    "transaction_share": "0.017288878946361"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "LA MINIERE DE KASOMBO",
+    "quantity": "25582.657",
+    "quantity_share": "0.007019437856823959",
+    "transaction": "234724651.0",
+    "transaction_share": "0.008428416686824074"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "LONG FEI MINING",
+    "quantity": "33142.959",
+    "quantity_share": "0.009093853742078642",
+    "transaction": "306782379.0",
+    "transaction_share": "0.011015842227781979"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "LUALABA COPPER SMELTER SAS",
+    "quantity": "37335.576",
+    "quantity_share": "0.010244235209060891",
+    "transaction": "302011719.0",
+    "transaction_share": "0.010844538914815655"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "LUILU RESSOURCES SAS",
+    "quantity": "42156.355",
+    "quantity_share": "0.011566973445827383",
+    "transaction": "390267789.0",
+    "transaction_share": "0.014013609269942153"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "MACROLINK JIAYUAN MINING SPRL",
+    "quantity": "15285.03",
+    "quantity_share": "0.004193947416200355",
+    "transaction": "141152125.0",
+    "transaction_share": "0.005068444752872069"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "METAL MINES SPRL",
+    "quantity": "17981.406",
+    "quantity_share": "0.004933786275417814",
+    "transaction": "166480436.0",
+    "transaction_share": "0.00597792553459648"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "MINERAL METAL TECHNOLOGY SARL",
+    "quantity": "26392.331",
+    "quantity_share": "0.007241598374681275",
+    "transaction": "243785373.0",
+    "transaction_share": "0.008753766155548915"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "MMG KINSEVERE SARL",
+    "quantity": "44120.235",
+    "quantity_share": "0.012105828093265271",
+    "transaction": "405750543.0",
+    "transaction_share": "0.014569558982150234"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "MUPINE COPPER CORPORATION SAS",
+    "quantity": "1754.638",
+    "quantity_share": "0.00048144226779188253",
+    "transaction": "16205078.0",
+    "transaction_share": "0.0005818866882732554"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "MUTANDA MINING SARL",
+    "quantity": "33671.105",
+    "quantity_share": "0.009238767854257457",
+    "transaction": "314671757.04",
+    "transaction_share": "0.011299131457258773"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "NATIONAL METAL  SARL",
+    "quantity": "2055.0",
+    "quantity_share": "0.0005638563967680619",
+    "transaction": "19386679.0",
+    "transaction_share": "0.0006961305857291566"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "NEW MINERALS INVESTMENT",
+    "quantity": "41947.178",
+    "quantity_share": "0.01150957890105524",
+    "transaction": "385019776.0",
+    "transaction_share": "0.013825165320176223"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "OM METAL RESSOURCES SPRL",
+    "quantity": "1061.0",
+    "quantity_share": "0.00029112001799071224",
+    "transaction": "9367394.0",
+    "transaction_share": "0.0003363613474992693"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "RUASHI MINING SPRL",
+    "quantity": "22757.468",
+    "quantity_share": "0.006244254942114099",
+    "transaction": "208244636.0",
+    "transaction_share": "0.007477580891169395"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "RUBAMIN SARL",
+    "quantity": "13982.456",
+    "quantity_share": "0.0038365436779211524",
+    "transaction": "87941254.0",
+    "transaction_share": "0.003157766044239786"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "SABWE MINING SARLSABWE MINING SARL",
+    "quantity": "29113.268",
+    "quantity_share": "0.007988176346775143",
+    "transaction": "231221609.0",
+    "transaction_share": "0.008302630590128821"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "SHITURU MINING CORPORATION SPRL",
+    "quantity": "25328.327",
+    "quantity_share": "0.006949654111135385",
+    "transaction": "234144145.0",
+    "transaction_share": "0.00840757206553544"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "SINO CONGOLAISE DES MINES SARL",
+    "quantity": "246202.429",
+    "quantity_share": "0.06755368101775407",
+    "transaction": "2255624534.0",
+    "transaction_share": "0.08099423465145711"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "SOCIETE CNMC CONGO COMPAGNIE MINIER",
+    "quantity": "20321.79",
+    "quantity_share": "0.005575947097458508",
+    "transaction": "187729501.0",
+    "transaction_share": "0.006740930073158599"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "SOCIETE D'EXPLOITATION DE KIPOI",
+    "quantity": "36683.926",
+    "quantity_share": "0.010065433739010327",
+    "transaction": "337801971.0",
+    "transaction_share": "0.012129683682939896"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "SOCIETE KAI PENG MINING",
+    "quantity": "78613.513",
+    "quantity_share": "0.0215701859744327",
+    "transaction": "736543437.0",
+    "transaction_share": "0.026447563000025744"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "SOCIETE MINIERE DE DEZIWA SAS",
+    "quantity": "89150.561",
+    "quantity_share": "0.024461369389445892",
+    "transaction": "822327182.0",
+    "transaction_share": "0.029527857910406765"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "SOCIETE MINIERE DU KATANGA",
+    "quantity": "48506.232",
+    "quantity_share": "0.013309269681905432",
+    "transaction": "479110924.0",
+    "transaction_share": "0.017203759764803317"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "SOCIETE POUR LE TRAITEMENT DU TERRIL DE LUBUMBASHI",
+    "quantity": "2604.705",
+    "quantity_share": "0.0007146859250334572",
+    "transaction": "12283752.0",
+    "transaction_share": "0.0004410809852843645"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "TENGYUAN COBALT & COPPER RESOURCES",
+    "quantity": "53479.653",
+    "quantity_share": "0.01467389023892276",
+    "transaction": "493930086.0",
+    "transaction_share": "0.017735881430565422"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "TENKE FUNGURUME MINING",
+    "quantity": "442058.598",
+    "quantity_share": "0.12129322054920738",
+    "transaction": "4104645491.0",
+    "transaction_share": "0.1473882798523858"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "THOMAS MINING SARL",
+    "quantity": "40899.346",
+    "quantity_share": "0.011222071954126639",
+    "transaction": "327820375.0",
+    "transaction_share": "0.011771267769105876"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "WORLD MINERALS RESOURCES",
+    "quantity": "916.0",
+    "quantity_share": "0.0002513345301408977",
+    "transaction": "8525087.0",
+    "transaction_share": "0.0003061160607601755"
   }
 ]
