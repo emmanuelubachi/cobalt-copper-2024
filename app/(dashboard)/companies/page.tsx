@@ -7,7 +7,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 export default function Page() {
   return (
-    <main>
+    <main className="max-w-screen-3xl mx-auto">
       <header className="__header flex items-start justify-between gap-4">
         <h1 className="text-start text-h5 font-medium tracking-tight lg:text-start lg:text-h5 xl:text-h5">
           Mining Companies in the Democratic Republic of the Congo

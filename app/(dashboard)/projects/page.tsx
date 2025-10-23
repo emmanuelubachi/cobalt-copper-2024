@@ -66,7 +66,7 @@ export default async function Page({
   );
 
   return (
-    <main>
+    <main className="max-w-screen-3xl mx-auto">
       <ErrorNotification errorType={errorType} />
       <Suspense fallback={<PageLoadingFallback />}>
         <MainPage

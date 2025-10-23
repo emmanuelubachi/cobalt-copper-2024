@@ -28,7 +28,7 @@ const SiteMap = ({
   }, [site_latitude, site_longitude]);
 
   return (
-    <div className="relative h-56 w-full rounded-lg sm:h-80">
+    <div className="relative h-56 w-full rounded-lg overflow-hidden sm:h-80">
       <Map
         mapboxAccessToken={TOKEN}
         mapStyle="mapbox://styles/mapbox/satellite-streets-v12"
