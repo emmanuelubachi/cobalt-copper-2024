@@ -54,7 +54,7 @@ type shareDataProps2 = {
 }[];
 
 export default function Dashboard() {
-  const [selectedYear, setSelectedYear] = useState<string>("2023");
+  const [selectedYear, setSelectedYear] = useState<string>("2024");
   const [kpi, setKpi] = useState<typeof kpiData>([]);
   const [coShareData, setCoShareData] = useState<shareDataByCountryProps>([]);
   const [cuShareData, setCuShareData] = useState<shareDataByCountryProps>([]);
@@ -247,7 +247,7 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <main className="grid min-h-screen gap-6 sm:gap-6">
+    <main className="grid min-h-screen max-w-screen-3xl mx-auto gap-6 sm:gap-6">
       <header className="__header items-center justify-between gap-6 space-y-4 lg:sticky lg:top-0 lg:flex lg:space-y-0">
         <h1 className="text-start text-h5 font-medium tracking-tight lg:text-h5 xl:text-h5">
           Copper and Cobalt Production Overview for{" "}

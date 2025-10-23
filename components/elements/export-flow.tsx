@@ -35,10 +35,10 @@ export default function ExportFlow({
   chartHeight?: { mobile: number; others: number };
 }) {
   const { isMobile, isTablet } = useDeviceType();
-  const [selectedYear, setSelectedYear] = useState<string>("2022");
-  const [selectedProduct, setSelectedProduct] = useState<string>("Copper");
+  const [selectedYear, setSelectedYear] = useState<string>("2024");
+  const [selectedProduct, setSelectedProduct] = useState<string>("Cobalt");
 
-  const years = ["2022", "2023"];
+  const years = ["2022", "2023", "2024"];
 
   hasYear
     ? (data = data.filter((d) => d.year === selectedYear))
