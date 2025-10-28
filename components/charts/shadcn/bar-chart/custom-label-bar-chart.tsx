@@ -1,7 +1,7 @@
-"use client";
-import { ReactNode } from "react";
+'use client'
+import { ReactNode } from 'react'
 
-import { Bar, BarChart, LabelList, XAxis, YAxis } from "recharts";
+import { Bar, BarChart, LabelList, XAxis, YAxis } from 'recharts'
 
 import {
   Card,
@@ -10,32 +10,34 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from '@/components/ui/card'
 import {
   ChartConfig,
   ChartContainer,
   ChartTooltip,
   ChartTooltipContent,
-} from "@/components/ui/chart";
-import { cn, numberFormatter, quantityFormatter } from "@/lib/utils";
+} from '@/components/ui/chart'
+import { cn, numberFormatter, quantityFormatter } from '@/lib/utils'
 
 type CustomLabelBarChartProps = {
-  title: string;
-  description: string;
-  config: ChartConfig;
-  chartData: any;
-  yAxisDataKey: string;
-  xAxisDataKey: string;
-  footNote?: ReactNode;
-  className?: string;
-  maxValue: number;
-};
+  title: string
+  description: string
+  config: ChartConfig
+  chartData: any
+  yAxisDataKey: string
+  xAxisDataKey: string
+  footNote?: ReactNode
+  className?: string
+  maxValue: number
+  formatXAxis?: (value: number) => string
+  formatTooltip?: (value: number) => string
+}
 
 export default function CustomLabelBarChart({
   ...props
 }: CustomLabelBarChartProps) {
-  const chartConfig = props.config satisfies ChartConfig;
-  const chartData = props.chartData;
+  const chartConfig = props.config satisfies ChartConfig
+  const chartData = props.chartData
 
   // const maxValue = Math.max(
   //   ...chartData.map((item: any) => item[props.xAxisDataKey]),
@@ -50,7 +52,7 @@ export default function CustomLabelBarChart({
       <CardContent className="px-4 pt-4 sm:px-6 sm:pt-6">
         <ChartContainer
           config={chartConfig}
-          className={cn("aspect-auto w-full", props.className)}
+          className={cn('aspect-auto w-full', props.className)}
         >
           <BarChart
             accessibilityLayer
@@ -91,14 +93,16 @@ export default function CustomLabelBarChart({
                           className="h-2.5 w-2.5 shrink-0 rounded-[2px] bg-[--color-bg]"
                           style={
                             {
-                              "--color-bg": `var(--color-${name})`,
+                              '--color-bg': `var(--color-${name})`,
                             } as React.CSSProperties
                           }
                         />
                         {chartConfig[name as keyof typeof chartConfig]?.label ||
                           name}
-                        <div className="ml-auto flex items-baseline gap-0.5 font-mono font-medium tabular-nums text-foreground">
-                          {parseFloat(value as string).toLocaleString()}
+                        <div className="ml-auto flex items-baseline gap-0.5 font-mono text-lg font-medium tabular-nums text-foreground">
+                          {props.formatTooltip
+                            ? props.formatTooltip(parseFloat(value as string))
+                            : parseFloat(value as string).toLocaleString()}
                         </div>
                       </div>
                     </>
@@ -119,7 +123,7 @@ export default function CustomLabelBarChart({
                 className="ml-2 line-clamp-1 truncate fill-foreground/80"
                 fontSize={12}
                 textAnchor="start"
-                style={{ whiteSpace: "nowrap" }}
+                style={{ whiteSpace: 'nowrap' }}
               />
               <LabelList
                 dataKey={props.xAxisDataKey}
@@ -127,7 +131,11 @@ export default function CustomLabelBarChart({
                 offset={8}
                 className="truncate fill-foreground/80"
                 fontSize={12}
-                formatter={(value: any) => quantityFormatter(parseFloat(value))}
+                formatter={(value: any) =>
+                  props.formatXAxis
+                    ? props.formatXAxis(parseFloat(value))
+                    : quantityFormatter(parseFloat(value))
+                }
               />
             </Bar>
           </BarChart>
@@ -139,5 +147,5 @@ export default function CustomLabelBarChart({
         </CardFooter>
       )}
     </Card>
-  );
+  )
 }
