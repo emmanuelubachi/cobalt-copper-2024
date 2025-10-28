@@ -68,8 +68,7 @@ export async function fetchData(
 
 // lib fetch remote data ---------------------------------------------------------------
 export async function fetchTinybirdData(url: string) {
-  const authorizationToken =
-    "Bearer p.eyJ1IjogIjUyZmJmZDU2LTI4MGYtNDY3Ny1hYzhjLTg0NjBmNDIyMjFiOSIsICJpZCI6ICI3MzQyM2VjYS1hZWVjLTQ0NTgtOGUyNy05Njk5OWI1MTAwMDMiLCAiaG9zdCI6ICJldV9zaGFyZWQifQ.BcIAAj2lyi3SqcdN0zqdQ1M4uUYmrmiAvigkjLpNXo4";
+  const authorizationToken = `Bearer ${process.env.TINYBIRD_API_KEY}`;
 
   if (!authorizationToken) {
     throw new Error("API authorization token is not defined");
