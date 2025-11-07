@@ -74,7 +74,7 @@
   {
     "year": "2015",
     "destination": "Lao, R\u00e9publique D\u00e9mocratique Popula",
-    "short_destination": "DR Lao",
+    "short_destination": "DR\u00a0Lao",
     "long_destination": "Lao, People's Democratic Republic",
     "quantity": "725",
     "transaction": "1286000",
@@ -451,9 +451,9 @@
   },
   {
     "year": "2017",
-    "destination": "Swaziland",
-    "short_destination": "Swaziland",
-    "long_destination": "Swaziland",
+    "destination": "Eswatini ",
+    "short_destination": "Eswatini ",
+    "long_destination": "Eswatini ",
     "quantity": "131.5",
     "transaction": "789264",
     "product": "Copper"
@@ -649,9 +649,9 @@
   },
   {
     "year": "2018",
-    "destination": "Swaziland",
-    "short_destination": "Swaziland",
-    "long_destination": "Swaziland",
+    "destination": "Eswatini ",
+    "short_destination": "Eswatini ",
+    "long_destination": "Eswatini ",
     "quantity": "131.6",
     "transaction": "835380",
     "product": "Copper"
@@ -749,7 +749,7 @@
   {
     "year": "2019",
     "destination": "Cor\u00e9e, R\u00e9publique de",
-    "short_destination": "ROK",
+    "short_destination": "South\u00a0Korea",
     "long_destination": "Republic of Korea",
     "quantity": "841.4",
     "transaction": "5045155",
@@ -865,9 +865,9 @@
   },
   {
     "year": "2019",
-    "destination": "Swaziland",
-    "short_destination": "Swaziland",
-    "long_destination": "Swaziland",
+    "destination": "Eswatini ",
+    "short_destination": "Eswatini ",
+    "long_destination": "Eswatini ",
     "quantity": "411.3",
     "transaction": "2417683",
     "product": "Copper"
@@ -956,7 +956,7 @@
   {
     "year": "2020",
     "destination": "Cor\u00e9e, R\u00e9publique de",
-    "short_destination": "ROK",
+    "short_destination": "South\u00a0Korea",
     "long_destination": "Republic of Korea",
     "quantity": "837",
     "transaction": "7377822",
@@ -965,7 +965,7 @@
   {
     "year": "2020",
     "destination": "Cor\u00e9e, R\u00e9publique Populaire d\u00e9mocra",
-    "short_destination": "DPRK",
+    "short_destination": "North\u00a0Korea",
     "long_destination": "Democratic People's Republic of Korea",
     "quantity": "768.5",
     "transaction": "6667963",
@@ -1090,18 +1090,18 @@
   },
   {
     "year": "2020",
-    "destination": "Swaziland",
-    "short_destination": "Swaziland",
-    "long_destination": "Swaziland",
+    "destination": "Eswatini ",
+    "short_destination": "Eswatini ",
+    "long_destination": "Eswatini ",
     "quantity": "66.3",
     "transaction": "763701",
     "product": "Cobalt"
   },
   {
     "year": "2020",
-    "destination": "Swaziland",
-    "short_destination": "Swaziland",
-    "long_destination": "Swaziland",
+    "destination": "Eswatini ",
+    "short_destination": "Eswatini ",
+    "long_destination": "Eswatini ",
     "quantity": "239.2",
     "transaction": "1429309",
     "product": "Copper"
@@ -1190,7 +1190,7 @@
   {
     "year": "2021",
     "destination": "Cor\u00e9e, R\u00e9publique Populaire d\u00e9mocra",
-    "short_destination": "DPRK",
+    "short_destination": "North\u00a0Korea",
     "long_destination": "Democratic People's Republic of Korea",
     "quantity": "1317.6",
     "transaction": "15056394",
@@ -1306,9 +1306,9 @@
   },
   {
     "year": "2021",
-    "destination": "Swaziland",
-    "short_destination": "Swaziland",
-    "long_destination": "Swaziland",
+    "destination": "Eswatini ",
+    "short_destination": "Eswatini ",
+    "long_destination": "Eswatini ",
     "quantity": "624.6",
     "transaction": "4898479",
     "product": "Copper"
@@ -1406,7 +1406,7 @@
   {
     "year": "2022",
     "destination": "Cor\u00e9e, R\u00e9publique de",
-    "short_destination": "ROK",
+    "short_destination": "South\u00a0Korea",
     "long_destination": "Republic of Korea",
     "quantity": "44807.5",
     "transaction": "117339012",
@@ -1513,9 +1513,9 @@
   },
   {
     "year": "2022",
-    "destination": "Swaziland",
-    "short_destination": "Swaziland",
-    "long_destination": "Swaziland",
+    "destination": "Eswatini ",
+    "short_destination": "Eswatini ",
+    "long_destination": "Eswatini ",
     "quantity": "3550.4",
     "transaction": "32831265",
     "product": "Copper"
@@ -1808,7 +1808,7 @@
     "transaction": "37539144.5382",
     "product": "Copper"
   },
-   {
+  {
     "year": "2024",
     "destination": "Angola",
     "short_destination": "Angola",
@@ -1856,8 +1856,8 @@
   {
     "year": "2024",
     "destination": "Hong Kong",
-    "short_destination": "Hong Kong",
-    "long_destination": "Hong\u00a0Kong",
+    "short_destination": "Hong\u00a0Kong",
+    "long_destination": "Hong Kong",
     "quantity": "68361.785",
     "transaction": "418970036.0",
     "product": "Cobalt"
@@ -1865,8 +1865,8 @@
   {
     "year": "2024",
     "destination": "Hong Kong",
-    "short_destination": "Hong Kong",
-    "long_destination": "Hong\u00a0Kong",
+    "short_destination": "Hong\u00a0Kong",
+    "long_destination": "Hong Kong",
     "quantity": "271438.086",
     "transaction": "2502273439.0",
     "product": "Copper"
@@ -1955,8 +1955,8 @@
   {
     "year": "2024",
     "destination": "South Africa",
-    "short_destination": "South Africa",
-    "long_destination": "South\u00a0Africa",
+    "short_destination": "South\u00a0Africa",
+    "long_destination": "South Africa",
     "quantity": "74979.987",
     "transaction": "642311608.84",
     "product": "Cobalt"
@@ -1964,8 +1964,8 @@
   {
     "year": "2024",
     "destination": "South Africa",
-    "short_destination": "South Africa",
-    "long_destination": "South\u00a0Africa",
+    "short_destination": "South\u00a0Africa",
+    "long_destination": "South Africa",
     "quantity": "96943.941",
     "transaction": "603473138.28",
     "product": "Copper"
@@ -1973,8 +1973,8 @@
   {
     "year": "2024",
     "destination": "South Korea",
-    "short_destination": "South Korea",
-    "long_destination": "South\u00a0Korea",
+    "short_destination": "South\u00a0Korea",
+    "long_destination": "South Korea",
     "quantity": "339.907",
     "transaction": "2298542.0",
     "product": "Cobalt"
@@ -2060,5 +2060,4 @@
     "transaction": "91323734.0",
     "product": "Copper"
   }
-
 ]
