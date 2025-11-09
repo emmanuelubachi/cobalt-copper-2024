@@ -1,13 +1,13 @@
-import React, { Suspense } from "react";
+import { Suspense } from 'react'
 
-import GridList from "@/app/(dashboard)/companies/components/gridList";
-import { CompaniesList } from "@/constants/application";
-import { ShareButton } from "@/components/elements/shareButton";
-import { Skeleton } from "@/components/ui/skeleton";
+import GridList from '@/app/(dashboard)/companies/components/gridList'
+import { CompaniesList } from '@/constants/application'
+import { ShareButton } from '@/components/elements/shareButton'
+import { Skeleton } from '@/components/ui/skeleton'
 
 export default function Page() {
   return (
-    <main className="max-w-screen-3xl mx-auto">
+    <main className="mx-auto max-w-screen-3xl">
       <header className="__header flex items-start justify-between gap-4">
         <h1 className="text-start text-h5 font-medium tracking-tight lg:text-start lg:text-h5 xl:text-h5">
           Mining Companies in the Democratic Republic of the Congo
@@ -23,5 +23,5 @@ export default function Page() {
         <GridList data={CompaniesList} />
       </section>
     </main>
-  );
+  )
 }
