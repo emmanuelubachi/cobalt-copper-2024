@@ -3617,7 +3617,7 @@
     "transaction": "241396118.5667",
     "transaction_share": "0.010798905620288715"
   },
-    {
+  {
     "year": "2024",
     "product": "Cobalt",
     "project": "BROTHER MINING SASU",
@@ -4214,15 +4214,6 @@
   {
     "year": "2024",
     "product": "Copper",
-    "project": "LONG FEI MINING",
-    "quantity": "33142.959",
-    "quantity_share": "0.009093853742078642",
-    "transaction": "306782379.0",
-    "transaction_share": "0.011015842227781979"
-  },
-  {
-    "year": "2024",
-    "product": "Copper",
     "project": "LUALABA COPPER SMELTER SAS",
     "quantity": "37335.576",
     "quantity_share": "0.010244235209060891",
@@ -4453,5 +4444,14 @@
     "quantity_share": "0.0002513345301408977",
     "transaction": "8525087.0",
     "transaction_share": "0.0003061160607601755"
+  },
+  {
+    "year": "2024",
+    "product": "Copper",
+    "project": "ZHAN FEI MINING SARL",
+    "quantity": "33142.959",
+    "quantity_share": "0.009093853742078642",
+    "transaction": "306782379.0",
+    "transaction_share": "0.011015842227781979"
   }
 ]

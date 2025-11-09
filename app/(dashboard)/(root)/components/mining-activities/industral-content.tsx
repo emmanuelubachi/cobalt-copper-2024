@@ -1,67 +1,75 @@
-"use client";
-import React, { useState, useEffect } from "react";
+'use client'
+import { useState, useEffect } from 'react'
 
-import Map from "react-map-gl";
-import { ArrowUpRight } from "lucide-react";
+import Map from 'react-map-gl'
+import { ArrowUpRight } from 'lucide-react'
 
-import useMapDetailsStore from "@/store/mapDetailsStore";
-import useFilterStore from "@/store/filterStore";
+import useMapDetailsStore from '@/store/mapDetailsStore'
+import useFilterStore from '@/store/filterStore'
 
-import LinkButton from "@/components/m-ui/link-button";
+import LinkButton from '@/components/m-ui/link-button'
 
-import MultipleBarChart from "@/components/charts/shadcn/bar-chart/multiple-bar-chart";
-import CustomLabelBarChart from "@/components/charts/shadcn/bar-chart/custom-label-bar-chart";
+import MultipleBarChart from '@/components/charts/shadcn/bar-chart/multiple-bar-chart'
+// import CustomLabelBarChart from '@/components/charts/shadcn/bar-chart/custom-label-bar-chart'
 
-import { IndustralProjectDetailsProps } from "@/types/map";
+import {
+  IndustralProjectDetailsProps,
+  // MonthlyProductionData,
+  // NewMonthlyProductionData,
+} from '@/types/map'
 import {
   calculateYearlySums,
+  getYearlySummary,
   transformMonthlyData,
-  transformSortTopDestination,
-} from "@/lib/dataProcessing";
+  transformNewMonthlyData,
+  // transformSortTopDestination,
+} from '@/lib/dataProcessing'
 
-import totalProductionData from "@/data/projects/totals_production_quantity_by_projects_&_type.json";
-import montlyProductionData from "@/data/map/2023 Industrial Projects Monthly cobalt-copper Production - origin Statistiques M.json";
-import cobaltDestinationData from "@/data/map/2023 cobalt production destination - origin situation des.json";
-import cubaltDestinationData from "@/data/map/2023 copper production destination - origin situation des.json";
+import totalProductionData from '@/data/projects/totals_production_quantity_by_projects_&_type.json'
+import montlyProductionData from '@/data/map/2023 Industrial Projects Monthly cobalt-copper Production - origin Statistiques M.json'
+import newMontlyProductionData from '@/data/projects/projects_monthly_exports.json'
 
-import { TMonthlyProductionData, TDestinationData } from "@/types/map";
-import { YearlySummary } from "@/types/projects";
-import { monthlyProdChartConfig } from "@/constants/chart";
+// import cobaltDestinationData from '@/data/map/2023 cobalt production destination - origin situation des.json'
+// import cubaltDestinationData from '@/data/map/2023 copper production destination - origin situation des.json'
 
-const coDestChartConfig = {
-  quantity_tons: {
-    label: `Qty (T) ${" "}`,
-    color: "hsl(var(--chart-6))",
-  },
-  label: {
-    color: "hsl(var(--background))",
-  },
-};
+import { TMonthlyProductionData } from '@/types/map'
+import { YearlyExportDataProps, YearlySummaryProps } from '@/types/projects'
+import { monthlyProdChartConfig } from '@/constants/chart'
 
-const cuDestChartConfig = {
-  quantity_tons: {
-    label: `Qty (T) ${" "}`,
-    color: "hsl(var(--chart-5))",
-  },
-  label: {
-    color: "hsl(var(--background))",
-  },
-};
+// const coDestChartConfig = {
+//   quantity_tons: {
+//     label: `Qty (T) ${' '}`,
+//     color: 'hsl(var(--chart-6))',
+//   },
+//   label: {
+//     color: 'hsl(var(--background))',
+//   },
+// }
 
-const TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN;
+// const cuDestChartConfig = {
+//   quantity_tons: {
+//     label: `Qty (T) ${' '}`,
+//     color: 'hsl(var(--chart-5))',
+//   },
+//   label: {
+//     color: 'hsl(var(--background))',
+//   },
+// }
+
+const TOKEN = process.env.NEXT_PUBLIC_MAPBOX_ACCESS_TOKEN
 
 const SiteMap = ({
   site_latitude,
   site_longitude,
 }: {
-  site_latitude?: number;
-  site_longitude?: number;
+  site_latitude?: number
+  site_longitude?: number
 }) => {
   const [viewState, setViewState] = useState({
     longitude: 23.52741376552,
     latitude: -3.050471588628,
     zoom: 15,
-  });
+  })
 
   useEffect(() => {
     if (site_latitude && site_longitude) {
@@ -69,9 +77,9 @@ const SiteMap = ({
         longitude: site_longitude,
         latitude: site_latitude,
         zoom: 15,
-      });
+      })
     }
-  }, [site_latitude, site_longitude]);
+  }, [site_latitude, site_longitude])
 
   return (
     <div className="relative h-56 w-full sm:h-80">
@@ -82,111 +90,193 @@ const SiteMap = ({
         onMove={(evt) => setViewState(evt.viewState)}
         maxZoom={16}
         minZoom={14}
-        style={{ position: "absolute" }}
+        style={{ position: 'absolute' }}
         attributionControl={false}
       ></Map>
     </div>
-  );
-};
+  )
+}
 
 const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
-  const { closeMapDetails } = useMapDetailsStore();
-  const { closeFilter } = useFilterStore();
+  const { closeMapDetails } = useMapDetailsStore()
+  const { closeFilter } = useFilterStore()
 
-  const latitude = parseFloat(data.latitude_longitude?.split(",")[0]);
-  const longitude = parseFloat(data.latitude_longitude?.split(",")[1]);
+  const latitude = parseFloat(data.latitude_longitude?.split(',')[0])
+  const longitude = parseFloat(data.latitude_longitude?.split(',')[1])
 
-  const [totalProd, setTotalProd] = useState<YearlySummary[]>([]);
-  const [monthlyData, setMonthlyData] = useState<TMonthlyProductionData[]>([]);
-  const [coDestinationData, setCoDestinationData] = useState<
-    TDestinationData[]
-  >([]);
-  const [cuDestinationData, setCuDestinationData] = useState<
-    TDestinationData[]
-  >([]);
+  const [latestYear, setLatestYear] = useState<string>('')
+  const [yearlyExportSummary, setYearlyExportSummary] =
+    useState<YearlySummaryProps>()
+  // const [totalProd, setTotalProd] = useState<YearlySummaryProps[]>([])
+  // const [monthlyData, setMonthlyData] = useState<TMonthlyProductionData[]>([])
+  const [newMonthlyData, setNewMonthlyData] = useState<
+    TMonthlyProductionData[]
+  >([])
+
+  // const [coDestinationData, setCoDestinationData] = useState<
+  //   TDestinationData[]
+  // >([])
+  // const [cuDestinationData, setCuDestinationData] = useState<
+  //   TDestinationData[]
+  // >([])
 
   useEffect(() => {
-    const fetchTotalProductionData = async () => {
+    // const fetchTotalProductionData = async () => {
+    //   try {
+    //     // Filter data based on _project_id
+    //     const filtered = totalProductionData.filter(
+    //       (row) => row._project_id === data._project_id
+    //     )
+
+    //     // Process data
+    //     const totalProd = calculateYearlySums(filtered)
+
+    //     setTotalProd(totalProd)
+    //   } catch (error) {
+    //     console.error(
+    //       'Error fetching and processing total industral projects production data:',
+    //       error
+    //     )
+    //   }
+    // }
+
+    // const fetchMonthlyData = async () => {
+    //   try {
+    //     // Filter data based on _project_id
+    //     const filtered = montlyProductionData.filter(
+    //       (row) => row._project_id === data._project_id
+    //     )
+
+    //     // Process data for chart
+    //     const MonthlyProductionData = transformMonthlyData(filtered)
+
+    //     setMonthlyData(MonthlyProductionData)
+    //   } catch (error) {
+    //     console.error(
+    //       'Error fetching and processing monthly industral projects production data:',
+    //       error
+    //     )
+    //   }
+    // }
+
+    const fetchNewMonthlyData = async () => {
       try {
+        type MonthKey =
+          | 'Jan'
+          | 'Feb'
+          | 'Mar'
+          | 'Apr'
+          | 'May'
+          | 'Jun'
+          | 'Jul'
+          | 'Aug'
+          | 'Sep'
+          | 'Oct'
+          | 'Nov'
+          | 'Dec'
+        const monthMap: Record<MonthKey, { num: number; full: string }> = {
+          Jan: { num: 1, full: 'January' },
+          Feb: { num: 2, full: 'February' },
+          Mar: { num: 3, full: 'March' },
+          Apr: { num: 4, full: 'April' },
+          May: { num: 5, full: 'May' },
+          Jun: { num: 6, full: 'June' },
+          Jul: { num: 7, full: 'July' },
+          Aug: { num: 8, full: 'August' },
+          Sep: { num: 9, full: 'September' },
+          Oct: { num: 10, full: 'October' },
+          Nov: { num: 11, full: 'November' },
+          Dec: { num: 12, full: 'December' },
+        }
         // Filter data based on _project_id
-        const filtered = totalProductionData.filter(
-          (row) => row._project_id === data._project_id,
-        );
+        const projectData = newMontlyProductionData.filter(
+          (row) => row._project_id === data._project_id
+        )
 
-        // Process data
-        const totalProd = calculateYearlySums(filtered);
+        // Find latest year for that project
+        const latestYear = Math.max(...projectData.map((d) => Number(d.year)))
 
-        setTotalProd(totalProd);
-      } catch (error) {
-        console.error(
-          "Error fetching and processing total industral projects production data:",
-          error,
-        );
-      }
-    };
+        // Filter all records in that latest year
+        const latestYearData = projectData
+          .filter((d) => Number(d.year) === latestYear)
+          .sort((a, b) => {
+            const monthA = monthMap[a.month as MonthKey]?.num ?? 0
+            const monthB = monthMap[b.month as MonthKey]?.num ?? 0
+            return monthA - monthB
+          })
 
-    const fetchMonthlyData = async () => {
-      try {
-        // Filter data based on _project_id
-        const filtered = montlyProductionData.filter(
-          (row) => row._project_id === data._project_id,
-        );
+        // Return clean formatted records
+        const filteredMonthlyData: YearlyExportDataProps[] = latestYearData.map(
+          ({ year, month, product, quantity }) => ({
+            year,
+            month: monthMap[month as MonthKey]?.full || month, // convert to full month name
+            quantity: quantity,
+            product,
+          })
+        )
 
         // Process data for chart
-        const MonthlyProductionData = transformMonthlyData(filtered);
+        const MonthlyProductionData =
+          transformNewMonthlyData(filteredMonthlyData)
 
-        setMonthlyData(MonthlyProductionData);
+        // Annual Export
+        const YearlyExport = getYearlySummary(filteredMonthlyData)
+
+        setYearlyExportSummary(YearlyExport)
+        setLatestYear(latestYear.toString())
+        setNewMonthlyData(MonthlyProductionData)
       } catch (error) {
         console.error(
-          "Error fetching and processing monthly industral projects production data:",
-          error,
-        );
+          'Error fetching and processing monthly industrial projects production data:',
+          error
+        )
       }
-    };
+    }
 
-    const fetchCoDestinationData = async () => {
-      try {
-        // Filter data based on short_name
-        const filtered = cobaltDestinationData.filter(
-          (row) => row._project_id === data._project_id,
-        );
+    // const fetchCoDestinationData = async () => {
+    //   try {
+    //     // Filter data based on short_name
+    //     const filtered = cobaltDestinationData.filter(
+    //       (row) => row._project_id === data._project_id
+    //     )
 
-        // Process data for chart - sort for top destinations
-        const CoDestinationData = transformSortTopDestination(filtered);
+    //     // Process data for chart - sort for top destinations
+    //     const CoDestinationData = transformSortTopDestination(filtered)
 
-        setCoDestinationData(CoDestinationData);
-      } catch (error) {
-        console.error(
-          "Error fetching and processing co destination data:",
-          error,
-        );
-      }
-    };
+    //     setCoDestinationData(CoDestinationData)
+    //   } catch (error) {
+    //     console.error(
+    //       'Error fetching and processing co destination data:',
+    //       error
+    //     )
+    //   }
+    // }
 
-    const fetchCuDestinationData = async () => {
-      try {
-        // Filter data based on short_name
-        const filtered = cubaltDestinationData.filter(
-          (row) => row._project_id === data._project_id,
-        );
+    // const fetchCuDestinationData = async () => {
+    //   try {
+    //     // Filter data based on short_name
+    //     const filtered = cubaltDestinationData.filter(
+    //       (row) => row._project_id === data._project_id
+    //     )
 
-        // Process data for chart - sort for top destinations
-        const CuDestinationData = transformSortTopDestination(filtered);
+    //     // Process data for chart - sort for top destinations
+    //     const CuDestinationData = transformSortTopDestination(filtered)
 
-        setCuDestinationData(CuDestinationData);
-      } catch (error) {
-        console.error(
-          "Error fetching and processing cu destination data:",
-          error,
-        );
-      }
-    };
+    //     setCuDestinationData(CuDestinationData)
+    //   } catch (error) {
+    //     console.error(
+    //       'Error fetching and processing cu destination data:',
+    //       error
+    //     )
+    //   }
+    // }
 
-    fetchTotalProductionData();
-    fetchMonthlyData();
-    fetchCoDestinationData();
-    fetchCuDestinationData();
-  }, [data._project_id]);
+    // fetchTotalProductionData()
+    // fetchMonthlyData()
+    fetchNewMonthlyData()
+    // fetchCoDestinationData()
+    // fetchCuDestinationData()
+  }, [data._project_id])
 
   return (
     <div className="mx-auto">
@@ -201,7 +291,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
               <div>
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Nationality:{" "}
+                    Nationality:{' '}
                   </span>
                   {data.Nationality}
                 </p>
@@ -211,7 +301,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
             {data.Province && (
               <div>
                 <span className="font-medium text-foreground/70">
-                  Province:{" "}
+                  Province:{' '}
                 </span>
                 {data.Province}
               </div>
@@ -221,7 +311,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
               <div className="flex items-center gap-1">
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Geographical Coordinates:{" "}
+                    Geographical Coordinates:{' '}
                   </span>
                   {data.Geographical_coordinates}
                 </p>
@@ -242,7 +332,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
 
           {/* Mining Details */}
           <div className="grid gap-4">
-            {totalProd.length > 0 && (
+            {/* {totalProd.length > 0 && (
               <div className="">
                 <span className="font-medium text-foreground/70">
                   Annual Production {totalProd.length > 0 && totalProd[0].year}:
@@ -254,8 +344,8 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
                         {totalProd[0].totalCobalt > 0 &&
                           totalProd[0].totalCobalt
                             .toFixed(1)
-                            .replace(/\B(?=(\d{3})+(?!\d))/g, ",") +
-                            " tonnes Co"}
+                            .replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                            ' tonnes Co'}
                       </span>
                     )}
 
@@ -264,8 +354,39 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
                         {totalProd[0].totalCopper > 0 &&
                           totalProd[0].totalCopper
                             .toFixed(1)
-                            .replace(/\B(?=(\d{3})+(?!\d))/g, ",") +
-                            " tonnes Cu"}
+                            .replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                            ' tonnes Cu'}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )} */}
+
+            {yearlyExportSummary && (
+              <div className="">
+                <span className="font-medium text-foreground/70">
+                  Annual Production {yearlyExportSummary.year}:
+                </span>
+                <div>
+                  <div className="flex gap-4 text-xl font-bold">
+                    {yearlyExportSummary.totalCobalt > 0 && (
+                      <span className="text-chart6">
+                        {yearlyExportSummary.totalCobalt > 0 &&
+                          yearlyExportSummary.totalCobalt
+                            .toFixed(1)
+                            .replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                            ' tonnes Co'}
+                      </span>
+                    )}
+
+                    {yearlyExportSummary.totalCopper > 0 && (
+                      <span className="text-chart5">
+                        {yearlyExportSummary.totalCopper > 0 &&
+                          yearlyExportSummary.totalCopper
+                            .toFixed(1)
+                            .replace(/\B(?=(\d{3})+(?!\d))/g, ',') +
+                            ' tonnes Cu'}
                       </span>
                     )}
                   </div>
@@ -273,18 +394,18 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
               </div>
             )}
 
-            {monthlyData.length > 0 && (
+            {newMonthlyData.length > 0 && (
               <MultipleBarChart
-                title="Exports of Copper and Cobalt in 2023"
+                title={`Exports of Copper and Cobalt in ${latestYear}`}
                 description="Quantity in Tonnes"
                 config={monthlyProdChartConfig}
-                chartData={monthlyData}
+                chartData={newMonthlyData}
                 firstDataKey="Cobalt"
                 secondDataKey="Copper"
               />
             )}
 
-            {coDestinationData.length > 0 && (
+            {/* {coDestinationData.length > 0 && (
               <CustomLabelBarChart
                 title="Top Destinations of Cobalt Production in 2023"
                 description="Quantity in Tonnes"
@@ -294,12 +415,12 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
                 xAxisDataKey="quantity_tons"
                 className="h-[200px]"
                 maxValue={Math.max(
-                  ...coDestinationData.map((d) => d.quantity_tons),
+                  ...coDestinationData.map((d) => d.quantity_tons)
                 )}
                 footNote={
                   <>
                     <div className="leading-none text-muted-foreground">
-                      Showing top {coDestinationData.length > 4 ? 5 : ""}{" "}
+                      Showing top {coDestinationData.length > 4 ? 5 : ''}{' '}
                       destinations in 2023.
                     </div>
                   </>
@@ -317,29 +438,29 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
                 xAxisDataKey="quantity_tons"
                 className="h-[200px]"
                 maxValue={Math.max(
-                  ...cuDestinationData.map((d) => d.quantity_tons),
+                  ...cuDestinationData.map((d) => d.quantity_tons)
                 )}
                 footNote={
                   <>
                     <div className="leading-none text-muted-foreground">
-                      Showing top {cuDestinationData.length > 4 ? 5 : ""}{" "}
+                      Showing top {cuDestinationData.length > 4 ? 5 : ''}{' '}
                       destinations in 2023.
                     </div>
                   </>
                 }
               />
-            )}
+            )} */}
           </div>
 
           {/* Mine Details */}
           <div className="grid gap-2">
-            {data["Deposit_size_(official_reserves)"] && (
+            {data['Deposit_size_(official_reserves)'] && (
               <div>
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Deposit Size:{" "}
+                    Deposit Size:{' '}
                   </span>
-                  {data["Deposit_size_(official_reserves)"]}
+                  {data['Deposit_size_(official_reserves)']}
                 </p>
               </div>
             )}
@@ -347,7 +468,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
               <div>
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Project Size:{" "}
+                    Project Size:{' '}
                   </span>
                   {data.Project_size}
                 </p>
@@ -357,20 +478,20 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
               <div>
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Permit ID:{" "}
+                    Permit ID:{' '}
                   </span>
                   {data.Permit_ID}
                 </p>
               </div>
             )}
 
-            {data["Mine_life/permit_validity"] && (
+            {data['Mine_life/permit_validity'] && (
               <div className="">
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Mine Life/Permit Validity:{" "}
+                    Mine Life/Permit Validity:{' '}
                   </span>
-                  {data["Mine_life/permit_validity"]}
+                  {data['Mine_life/permit_validity']}
                 </p>
               </div>
             )}
@@ -379,7 +500,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
               <div>
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Mine Type:{" "}
+                    Mine Type:{' '}
                   </span>
                   {data.Mine_type}
                 </p>
@@ -390,7 +511,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
               <div className="">
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Ownership:{" "}
+                    Ownership:{' '}
                   </span>
                   {data.Ownership}
                 </p>
@@ -401,7 +522,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
               <div>
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Share Allocation:{" "}
+                    Share Allocation:{' '}
                   </span>
                   {data.Share_allocation}
                 </p>
@@ -412,7 +533,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
               <div>
                 <p>
                   <span className="font-medium text-foreground/70">
-                    Contract Type:{" "}
+                    Contract Type:{' '}
                   </span>
                   {data.Contract_type}
                 </p>
@@ -426,9 +547,9 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
           <LinkButton
             href={`/projects?project_id=${data._project_id}`}
             variant="default"
-            size={"lg"}
+            size={'lg'}
             onClick={() => {
-              closeFilter(), closeMapDetails();
+              ;(closeFilter(), closeMapDetails())
             }}
           >
             View Project
@@ -437,17 +558,17 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export function IndustrialProjectsContent({
   data,
 }: {
-  data: IndustralProjectDetailsProps | null;
+  data: IndustralProjectDetailsProps | null
 }) {
   if (!data) {
-    return <div>No industral projects selected</div>;
+    return <div>No industral projects selected</div>
   }
-  const projectData = data;
-  return <SiteDetails data={projectData} />;
+  const projectData = data
+  return <SiteDetails data={projectData} />
 }

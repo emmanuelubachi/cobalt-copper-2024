@@ -19830,36 +19830,6 @@
     "_project_id": "lcs"
   },
   {
-    "project": "LONG FEI MINING",
-    "year": "2024",
-    "concentration": "Electrolytic Copper",
-    "quantity": "33074.724",
-    "transaction": "306149211.0",
-    "product": "Copper",
-    "destination": "China",
-    "_project_id": "long_fei"
-  },
-  {
-    "project": "LONG FEI MINING",
-    "year": "2024",
-    "concentration": "Electrolytic Copper",
-    "quantity": "32.064",
-    "transaction": "312452.0",
-    "product": "Copper",
-    "destination": "South Africa",
-    "_project_id": "long_fei"
-  },
-  {
-    "project": "LONG FEI MINING",
-    "year": "2024",
-    "concentration": "Electrolytic Copper",
-    "quantity": "36.171",
-    "transaction": "320716.0",
-    "product": "Copper",
-    "destination": "Tanzania",
-    "_project_id": "long_fei"
-  },
-  {
     "project": "LUILU RESSOURCES SAS",
     "year": "2024",
     "concentration": "Cobalt Hydroxide",
@@ -20558,5 +20528,35 @@
     "product": "Copper",
     "destination": "United Arab Emirates",
     "_project_id": "wmr"
+  },
+  {
+    "project": "ZHAN FEI MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "33074.724",
+    "transaction": "306149211.0",
+    "product": "Copper",
+    "destination": "China",
+    "_project_id": "zhan_fei"
+  },
+  {
+    "project": "ZHAN FEI MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "32.064",
+    "transaction": "312452.0",
+    "product": "Copper",
+    "destination": "South Africa",
+    "_project_id": "zhan_fei"
+  },
+  {
+    "project": "ZHAN FEI MINING SARL",
+    "year": "2024",
+    "concentration": "Electrolytic Copper",
+    "quantity": "36.171",
+    "transaction": "320716.0",
+    "product": "Copper",
+    "destination": "Tanzania",
+    "_project_id": "zhan_fei"
   }
 ]
