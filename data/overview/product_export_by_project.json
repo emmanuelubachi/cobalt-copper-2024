@@ -3401,7 +3401,7 @@
     "product": "Copper",
     "quantity": "28597.7615"
   },
-   {
+  {
     "year": "2024",
     "project": "AMICAL KAKANA MINING SPRL",
     "product": "Copper",
@@ -3715,12 +3715,6 @@
   },
   {
     "year": "2024",
-    "project": "LONG FEI MINING",
-    "product": "Copper",
-    "quantity": "33142.959"
-  },
-  {
-    "year": "2024",
     "project": "LUALABA COPPER SMELTER SAS",
     "product": "Copper",
     "quantity": "37335.576"
@@ -3958,5 +3952,11 @@
     "project": "WORLD MINERALS RESOURCES",
     "product": "Copper",
     "quantity": "916.0"
+  },
+  {
+    "year": "2024",
+    "project": "ZHAN FEI MINING SARL",
+    "product": "Copper",
+    "quantity": "33142.959"
   }
 ]

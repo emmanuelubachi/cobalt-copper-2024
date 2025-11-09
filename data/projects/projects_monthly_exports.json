@@ -42679,7 +42679,7 @@
     "quantity": "42571.771",
     "transaction": "352092066.69"
   },
-    {
+  {
     "_project_id": "amical",
     "year": "2024",
     "month": "Feb",
@@ -46296,102 +46296,6 @@
     "transaction": "35630196.0"
   },
   {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Apr",
-    "product": "Copper",
-    "quantity": "3088.707",
-    "transaction": "28214422.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Aug",
-    "product": "Copper",
-    "quantity": "3234.259",
-    "transaction": "28942025.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Dec",
-    "product": "Copper",
-    "quantity": "2922.712",
-    "transaction": "26194554.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Feb",
-    "product": "Copper",
-    "quantity": "2487.902",
-    "transaction": "20804196.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Jan",
-    "product": "Copper",
-    "quantity": "762.481",
-    "transaction": "6311174.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Jul",
-    "product": "Copper",
-    "quantity": "4002.624",
-    "transaction": "38652276.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Jun",
-    "product": "Copper",
-    "quantity": "2040.182",
-    "transaction": "20361886.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Mar",
-    "product": "Copper",
-    "quantity": "2137.156",
-    "transaction": "18289895.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "May",
-    "product": "Copper",
-    "quantity": "2434.868",
-    "transaction": "24526301.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Nov",
-    "product": "Copper",
-    "quantity": "3071.137",
-    "transaction": "28684490.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Oct",
-    "product": "Copper",
-    "quantity": "4671.017",
-    "transaction": "45045219.0"
-  },
-  {
-    "_project_id": "long_fei",
-    "year": "2024",
-    "month": "Sep",
-    "product": "Copper",
-    "quantity": "2289.914",
-    "transaction": "20755941.0"
-  },
-  {
     "_project_id": "lr_sas",
     "year": "2024",
     "month": "Apr",
@@ -49702,5 +49606,101 @@
     "product": "Copper",
     "quantity": "109.0",
     "transaction": "1075830.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Apr",
+    "product": "Copper",
+    "quantity": "3088.707",
+    "transaction": "28214422.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Aug",
+    "product": "Copper",
+    "quantity": "3234.259",
+    "transaction": "28942025.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Dec",
+    "product": "Copper",
+    "quantity": "2922.712",
+    "transaction": "26194554.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Feb",
+    "product": "Copper",
+    "quantity": "2487.902",
+    "transaction": "20804196.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Jan",
+    "product": "Copper",
+    "quantity": "762.481",
+    "transaction": "6311174.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Jul",
+    "product": "Copper",
+    "quantity": "4002.624",
+    "transaction": "38652276.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Jun",
+    "product": "Copper",
+    "quantity": "2040.182",
+    "transaction": "20361886.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Mar",
+    "product": "Copper",
+    "quantity": "2137.156",
+    "transaction": "18289895.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "May",
+    "product": "Copper",
+    "quantity": "2434.868",
+    "transaction": "24526301.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Nov",
+    "product": "Copper",
+    "quantity": "3071.137",
+    "transaction": "28684490.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Oct",
+    "product": "Copper",
+    "quantity": "4671.017",
+    "transaction": "45045219.0"
+  },
+  {
+    "_project_id": "zhan_fei",
+    "year": "2024",
+    "month": "Sep",
+    "product": "Copper",
+    "quantity": "2289.914",
+    "transaction": "20755941.0"
   }
 ]
