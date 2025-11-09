@@ -366,7 +366,7 @@ const SiteDetails = ({ data }: { data: IndustralProjectDetailsProps }) => {
             {yearlyExportSummary && (
               <div className="">
                 <span className="font-medium text-foreground/70">
-                  Annual Production {yearlyExportSummary.year}:
+                  Total Export in {yearlyExportSummary.year}:
                 </span>
                 <div>
                   <div className="flex gap-4 text-xl font-bold">
